@@ -17,7 +17,7 @@
 
 <img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
 
-<br><br>
+<br>
 
 <a href="https://www.gjcodes.me">
   <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
@@ -187,13 +187,13 @@ const glenn = {
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" alt="Top Languages" />
 </a>
 
-<br><br>
+<br>
 
 <a href="https://github.com/imapoopzz">
   <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 </a>
 
-<br><br>
+<br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=imapoopzz&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=true" width="95%" alt="Contribution Graph" />
 
@@ -268,10 +268,6 @@ const glenn = {
 <a href="https://x.com/nnelgsuproc">
   <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A" alt="X" />
 </a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=imapoopzz&style=for-the-badge&color=00FF99&label=PROFILE+VIEWS&abbreviated=true" alt="Profile Views" />
 
 <br><br>
 
