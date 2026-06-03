@@ -27,7 +27,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/imapoopzz/imapoopzz/output/github-snake-dark.svg" width="100%" alt="Snake animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0E1A,100:00FF99&height=120&section=header&fontSize=0" width="100%" />
 
 </div>
 
@@ -41,7 +41,6 @@ const glenn = {
     education: "BSIT — Technological University of the Philippines, Manila",
     roles: ["Full-Stack Developer", "UI/UX Designer", "IT Student"],
     currentFocus: "Building production-ready systems with real-world impact",
-    funFact: "I won 'Best Video Edit' in 2024 🎬"
 };
 ```
 
@@ -51,7 +50,6 @@ const glenn = {
 - ⚙️ Focused on **system automation** & workflow orchestration using tools like **n8n** and **GitHub Actions**
 - 🔧 Experienced in **hardware troubleshooting**, computer assembly, and network configuration
 - 🎨 Skilled in **graphic design**, **video editing**, and crafting compelling digital experiences
-- 🏅 Completed **486 hours** of hands-on internship at **Associated Labor Unions — Luzon**
 
 ---
 
@@ -181,22 +179,15 @@ const glenn = {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&include_all_commits=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&include_all_commits=true&rank_icon=github" alt="Glenn's GitHub Stats" />
-</picture>
+<!-- ⚠️ REPLACE the domains below with your own Vercel deployments (see instructions in the repo) -->
+
+<img height="180em" src="https://github-readme-stats-teal-nu-27.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&include_all_commits=true&rank_icon=github" alt="Glenn's GitHub Stats" />
 &nbsp;&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" alt="Top Languages" />
-</picture>
+<img height="180em" src="https://github-readme-streak-stats-imapoopz.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" alt="Top Languages" />
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" />
-  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
-</picture>
+<img src="https://github-readme-streak-stats-imapoopzz.vercel.app?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 
 <br><br>
 
@@ -276,7 +267,7 @@ const glenn = {
 
 <br><br>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
 
 <img src="https://komarev.com/ghpvc/?username=imapoopzz&style=for-the-badge&color=00FF99&label=PROFILE+VIEWS&abbreviated=true" alt="Profile Views" />
 
