@@ -5,6 +5,8 @@
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0E1A,100:00FF99&height=120&section=header&fontSize=0" width="100%" />
+
 <!-- ─── DYNAMIC TYPING HEADER ─── -->
 
 <a href="https://git.io/typing-svg">
@@ -26,8 +28,6 @@
 </a>
 
 <br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0E1A,100:00FF99&height=120&section=header&fontSize=0" width="100%" />
 
 </div>
 
@@ -179,15 +179,19 @@ const glenn = {
 
 <div align="center">
 
-<!-- ⚠️ REPLACE the domains below with your own Vercel deployments (see instructions in the repo) -->
-
-<img height="180em" src="https://github-readme-stats-teal-nu-27.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&include_all_commits=true&rank_icon=github" alt="Glenn's GitHub Stats" />
+<a href="https://github.com/imapoopzz">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&include_all_commits=true&rank_icon=github" alt="Glenn's GitHub Stats" />
+</a>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-streak-stats-imapoopz.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" alt="Top Languages" />
+<a href="https://github.com/imapoopzz">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=1a1a2e&hide_border=false&langs_count=8" alt="Top Languages" />
+</a>
 
 <br><br>
 
-<img src="https://github-readme-streak-stats-imapoopzz.vercel.app?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+<a href="https://github.com/imapoopzz">
+  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+</a>
 
 <br><br>
 
@@ -267,12 +271,12 @@ const glenn = {
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
-
 <img src="https://komarev.com/ghpvc/?username=imapoopzz&style=for-the-badge&color=00FF99&label=PROFILE+VIEWS&abbreviated=true" alt="Profile Views" />
 
 <br><br>
 
 **Built with 💻 & ☕ by [Glenn](https://www.gjcodes.me)**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
 
 </div>
