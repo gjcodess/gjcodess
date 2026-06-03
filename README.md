@@ -151,10 +151,30 @@ const glenn = {
 <summary><strong>🎨 UI/UX Design Projects</strong></summary>
 <br>
 
-| Project | Description | Tools | Preview |
-| :--- | :--- | :--- | :---: |
-| **📚 MangaVerse** | A modern manga reading and discovery UI/UX concept with anime-inspired dark theme, responsive layouts, and immersive user flows | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) | [View Design](https://www.figma.com/proto/y3JbsPe7btzPUtRmEN71ni/MangaVerse?node-id=283-1625&t=tS9s8rszJlWNVM4u-1&starting-point-node-id=285%3A2486) |
-| **🍜 kAIn** | AI-powered food discovery mobile app concept — *4th Place, University Hackathon 2025* | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) | [View Design](https://www.figma.com/proto/rPlg6lcGFfdD33MWG6waZ5/UX-TO-GO---KAIN?node-id=36-918&t=EkmEJSsStUOT9Z9b-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1) |
+<table>
+  <thead>
+    <tr>
+      <th width="200">Project</th>
+      <th>Description</th>
+      <th>Tools</th>
+      <th align="center">Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>📚 MangaVerse</strong></td>
+      <td>A modern manga reading and discovery UI/UX concept with anime-inspired dark theme, responsive layouts, and immersive user flows</td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
+      <td align="center"><a href="https://www.figma.com/proto/y3JbsPe7btzPUtRmEN71ni/MangaVerse?node-id=283-1625&t=tS9s8rszJlWNVM4u-1&starting-point-node-id=285%3A2486">View Design</a></td>
+    </tr>
+    <tr>
+      <td><strong>🍜 kAIn</strong></td>
+      <td>AI-powered food discovery mobile app concept — <em>4th Place, University Hackathon 2025</em></td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
+      <td align="center"><a href="https://www.figma.com/proto/rPlg6lcGFfdD33MWG6waZ5/UX-TO-GO---KAIN?node-id=36-918&t=EkmEJSsStUOT9Z9b-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">View Design</a></td>
+    </tr>
+  </tbody>
+</table>
 
 </details>
 
