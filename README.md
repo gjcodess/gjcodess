@@ -78,14 +78,14 @@
 
 <div align="center">
   <a href="https://github.com/imapoopzz">
-    <img src="https://github-readme-stats.vercel.app/api?username=imapoopzz&show_icons=true&theme=radical&hide_border=true&bg_color=0F0E1A" alt="Glenn's GitHub Stats" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=imapoopzz&show_icons=true&theme=radical&hide_border=true&bg_color=0F0E1A" alt="Glenn's GitHub Stats" />
   </a>
   <a href="https://github.com/imapoopzz">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=imapoopzz&theme=radical&hide_border=true&background=0F0E1A" alt="Glenn's Contribution Streak" />
   </a>
   <br/><br/>
   <a href="https://github.com/imapoopzz">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&theme=radical&hide_border=true&bg_color=0F0E1A" alt="Top Languages" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&theme=radical&hide_border=true&bg_color=0F0E1A" alt="Top Languages" />
   </a>
 </div>
 
