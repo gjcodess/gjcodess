@@ -200,22 +200,22 @@ const glenn = {
 <div align="center">
 
 <a href="https://github.com/imapoopzz">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=A855F7&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/imapoopzz">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=A855F7&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
 </a>
 
 <br>
 
 <a href="https://github.com/imapoopzz">
-  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=A855F7&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&border_radius=5" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=E5E7EB&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&border_radius=5" alt="GitHub Streak" />
 </a>
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=imapoopzz&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=A855F7&radius=5" width="95%" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=imapoopzz&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
 
 </div>
 
