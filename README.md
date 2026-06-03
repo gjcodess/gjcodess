@@ -271,7 +271,7 @@ const glenn = {
   <img src="https://img.shields.io/badge/Gmail-glennjoshuacorpus-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0E1A" alt="Gmail" />
 </a>
 
-<br><br>
+<br>
 
 <a href="https://github.com/imapoopzz">
   <img src="https://img.shields.io/badge/GitHub-imapoopzz-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0E1A" alt="GitHub" />
@@ -289,7 +289,7 @@ const glenn = {
   <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A" alt="X" />
 </a>
 
-<br><br>
+<br>
 
 **Built with 💻 & ☕ by [Glenn](https://www.gjcodes.me)**
 
