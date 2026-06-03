@@ -289,7 +289,7 @@ const glenn = {
   <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A" alt="X" />
 </a>
 
-<br>
+<br><br>
 
 **Built with 💻 & ☕ by [Glenn](https://www.gjcodes.me)**
 
