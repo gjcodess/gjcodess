@@ -154,7 +154,7 @@ const glenn = {
 <table>
   <thead>
     <tr>
-      <th width="180">Project</th>
+      <th width="160">Project</th>
       <th>Description</th>
       <th>Tools</th>
       <th align="center">Preview</th>
