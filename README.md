@@ -190,7 +190,7 @@ const glenn = {
 <br>
 
 <a href="https://github.com/imapoopzz">
-  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=E5E7EB&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 </a>
 
 <br>
