@@ -113,7 +113,7 @@ const glenn = {
 <table>
   <thead>
     <tr>
-      <th width="220">Project</th>
+      <th width="200">Project</th>
       <th>Description</th>
       <th>Tech Stack</th>
       <th>Links</th>
@@ -154,7 +154,7 @@ const glenn = {
 <table>
   <thead>
     <tr>
-      <th width="200">Project</th>
+      <th width="180">Project</th>
       <th>Description</th>
       <th>Tools</th>
       <th align="center">Preview</th>
