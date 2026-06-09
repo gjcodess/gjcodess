@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!--                        GITHUB PROFILE README                             -->
-<!--                     Glenn Joshua Corpus (@imapoopzz)                     -->
+<!--                     Glenn Joshua Corpus (@gjcodess)                     -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center"> 
@@ -124,25 +124,25 @@ const glenn = {
       <td><strong>🏢 LaborConnect</strong></td>
       <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
-      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/imapoopzz/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>🛒 Gcorp.</strong></td>
       <td>Full-stack e-commerce marketplace with JWT + 2FA authentication, dynamic cart system, voucher integration, product reviews & wishlists, and automated inventory management.</td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
-      <td><a href="https://github.com/imapoopzz/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://github.com/gjcodess/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>🎨 CSSGen</strong></td>
       <td>Interactive CSS generator toolkit with real-time previews for Neumorphism, Glassmorphism, Gradients, Box Shadow, Flexbox, Grid, and Animations with one-click export.</td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Framer-0055FF?style=flat-square&logo=framer&logoColor=white" /></td>
-      <td><a href="https://css-generator-gamma.vercel.app/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/imapoopzz/css-generator"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://css-generator-gamma.vercel.app/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/css-generator"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>📊 SortAlgo Visualizer</strong></td>
       <td>Dynamic sorting algorithm visualizer with frame-by-frame animations for 8 algorithms including Bubble, Merge, Quick, and Radix Sort with playback controls.</td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /></td>
-      <td><a href="https://sorting-algo-visualizer-smoky.vercel.app/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/imapoopzz/SortingAlgo"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://sorting-algo-visualizer-smoky.vercel.app/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/SortingAlgo"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
   </tbody>
 </table>
@@ -199,23 +199,23 @@ const glenn = {
 
 <div align="center">
 
-<a href="https://github.com/imapoopzz">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=imapoopzz&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
+<a href="https://github.com/gjcodess">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/imapoopzz">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=imapoopzz&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
+<a href="https://github.com/gjcodess">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
 </a>
 
 <br>
 
-<a href="https://github.com/imapoopzz">
-  <img src="https://streak-stats.demolab.com?user=imapoopzz&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+<a href="https://github.com/gjcodess">
+  <img src="https://streak-stats.demolab.com?user=gjcodess&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 </a>
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=imapoopzz&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
 
 </div>
 
@@ -273,8 +273,8 @@ const glenn = {
 
 <br>
 
-<a href="https://github.com/imapoopzz">
-  <img src="https://img.shields.io/badge/GitHub-imapoopzz-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0E1A" alt="GitHub" />
+<a href="https://github.com/gjcodess">
+  <img src="https://img.shields.io/badge/GitHub-gjcodess-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0E1A" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://www.facebook.com/corpus.glenn.joshua.7">
