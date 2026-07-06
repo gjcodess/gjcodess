@@ -251,11 +251,18 @@ const glenn = {
 
 ### 🎓 Education
 
-| Degree | Institution | Period | Achievement |
-| :--- | :--- | :--- | :--- |
-| **BSIT** | Technological University of the Philippines, Manila | 2022 – 2026 | **Magna Cum Laude**, **1st in IT Program**, 4th Place Hackathon, 2nd Place Capstone |
-| **STEM** | San Juan de Dios Educational Foundation, Pasay | 2020 – 2022 | **High Honors**, **1st in Batch & Strand Ranking** (2020-2021) |
-| **JHS** | Parañaque National High School, Baclaran | 2016 – 2020 | **Valedictorian (High Honors)**, **1st among Grade 10** |
+**Bachelor of Science in Information Technology** — *Technological University of the Philippines, Manila (2022 – 2026)*
+- **Magna Cum Laude** & **Consistent President's Lister**
+- **Ranked 1st** in IT Program & **Ranked 2nd** in College of Science Department
+- **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
+
+**Senior High School (STEM)** — *San Juan de Dios Educational Foundation, Pasay (2020 – 2022)*
+- Graduated with **High Honors**
+- **Ranked 1st** in Batch & Strand Ranking (A.Y. 2020-2021)
+
+**Junior High School** — *Parañaque National High School, Baclaran (2016 – 2020)*
+- Completed with **High Honors (Valedictorian)**
+- **Ranked 1st** among Grade 10 students (A.Y. 2020)
 
 </details>
 
