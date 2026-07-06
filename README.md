@@ -236,12 +236,13 @@ const glenn = {
 
 ### 🏢 Professional Experience
 
-**Junior IT Personnel & Web Developer (Intern)** — *Associated Labor Unions, Luzon (2026)*
+**Junior IT Personnel & Web Developer (Intern)** — *Associated Labor Unions, Luzon (Feb 2026 – Apr 2026)*
 - Built **LaborConnect** — a full-stack union management system with membership, venue booking, ticketing, and workflow automation
 - Resolved hardware, software, and network issues for employees, improving operational continuity
-- Completed **486 hours** of hands-on internship in web development, IT support, and system administration
+- Completed **486 hours** of hands-on internship collaborating on troubleshooting, system maintenance, and development
 
 **Freelance Technical Support & Designer** — *Self-Employed (2019 – Present)*
+- Developed **RDS AutoBill**, an offline-first desktop sales invoicing application for a local pharmaceutical distributor
 - Executed computer building commissions, OS configurations (Windows/Ubuntu), and hardware troubleshooting
 - Designed marketing materials and digital assets for local businesses and clothing brands
 - Awarded **"Best Video Edit"** in 2024 for exceptional post-production quality
@@ -252,9 +253,9 @@ const glenn = {
 
 | Degree | Institution | Period | Achievement |
 | :--- | :--- | :--- | :--- |
-| **BSIT** | Technological University of the Philippines, Manila | 2022 – Present | President's Lister, 4th Place Hackathon 2025, 2nd Place Capstone 2026 |
-| **STEM** | San Juan de Dios Educational Foundation, Pasay | 2020 – 2022 | High Honors, 1st in Batch & Strand Ranking |
-| **JHS** | Parañaque National High School, Baclaran | 2016 – 2020 | Valedictorian, 1st among Grade 10 |
+| **BSIT** | Technological University of the Philippines, Manila | 2022 – 2026 | **Magna Cum Laude**, **1st in IT Program**, 4th Place Hackathon, 2nd Place Capstone |
+| **STEM** | San Juan de Dios Educational Foundation, Pasay | 2020 – 2022 | **High Honors**, **1st in Batch & Strand Ranking** (2020-2021) |
+| **JHS** | Parañaque National High School, Baclaran | 2016 – 2020 | **Valedictorian (High Honors)**, **1st among Grade 10** |
 
 </details>
 
