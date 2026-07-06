@@ -26,6 +26,8 @@
 <a href="mailto:glennjoshuacorpus@gmail.com">
   <img src="https://img.shields.io/badge/📧_Email-glennjoshuacorpus-A855F7?style=for-the-badge&labelColor=0F0E1A" alt="Email" />
 </a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=gjcodess&style=for-the-badge&color=00FF99" alt="Profile Views" />
 
 <br>
 
