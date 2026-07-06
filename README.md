@@ -222,7 +222,7 @@ const glenn = {
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph-one-coral.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
 
 </div>
 
