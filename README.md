@@ -217,12 +217,12 @@ const glenn = {
 <br>
 
 <a href="https://github.com/gjcodess">
-  <img src="https://streak-stats.demolab.com?user=gjcodess&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2e&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=gjcodess&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
 </a>
 
 <br>
 
-<img src="https://github-readme-activity-graph-one-coral.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5" width="95%" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph-one-coral.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5&v=2" width="95%" alt="Contribution Graph" />
 
 </div>
 
