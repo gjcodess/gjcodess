@@ -207,11 +207,11 @@ const glenn = {
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&rank_icon=github&border_radius=5" alt="Glenn's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5" alt="Top Languages" />
 </a>
 
 <br>
