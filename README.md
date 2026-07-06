@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!--                        GITHUB PROFILE README                             -->
-<!--                     Glenn Joshua Corpus (@gjcodess)                     -->
+<!--                     Glenn Joshua Corpus (@gjcodess)                      -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center"> 
@@ -10,7 +10,7 @@
 <!-- ─── DYNAMIC TYPING HEADER ─── -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Aspiring+Web+%2F+Software+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
 </a>
 
 <br>
@@ -46,7 +46,7 @@ const glenn = {
 
 - 🎓 **Soon-to-be BSIT Graduate** at the Technological University of the Philippines, Manila — **Consistent President's Lister** since A.Y. 2022
 - 🏆 **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
-- 💻 Passionate about building **clean, scalable, and reliable** full-stack web applications
+- 💻 Passionate about building **clean, scalable, and reliable** web, mobile, and desktop applications
 - ⚙️ Focused on **system automation** & workflow orchestration using tools like **n8n** and **GitHub Actions**
 - 🔧 Experienced in **hardware troubleshooting**, computer assembly, and network configuration
 - 🎨 Skilled in **graphic design**, **video editing**, and crafting compelling digital experiences
@@ -59,14 +59,19 @@ const glenn = {
 
 <div align="center">
 
-### 🎨 Frontend
+### 🎨 Frontend & Desktop
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-764ABC?style=for-the-badge&logo=react&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
@@ -79,12 +84,14 @@ const glenn = {
 ### 🗄️ Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![NeonDB](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=black)
 
 ### 🚀 DevOps & Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -103,6 +110,93 @@ const glenn = {
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 </div>
+
+---
+
+<!-- ─── FEATURED PROJECTS ─── -->
+
+## 🚀 Featured Projects
+
+<table>
+  <thead>
+    <tr>
+      <th width="200">Project</th>
+      <th>Description</th>
+      <th>Tech Stack</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>📱 Abono App</strong></td>
+      <td>A premium, mobile-first, offline-first application designed for friend groups to seamlessly track shared expenses and simplify debts. Features beautiful animations and robust syncing.</td>
+      <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white" /></td>
+      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a></td>
+    </tr>
+    <tr>
+      <td><strong>🏢 LaborConnect</strong></td>
+      <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
+      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
+      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+    </tr>
+    <tr>
+      <td><strong>💻 RDS AutoBill</strong></td>
+      <td>Robust, offline-first desktop application for a local distributor. It seamlessly generates, tracks, and manages sales invoices with a built-in local database and PDF generation.</td>
+      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>🛒 Gcorp.</strong></td>
+      <td>Full-stack e-commerce marketplace with JWT + 2FA authentication, dynamic cart system, voucher integration, product reviews & wishlists, and automated inventory management.</td>
+      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
+      <td><a href="https://github.com/gjcodess/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+<summary><strong>🎨 UI/UX Design Projects</strong></summary>
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th width="160">Project</th>
+      <th>Description</th>
+      <th>Tools</th>
+      <th align="center">Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>📚 MangaVerse</strong></td>
+      <td>A modern manga reading and discovery UI/UX concept with anime-inspired dark theme, responsive layouts, and immersive user flows</td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
+      <td align="center"><a href="https://www.figma.com/proto/y3JbsPe7btzPUtRmEN71ni/MangaVerse?node-id=283-1625&t=tS9s8rszJlWNVM4u-1&starting-point-node-id=285%3A2486">View Design</a></td>
+    </tr>
+    <tr>
+      <td><strong>🍜 kAIn</strong></td>
+      <td>AI-powered food discovery mobile app concept — <em>4th Place, University Hackathon 2025</em></td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
+      <td align="center"><a href="https://www.figma.com/proto/rPlg6lcGFfdD33MWG6waZ5/UX-TO-GO---KAIN?node-id=36-918&t=EkmEJSsStUOT9Z9b-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">View Design</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</details>
+
+<details>
+<summary><strong>🖥️ Console & Academic Projects</strong></summary>
+<br>
+
+| Project | Description | Language |
+| :--- | :--- | :--- |
+| **🎓 TUP-AIS** | Dual-portal academic grading system with teacher/student modules and GWA calculation | `C` |
+| **🎮 2048 Puzzle** | Console-based sliding block puzzle with ANSI-colored UI and game history logging | `C` |
+| **🏧 ATM Simulator** | Banking simulation with ADT list operations, PIN encryption, and simulated card insertion | `C++` |
+| **🧮 Arithmetic Game** | OOP-based practice game with linked lists, leaderboards, and file-backed persistence | `C++` |
+
+</details>
 
 ---
 
@@ -147,7 +241,7 @@ const glenn = {
 - Resolved hardware, software, and network issues for employees, improving operational continuity
 - Completed **486 hours** of hands-on internship in web development, IT support, and system administration
 
-**Freelance Technical Support & Designer** — *Self-Employed (2019 – 2025)*
+**Freelance Technical Support & Designer** — *Self-Employed (2019 – Present)*
 - Executed computer building commissions, OS configurations (Windows/Ubuntu), and hardware troubleshooting
 - Designed marketing materials and digital assets for local businesses and clothing brands
 - Awarded **"Best Video Edit"** in 2024 for exceptional post-production quality
