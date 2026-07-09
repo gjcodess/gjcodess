@@ -7,8 +7,6 @@
 
 <img src="./profile%20banner%202.png" width="100%" alt="Profile Banner" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0E1A,100:00FF99&height=120&section=header&fontSize=0" width="100%" />
-
 <!-- ─── DYNAMIC TYPING HEADER ─── -->
 
 <a href="https://git.io/typing-svg">
