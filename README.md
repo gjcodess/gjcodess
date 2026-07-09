@@ -217,7 +217,7 @@ const glenn = {
 <br>
 
 <a href="https://github.com/gjcodess">
-  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=2" alt="GitHub Streak" />
 </a>
 
 <br>
