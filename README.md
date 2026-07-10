@@ -44,7 +44,7 @@ const glenn = {
 };
 ```
 
-- 🎓 **Soon-to-be BSIT Graduate** at the Technological University of the Philippines, Manila — **Consistent President's Lister** since A.Y. 2022
+- 🎓 **Soon-to-be BSIT Graduate** at the Technological University of the Philippines, Manila — **Magna Cum Laude**
 - 🏆 **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
 - 💻 Passionate about building **clean, scalable, and reliable** web, mobile, and desktop applications
 - ⚙️ Focused on **system automation** & workflow orchestration using tools like **n8n** and **GitHub Actions**
