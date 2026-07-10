@@ -304,9 +304,11 @@ const glenn = {
   <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A" alt="X" />
 </a>
 
-<br>
+<br><br>
 
 **Built with 💻 & ☕ by [Glenn](https://www.gjcodes.me)**
+
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
 
