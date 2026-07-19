@@ -10,21 +10,21 @@
 <!-- ─── DYNAMIC TYPING HEADER ─── -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
 </a>
 
 <br>
 
-<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-818CF8?style=for-the-badge&labelColor=0F0E1A&v=2" alt="Education" />
+<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
 
 <br>
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-818CF8?style=for-the-badge&labelColor=0F0E1A&v=2" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="mailto:glennjoshuacorpus@gmail.com">
-  <img src="https://img.shields.io/badge/📧_Email-glennjoshuacorpus-A855F7?style=for-the-badge&labelColor=0F0E1A&v=2" alt="Email" />
+  <img src="https://img.shields.io/badge/📧_Email-glennjoshuacorpus-A855F7?style=for-the-badge&labelColor=0F0E1A" alt="Email" />
 </a>
 
 <br>
@@ -60,54 +60,54 @@ const glenn = {
 <div align="center">
 
 ### 🎨 Frontend & Desktop
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&v=2
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&v=2
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)&v=2
-![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)&v=2
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&v=2
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&v=2
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&v=2
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&v=2
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&v=2
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)&v=2
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)&v=2
-![Zustand](https://img.shields.io/badge/Zustand-764ABC?style=for-the-badge&logo=react&logoColor=white)&v=2
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)&v=2
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)&v=2
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-764ABC?style=for-the-badge&logo=react&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&v=2
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&v=2
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&v=2
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&v=2
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### 🗄️ Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)&v=2
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)&v=2
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)&v=2
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)&v=2
-![NeonDB](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=black)&v=2
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![NeonDB](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=black)
 
 ### 🚀 DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&v=2
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)&v=2
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)&v=2
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)&v=2
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)&v=2
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&v=2
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)&v=2
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ### 🎨 Design & Creative
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&v=2
-![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)&v=2
-![Adobe Premiere Pro](https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)&v=2
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)&v=2
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Adobe Premiere Pro](https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 
 ### 🔐 Auth & APIs
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)&v=2
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)&v=2
-![Groq AI](https://img.shields.io/badge/Groq_AI-F55036?style=for-the-badge&logo=groq&logoColor=white)&v=2
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)&v=2
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Groq AI](https://img.shields.io/badge/Groq_AI-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 </div>
 
@@ -130,26 +130,26 @@ const glenn = {
     <tr>
       <td><strong>📱 Abono App</strong></td>
       <td>A premium, mobile-first, offline-first application designed for friend groups to seamlessly track shared expenses and simplify debts. Features beautiful animations and robust syncing.</td>
-      <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black&v=2" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black&v=2" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white&v=2" /></td>
-      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black&v=2" /></a></td>
+      <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white" /></td>
+      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a></td>
     </tr>
     <tr>
       <td><strong>🏢 LaborConnect</strong></td>
       <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
-      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&v=2" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white&v=2" /></td>
-      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black&v=2" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white&v=2" /></a></td>
+      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
+      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>💻 RDS AutoBill</strong></td>
       <td>Robust, offline-first desktop application for a local distributor. It seamlessly generates, tracks, and manages sales invoices with a built-in local database and PDF generation.</td>
-      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&v=2" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&v=2" /></td>
+      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></td>
       <td></td>
     </tr>
     <tr>
       <td><strong>🛒 Gcorp.</strong></td>
       <td>Full-stack e-commerce marketplace with JWT + 2FA authentication, dynamic cart system, voucher integration, product reviews & wishlists, and automated inventory management.</td>
-      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&v=2" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&v=2" /> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white&v=2" /></td>
-      <td><a href="https://github.com/gjcodess/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white&v=2" /></a></td>
+      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
+      <td><a href="https://github.com/gjcodess/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
   </tbody>
 </table>
@@ -171,13 +171,13 @@ const glenn = {
     <tr>
       <td><strong>📚 MangaVerse</strong></td>
       <td>A modern manga reading and discovery UI/UX concept with anime-inspired dark theme, responsive layouts, and immersive user flows</td>
-      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white&v=2" alt="Figma" /></td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
       <td align="center"><a href="https://www.figma.com/proto/y3JbsPe7btzPUtRmEN71ni/MangaVerse?node-id=283-1625&t=tS9s8rszJlWNVM4u-1&starting-point-node-id=285%3A2486">View Design</a></td>
     </tr>
     <tr>
       <td><strong>🍜 kAIn</strong></td>
       <td>AI-powered food discovery mobile app concept — <em>4th Place, University Hackathon 2025</em></td>
-      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white&v=2" alt="Figma" /></td>
+      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
       <td align="center"><a href="https://www.figma.com/proto/rPlg6lcGFfdD33MWG6waZ5/UX-TO-GO---KAIN?node-id=36-918&t=EkmEJSsStUOT9Z9b-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">View Design</a></td>
     </tr>
   </tbody>
@@ -207,22 +207,22 @@ const glenn = {
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=818CF8&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github&border_radius=5&v=3" alt="Glenn's GitHub Stats" />
+  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github&border_radius=5&v=3" alt="Glenn's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=818CF8&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5&v=3" alt="Top Languages" />
+  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5&v=3" alt="Top Languages" />
 </a>
 
 <br>
 
 <a href="https://github.com/gjcodess">
-  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=818CF8&fire=A855F7&currStreakLabel=818CF8&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=3" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=3" alt="GitHub Streak" />
 </a>
 
 <br>
 
-<img src="https://my-activity-graph-glenn-joshua-corpus-projects.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=818CF8&point=A855F7&area=true&area_color=818CF8&hide_border=false&border_color=E5E7EB&radius=5&v=3" width="95%" alt="Contribution Graph" />
+<img src="https://my-activity-graph-glenn-joshua-corpus-projects.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5&v=3" width="95%" alt="Contribution Graph" />
 
 </div>
 
@@ -275,39 +275,39 @@ const glenn = {
 <div align="center">
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-818CF8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A&v=2" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-00FF99?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/glenn-joshua-corpus-671b5b18a/">
-  <img src="https://img.shields.io/badge/LinkedIn-Glenn_Joshua_Corpus-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F0E1A&v=2" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-Glenn_Joshua_Corpus-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F0E1A" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:glennjoshuacorpus@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-glennjoshuacorpus-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0E1A&v=2" alt="Gmail" />
+  <img src="https://img.shields.io/badge/Gmail-glennjoshuacorpus-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0E1A" alt="Gmail" />
 </a>
 
 <br>
 
 <a href="https://github.com/gjcodess">
-  <img src="https://img.shields.io/badge/GitHub-gjcodess-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0E1A&v=2" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-gjcodess-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0E1A" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://www.facebook.com/corpus.glenn.joshua.7">
-  <img src="https://img.shields.io/badge/Facebook-Glenn_Joshua-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0F0E1A&v=2" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Facebook-Glenn_Joshua-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0F0E1A" alt="Facebook" />
 </a>
 &nbsp;
 <a href="https://www.instagram.com/imapoopypie/">
-  <img src="https://img.shields.io/badge/Instagram-@imapoopypie-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0F0E1A&v=2" alt="Instagram" />
+  <img src="https://img.shields.io/badge/Instagram-@imapoopypie-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0F0E1A" alt="Instagram" />
 </a>
 &nbsp;
 <a href="https://x.com/nnelgsuproc">
-  <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A&v=2" alt="X" />
+  <img src="https://img.shields.io/badge/X-@nnelgsuproc-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0F0E1A" alt="X" />
 </a>
 
 <br><br>
 
 **Built with 💻 & ☕ by [Glenn](https://www.gjcodes.me)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
 
 </div>
