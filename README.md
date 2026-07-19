@@ -10,17 +10,17 @@
 <!-- ─── DYNAMIC TYPING HEADER ─── -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
 </a>
 
 <br>
 
-<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
+<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-818CF8?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
 
 <br>
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-818CF8?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="mailto:glennjoshuacorpus@gmail.com">
@@ -131,13 +131,13 @@ const glenn = {
       <td><strong>📱 Abono App</strong></td>
       <td>A premium, mobile-first, offline-first application designed for friend groups to seamlessly track shared expenses and simplify debts. Features beautiful animations and robust syncing.</td>
       <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white" /></td>
-      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a></td>
+      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black" /></a></td>
     </tr>
     <tr>
       <td><strong>🏢 LaborConnect</strong></td>
       <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
-      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>💻 RDS AutoBill</strong></td>
@@ -207,22 +207,22 @@ const glenn = {
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github&border_radius=5&v=3" alt="Glenn's GitHub Stats" />
+  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=818CF8&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github&border_radius=5&v=3" alt="Glenn's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5&v=3" alt="Top Languages" />
+  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=818CF8&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5&v=3" alt="Top Languages" />
 </a>
 
 <br>
 
 <a href="https://github.com/gjcodess">
-  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=3" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=818CF8&fire=A855F7&currStreakLabel=818CF8&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=3" alt="GitHub Streak" />
 </a>
 
 <br>
 
-<img src="https://my-activity-graph-glenn-joshua-corpus-projects.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5&v=3" width="95%" alt="Contribution Graph" />
+<img src="https://my-activity-graph-glenn-joshua-corpus-projects.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=818CF8&point=A855F7&area=true&area_color=818CF8&hide_border=false&border_color=E5E7EB&radius=5&v=3" width="95%" alt="Contribution Graph" />
 
 </div>
 
@@ -275,7 +275,7 @@ const glenn = {
 <div align="center">
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-00FF99?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-818CF8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/glenn-joshua-corpus-671b5b18a/">
@@ -310,6 +310,7 @@ const glenn = {
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,100:0F0E1A&height=120&section=footer&fontSize=0" width="100%" />
 
 </div>
+
