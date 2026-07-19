@@ -15,12 +15,12 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-818CF8?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
+<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
 
 <br>
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-818CF8?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="mailto:glennjoshuacorpus@gmail.com">
@@ -131,13 +131,13 @@ const glenn = {
       <td><strong>📱 Abono App</strong></td>
       <td>A premium, mobile-first, offline-first application designed for friend groups to seamlessly track shared expenses and simplify debts. Features beautiful animations and robust syncing.</td>
       <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white" /></td>
-      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black" /></a></td>
+      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a></td>
     </tr>
     <tr>
       <td><strong>🏢 LaborConnect</strong></td>
       <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
       <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
-      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-818CF8?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
+      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
     </tr>
     <tr>
       <td><strong>💻 RDS AutoBill</strong></td>
@@ -275,7 +275,7 @@ const glenn = {
 <div align="center">
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-818CF8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-gjcodes.me-00FF99?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F0E1A" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/glenn-joshua-corpus-671b5b18a/">
