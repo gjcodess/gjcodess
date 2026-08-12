@@ -141,8 +141,8 @@ const glenn = {
     </tr>
     <tr>
       <td><strong>💻 RDS AutoBill</strong></td>
-      <td>Robust, offline-first desktop application for a local distributor. It seamlessly generates, tracks, and manages sales invoices with a built-in local database and PDF generation.</td>
-      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></td>
+      <td>Desktop application tailored to provide a frictionless experience for managing sales and invoices. Tailored for local business operations, it features a highly scalable cloud-enabled desktop architecture backed by a robust Supabase database.</td>
+      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> </td>
       <td></td>
     </tr>
     <tr>
