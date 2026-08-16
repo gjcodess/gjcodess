@@ -35,14 +35,11 @@
 
 ## 🧑‍💻 About Me
 
-```js
-const glenn = {
-    location: "Philippines, Parañaque City",
-    education: "BSIT — Technological University of the Philippines, Manila",
-    roles: ["Full-Stack Developer", "UI/UX Designer", "IT Student"],
-    currentFocus: "Building production-ready systems with real-world impact",
-};
-```
+<div align="center">
+  <img src="./neofetch.svg" alt="Glenn's Terminal Profile" />
+</div>
+
+<br>
 
 - 🎓 **Soon-to-be BSIT Graduate** at the Technological University of the Philippines, Manila — **Salutatorian (Magna Cum Laude)**
 - 🏆 **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
