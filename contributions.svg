@@ -96,13 +96,18 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
+<<<<<<< HEAD
       <rect x="0.00" y="0" width="239.59" height="9" fill="#f1e05a"/><rect x="239.59" y="0" width="112.50" height="9" fill="#563d7c"/><rect x="352.09" y="0" width="21.83" height="9" fill="#3178c6"/><rect x="373.92" y="0" width="9.78" height="9" fill="#e34c26"/><rect x="383.70" y="0" width="1.27" height="9" fill="#3572A5"/><rect x="384.97" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="385.05" y="0" width="0.00" height="9" fill="#89e051"/>
+=======
+      <rect x="0.00" y="0" width="238.62" height="9" fill="#f1e05a"/><rect x="238.62" y="0" width="113.23" height="9" fill="#563d7c"/><rect x="351.85" y="0" width="21.98" height="9" fill="#3178c6"/><rect x="373.83" y="0" width="9.82" height="9" fill="#e34c26"/><rect x="383.65" y="0" width="1.27" height="9" fill="#3572A5"/><rect x="384.92" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="385.00" y="0" width="0.00" height="9" fill="#89e051"/>
+>>>>>>> de36d46eb0e067765829c9d84dae6ac5668c35f4
     </g>
 
     <!-- Language Grid -->
     
     <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
     <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
+<<<<<<< HEAD
     <text x="590" y="103" fill="#7d8590" font-size="11.5">62.23%</text>
     <circle cx="466" cy="123" r="4" fill="#563d7c"/>
     <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
@@ -113,6 +118,18 @@
     <circle cx="466" cy="171" r="4" fill="#e34c26"/>
     <text x="478" y="175" fill="#c9d1d9" font-size="12">HTML</text>
     <text x="590" y="175" fill="#7d8590" font-size="11.5">2.54%</text>
+=======
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">61.98%</text>
+    <circle cx="466" cy="123" r="4" fill="#563d7c"/>
+    <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">29.41%</text>
+    <circle cx="466" cy="147" r="4" fill="#3178c6"/>
+    <text x="478" y="151" fill="#c9d1d9" font-size="12">TypeScript</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">5.71%</text>
+    <circle cx="466" cy="171" r="4" fill="#e34c26"/>
+    <text x="478" y="175" fill="#c9d1d9" font-size="12">HTML</text>
+    <text x="590" y="175" fill="#7d8590" font-size="11.5">2.55%</text>
+>>>>>>> de36d46eb0e067765829c9d84dae6ac5668c35f4
     
     <circle cx="666" cy="99" r="4" fill="#3572A5"/>
     <text x="678" y="103" fill="#c9d1d9" font-size="12">Python</text>
