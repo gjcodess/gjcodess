@@ -7,28 +7,6 @@
 
 <img src="./profile%20banner%202.png" width="100%" alt="Profile Banner" />
 
-<!-- ─── DYNAMIC TYPING HEADER ─── -->
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A6+Hey%2C+I'm+Glenn+Joshua+Corpus;Software+Developer+%7C+UI%2FUX+Designer" alt="Typing SVG" />
-</a>
-
-<br>
-
-<img src="https://img.shields.io/badge/BSIT_Graduate-Technological_University_of_the_Philippines-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Education" />
-
-<br>
-
-<a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-gjcodes.me-00FF99?style=for-the-badge&labelColor=0F0E1A" alt="Portfolio" />
-</a>
-&nbsp;
-<a href="mailto:glennjoshuacorpus@gmail.com">
-  <img src="https://img.shields.io/badge/📧_Email-glennjoshuacorpus-A855F7?style=for-the-badge&labelColor=0F0E1A" alt="Email" />
-</a>
-
-<br>
-
 </div>
 
 <!-- ─── ABOUT ME ─── -->
