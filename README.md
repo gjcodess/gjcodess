@@ -204,11 +204,7 @@
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img src="./github_stats.svg" width="100%" alt="Glenn's GitHub Stats & Top Languages" />
-</a>
-<br>
-<a href="https://github.com/gjcodess">
-  <img src="./contributions.svg" width="100%" alt="Glenn's Contribution Graph" />
+  <img src="./contributions.svg" width="100%" alt="Glenn's GitHub Stats & Contribution Graph" />
 </a>
 
 </div>
