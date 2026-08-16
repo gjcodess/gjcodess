@@ -204,20 +204,10 @@
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api?username=gjcodess&show_icons=true&bg_color=0F0E1A&title_color=00FF99&icon_color=A855F7&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github&border_radius=5&v=3" alt="Glenn's GitHub Stats" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/gjcodess">
-  <img height="180em" src="https://my-github-stats-glenn-joshua-corpus-projects.vercel.app/api/top-langs/?username=gjcodess&layout=compact&bg_color=0F0E1A&title_color=00FF99&text_color=E5E7EB&border_color=E5E7EB&hide_border=false&langs_count=8&border_radius=5&v=3" alt="Top Languages" />
+  <img src="./github_stats.svg" width="100%" alt="Glenn's GitHub Stats & Top Languages" />
 </a>
 
-<br>
-
-<a href="https://github.com/gjcodess">
-  <img src="https://github-readme-streak-stats-glenn-joshua-corpus-projects.vercel.app/?user=gjcodess&theme=dark&background=0F0E1A&ring=00FF99&fire=A855F7&currStreakLabel=00FF99&sideLabels=E5E7EB&border=1a1a2f&dates=525252&currStreakNum=FFFFFF&sideNums=FFFFFF&v=3" alt="GitHub Streak" />
-</a>
-
-<br>
+<br><br>
 
 <a href="https://github.com/gjcodess">
   <img src="./contributions.svg" width="100%" alt="Glenn's Contribution Graph" />

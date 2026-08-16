@@ -24,16 +24,18 @@ jobs:
           node-version: 20
 
       - name: Generate Contribution Graph SVG
-        run: node scripts/generate_contributions.js
+        run: |
+          node scripts/generate_contributions.js
+          node scripts/generate_stats.js
 
       - name: Commit and Push if Changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add contributions.svg
+          git add contributions.svg github_stats.svg stats.svg languages.svg
           if git diff --staged --quiet; then
-            echo "No changes detected in contributions graph."
+            echo "No changes detected in SVG cards."
           else
-            git commit -m "📊 update contribution graph [skip ci]"
+            git commit -m "📊 update contribution graph & stats cards [skip ci]"
             git push
           fi
