@@ -2,7 +2,7 @@ name: Update Contributions Graph
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0 16 * * *' # Runs daily at 12:00 AM (midnight) Philippine Time (UTC+8)
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
   push:
     branches:
@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Generate Contribution Graph SVG
         run: |
