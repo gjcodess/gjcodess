@@ -73,7 +73,7 @@ function generateNeofetchSvg() {
     <text x="110" y="210" fill="#c9d1d9" font-size="12">https://www.gjcodes.me</text>
 
     <text x="24" y="232" fill="#ffa657" font-size="12" font-weight="700">Age</text>
-    <text x="110" y="232" fill="#00FF99" font-weight="700" font-size="12">${ageStr}</text>
+    <text x="110" y="232" fill="#c9d1d9" font-size="12">${ageStr}</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.2s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
