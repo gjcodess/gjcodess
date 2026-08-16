@@ -14,7 +14,7 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <img src="./neofetch.svg" width="100%" alt="Glenn's Terminal Profile" />
+  <img src="./neofetch.svg?v=2" width="100%" alt="Glenn's Terminal Profile" />
 </div>
 
 ---
@@ -24,7 +24,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="./tech_stack.svg" width="100%" alt="Glenn's Tech Stack" />
+  <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
 </div>
 
 ---
@@ -34,7 +34,7 @@
 ## 🚀 Featured Projects
 
 <div align="center">
-  <img src="./projects.svg" width="100%" alt="Glenn's Featured Projects" />
+  <img src="./projects.svg?v=2" width="100%" alt="Glenn's Featured Projects" />
 </div>
 
 <br>
