@@ -11,7 +11,7 @@
 
 <!-- ─── ABOUT ME ─── -->
 
-## 🧑‍💻 About Me
+<h2 align="center">🧑‍💻 About Me</h2>
 
 <div align="center">
   <img src="./neofetch.svg?v=2" width="100%" alt="Glenn's Terminal Profile" />
@@ -21,7 +21,7 @@
 
 <!-- ─── TECH STACK ─── -->
 
-## 🛠️ Tech Stack
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <div align="center">
   <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
@@ -31,7 +31,7 @@
 
 <!-- ─── FEATURED PROJECTS ─── -->
 
-## 🚀 Featured Projects
+<h2 align="center">🚀 Featured Projects</h2>
 
 <div align="center">
   <img src="./projects.svg?v=2" width="100%" alt="Glenn's Featured Projects" />
@@ -84,7 +84,7 @@
 </details>
 
 <details>
-<summary><strong>🖥️ Console & Academic Projects</strong></summary>
+<summary><strong>🖥️ Console &amp; Academic Projects</strong></summary>
 <br>
 
 | Project | Description | Language |
@@ -100,12 +100,12 @@
 
 <!-- ─── GITHUB STATS ─── -->
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img src="./contributions.svg" width="100%" alt="Glenn's GitHub Stats & Contribution Graph" />
+  <img src="./contributions.svg" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
 </a>
 
 </div>
@@ -115,17 +115,17 @@
 <!-- ─── EXPERIENCE HIGHLIGHTS ─── -->
 
 <details>
-<summary><strong>💼 Experience & Education</strong></summary>
+<summary><strong>💼 Experience &amp; Education</strong></summary>
 <br>
 
 ### 🏢 Professional Experience
 
-**Junior IT Personnel & Web Developer (Intern)** — *Associated Labor Unions, Luzon (Feb 2026 – Apr 2026)*
+**Junior IT Personnel &amp; Web Developer (Intern)** — *Associated Labor Unions, Luzon (Feb 2026 – Apr 2026)*
 - Built **LaborConnect** — a full-stack union management system with membership, venue booking, ticketing, and workflow automation
 - Resolved hardware, software, and network issues for employees, improving operational continuity
 - Completed **486 hours** of hands-on internship collaborating on troubleshooting, system maintenance, and development
 
-**Freelance Technical Support & Designer** — *Self-Employed (2019 – Present)*
+**Freelance Technical Support &amp; Designer** — *Self-Employed (2019 – Present)*
 - Developed **RDS AutoBill**, an offline-first desktop sales invoicing application for a local pharmaceutical distributor
 - Executed computer building commissions, OS configurations (Windows/Ubuntu), and hardware troubleshooting
 - Designed marketing materials and digital assets for local businesses and clothing brands
@@ -136,13 +136,13 @@
 ### 🎓 Education
 
 **Bachelor of Science in Information Technology** — *Technological University of the Philippines, Manila (2022 – 2026)*
-- **Magna Cum Laude** & **Consistent President's Lister**
-- **Ranked 1st** in IT Program & **Ranked 2nd** in College of Science Department
-- **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
+- **Magna Cum Laude** &amp; **Consistent President's Lister**
+- **Ranked 1st** in IT Program &amp; **Ranked 2nd** in College of Science Department
+- **4th Placer** in University Hackathon 2025 &amp; **2nd Placer** in Best Capstone Project 2026
 
 **Senior High School (STEM)** — *San Juan de Dios Educational Foundation, Pasay (2020 – 2022)*
 - Graduated with **High Honors**
-- **Ranked 1st** in Batch & Strand Ranking (A.Y. 2020-2021)
+- **Ranked 1st** in Batch &amp; Strand Ranking (A.Y. 2020-2021)
 
 **Junior High School** — *Parañaque National High School, Baclaran (2016 – 2020)*
 - Completed with **High Honors (Valedictorian)**
@@ -154,7 +154,7 @@
 
 <!-- ─── CONNECT WITH ME ─── -->
 
-## 🤝 Connect With Me
+<h2 align="center">🤝 Connect With Me</h2>
 
 <div align="center">
 
