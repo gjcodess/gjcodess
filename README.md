@@ -36,17 +36,8 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <img src="./neofetch.svg" alt="Glenn's Terminal Profile" />
+  <img src="./neofetch.svg" width="100%" alt="Glenn's Terminal Profile" />
 </div>
-
-<br>
-
-- 🎓 **Soon-to-be BSIT Graduate** at the Technological University of the Philippines, Manila — **Salutatorian (Magna Cum Laude)**
-- 🏆 **4th Placer** in University Hackathon 2025 & **2nd Placer** in Best Capstone Project 2026
-- 💻 Passionate about building **clean, scalable, and reliable** web, mobile, and desktop applications
-- ⚙️ Focused on **system automation** & workflow orchestration using tools like **n8n** and **GitHub Actions**
-- 🔧 Experienced in **hardware troubleshooting**, computer assembly, and network configuration
-- 🎨 Skilled in **graphic design**, **video editing**, and crafting compelling digital experiences
 
 ---
 

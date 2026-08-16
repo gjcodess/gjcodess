@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="869" height="342" viewBox="0 0 869 342" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+const fs = require('fs');
+const path = require('path');
+
+function generateNeofetchSvg() {
+  const palette = [
+    '#161b22', '#ff5f56', '#27c93f', '#ffbd2e', '#22d3ee', '#a855f7', '#00FF99', '#ffffff'
+  ];
+
+  const paletteSvg = palette.map((color, i) => 
+    `<rect x="${455 + i * 22}" y="260" width="16" height="14" rx="3" fill="${color}"/>`
+  ).join('');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="869" height="342" viewBox="0 0 869 342" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <defs>
     <linearGradient id="nbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0F0E1A"/>
@@ -100,7 +112,7 @@
     <text x="474" y="236" fill="#c9d1d9" font-size="12">4th Place · University Hackathon 2025</text>
 
     <!-- Terminal Colors -->
-    <rect x="455" y="260" width="16" height="14" rx="3" fill="#161b22"/><rect x="477" y="260" width="16" height="14" rx="3" fill="#ff5f56"/><rect x="499" y="260" width="16" height="14" rx="3" fill="#27c93f"/><rect x="521" y="260" width="16" height="14" rx="3" fill="#ffbd2e"/><rect x="543" y="260" width="16" height="14" rx="3" fill="#22d3ee"/><rect x="565" y="260" width="16" height="14" rx="3" fill="#a855f7"/><rect x="587" y="260" width="16" height="14" rx="3" fill="#00FF99"/><rect x="609" y="260" width="16" height="14" rx="3" fill="#ffffff"/>
+    ${paletteSvg}
 
     <animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.38s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -110,4 +122,14 @@
   <line x1="0" y1="305" x2="869" y2="305" stroke="#ffffff" stroke-opacity="0.3"/>
   <text x="24" y="325" font-size="12" fill="#00FF99">✦ <tspan fill="#7d8590">Shell: </tspan><tspan fill="#c9d1d9" font-weight="700">zsh 5.9</tspan><tspan fill="#7d8590">   ·   Terminal: </tspan><tspan fill="#c9d1d9" font-weight="700">kitty</tspan><tspan fill="#7d8590">   ·   Editor: </tspan><tspan fill="#c9d1d9" font-weight="700">VS Code</tspan></text>
   <text x="845" y="325" font-size="12" fill="#7d8590" text-anchor="end">status: <tspan fill="#00FF99" font-weight="700">open to opportunities</tspan></text>
-</svg>
+</svg>`;
+}
+
+function main() {
+  const svg = generateNeofetchSvg();
+  const outPath = path.join(__dirname, '..', 'neofetch.svg');
+  fs.writeFileSync(outPath, svg, 'utf8');
+  console.log(`✅ Successfully generated full-width neofetch.svg at ${outPath}`);
+}
+
+main();
