@@ -105,7 +105,7 @@
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img src="./contributions.svg" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
+  <img src="./contributions.svg?v=2" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
 </a>
 
 </div>

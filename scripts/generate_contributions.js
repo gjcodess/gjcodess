@@ -105,7 +105,10 @@ async function fetchGitHubStats(username) {
   let languages = DEFAULT_LANGUAGES;
 
   try {
-    const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
+    const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { 
+      headers, 
+      signal: AbortSignal.timeout(4000) 
+    });
     if (repoRes.ok) {
       const repos = await repoRes.json();
       let starCount = 0;
@@ -113,20 +116,25 @@ async function fetchGitHubStats(username) {
 
       for (const r of repos) {
         starCount += r.stargazers_count || 0;
-        if (r.languages_url) {
+      }
+      if (starCount > 0) totalStars = starCount;
+
+      const langPromises = repos
+        .filter(r => r.languages_url)
+        .map(async r => {
           try {
-            const lRes = await fetch(r.languages_url, { headers });
-            if (lRes.ok) {
-              const lData = await lRes.json();
-              for (const [lang, bytes] of Object.entries(lData)) {
-                langBytes[lang] = (langBytes[lang] || 0) + bytes;
-              }
-            }
+            const lRes = await fetch(r.languages_url, { headers, signal: AbortSignal.timeout(3000) });
+            if (lRes.ok) return await lRes.json();
           } catch (e) {}
+          return {};
+        });
+
+      const langResults = await Promise.all(langPromises);
+      for (const lData of langResults) {
+        for (const [lang, bytes] of Object.entries(lData)) {
+          langBytes[lang] = (langBytes[lang] || 0) + bytes;
         }
       }
-
-      if (starCount > 0) totalStars = starCount;
 
       let totalBytes = 0;
       for (const b of Object.values(langBytes)) totalBytes += b;
@@ -144,19 +152,21 @@ async function fetchGitHubStats(username) {
       }
     }
 
-    const prRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:pr`, { headers });
-    if (prRes.ok) {
-      const prData = await prRes.json();
-      if (typeof prData.total_count === 'number') totalPRs = prData.total_count;
-    }
+    const prPromise = fetch(`https://api.github.com/search/issues?q=author:${username}+type:pr`, { 
+      headers, 
+      signal: AbortSignal.timeout(4000) 
+    }).then(res => res.ok ? res.json() : null).catch(() => null);
 
-    const issueRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:issue`, { headers });
-    if (issueRes.ok) {
-      const issueData = await issueRes.json();
-      if (typeof issueData.total_count === 'number') totalIssues = issueData.total_count;
-    }
+    const issuePromise = fetch(`https://api.github.com/search/issues?q=author:${username}+type:issue`, { 
+      headers, 
+      signal: AbortSignal.timeout(4000) 
+    }).then(res => res.ok ? res.json() : null).catch(() => null);
+
+    const [prData, issueData] = await Promise.all([prPromise, issuePromise]);
+    if (prData && typeof prData.total_count === 'number') totalPRs = prData.total_count;
+    if (issueData && typeof issueData.total_count === 'number') totalIssues = issueData.total_count;
   } catch (err) {
-    console.error('Error fetching live GitHub stats:', err.message);
+    console.error('Notice while fetching live stats (using fallback):', err.message);
   }
 
   return {
