@@ -90,16 +90,21 @@ function generateHeaderSvg() {
 
     textRows += `
     <g clip-path="url(#${clipId})">
-      <text xml:space="preserve" x="${startX}" y="${yPos.toFixed(2)}" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="${lineWidth}" lengthAdjust="spacing">${escaped}</text>
+      <text xml:space="preserve" x="${startX}" y="${yPos.toFixed(2)}" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="${lineWidth}" lengthAdjust="spacing">${escaped}</text>
     </g>`;
 
     cursorRects += `
-    <rect y="${(yPos - 4.4).toFixed(2)}" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="${(yPos - 4.4).toFixed(2)}" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="${startX}" to="${startX + lineWidth}" begin="${beginTime}s" dur="${durPerLine}s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="${beginTime}s"/>
       <set attributeName="opacity" to="0" begin="${((idx + 1) * durPerLine).toFixed(3)}s"/>
     </rect>`;
   });
+
+  // Read and base64-encode title-logo.png
+  const logoPath = path.join(__dirname, '..', 'title-logo.png');
+  const logoBase64 = fs.readFileSync(logoPath).toString('base64');
+  const logoDataUri = `data:image/png;base64,${logoBase64}`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="869" height="${totalHeight}" viewBox="0 0 869 ${totalHeight}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <defs>
@@ -119,22 +124,22 @@ function generateHeaderSvg() {
   <circle cx="20" cy="15.0" r="5" fill="#ff5f56"/>
   <circle cx="36" cy="15.0" r="5" fill="#ffbd2e"/>
   <circle cx="52" cy="15.0" r="5" fill="#27c93f"/>
-  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle">gjcodess@github: ~$ ./whoami.sh</text>
+  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">gjcodess@github: ~$ ./whoami.sh</text>
 
-  <!-- ════════════════════ LEFT PANE: SCANNING ASCII PORTRAIT ════════════════════ -->
+  <!-- ════════════════════ LEFT PANE: SCANNING WHITE ASCII PORTRAIT ════════════════════ -->
   <g>
     ${textRows}
     ${cursorRects}
   </g>
 
   <!-- ════════════════════ RIGHT PANE: BANNER DESIGN ════════════════════ -->
-  <!-- Top Right: Brand gjcodes. without space before the dot -->
+  <!-- Top Right Brand: title-logo.png direct asset -->
   <g opacity="0">
-    <text x="835" y="75" text-anchor="end" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="0.5">gjcodes<tspan fill="#00FF99">.</tspan></text>
+    <image href="${logoDataUri}" x="705" y="50" width="134" height="45" preserveAspectRatio="xMidYMid meet"/>
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
   </g>
 
-  <!-- Bottom Right: Right-Aligned Name & Role (matching profile banner 2.png) -->
+  <!-- Bottom Right: Right-Aligned Name & Role (original monospace styling) -->
   <g opacity="0" transform="translate(0,6)">
     <text x="835" y="285" text-anchor="end" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="0.5">Glenn Joshua Corpus</text>
     <text x="835" y="318" text-anchor="end" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="4.5" opacity="0.95">SOFTWARE DEVELOPER</text>
@@ -152,7 +157,7 @@ function main() {
   const svg = generateHeaderSvg();
   const outPath = path.join(__dirname, '..', 'header.svg');
   fs.writeFileSync(outPath, svg, 'utf8');
-  console.log(`✅ Successfully generated updated header.svg at ${outPath}`);
+  console.log(`✅ Successfully generated valid header.svg at ${outPath}`);
 }
 
 main();

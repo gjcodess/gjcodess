@@ -306,472 +306,472 @@
   <circle cx="20" cy="15.0" r="5" fill="#ff5f56"/>
   <circle cx="36" cy="15.0" r="5" fill="#ffbd2e"/>
   <circle cx="52" cy="15.0" r="5" fill="#27c93f"/>
-  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle">gjcodess@github: ~$ ./whoami.sh</text>
+  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">gjcodess@github: ~$ ./whoami.sh</text>
 
-  <!-- ════════════════════ LEFT PANE: SCANNING ASCII PORTRAIT ════════════════════ -->
+  <!-- ════════════════════ LEFT PANE: SCANNING WHITE ASCII PORTRAIT ════════════════════ -->
   <g>
     
     <g clip-path="url(#hr0)">
-      <text xml:space="preserve" x="20" y="44.00" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                             ----------                                                             </text>
+      <text xml:space="preserve" x="20" y="44.00" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                             ----------                                                             </text>
     </g>
     <g clip-path="url(#hr1)">
-      <text xml:space="preserve" x="20" y="49.35" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                          =========-------=-                                                        </text>
+      <text xml:space="preserve" x="20" y="49.35" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                          =========-------=-                                                        </text>
     </g>
     <g clip-path="url(#hr2)">
-      <text xml:space="preserve" x="20" y="54.70" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       +==+******+======--===-                                                      </text>
+      <text xml:space="preserve" x="20" y="54.70" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       +==+******+======--===-                                                      </text>
     </g>
     <g clip-path="url(#hr3)">
-      <text xml:space="preserve" x="20" y="60.05" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      +**####%%##**++++=======--                                                    </text>
+      <text xml:space="preserve" x="20" y="60.05" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      +**####%%##**++++=======--                                                    </text>
     </g>
     <g clip-path="url(#hr4)">
-      <text xml:space="preserve" x="20" y="65.40" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     ###%%%@@%%%%%##*++++++++==--                                                   </text>
+      <text xml:space="preserve" x="20" y="65.40" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     ###%%%@@%%%%%##*++++++++==--                                                   </text>
     </g>
     <g clip-path="url(#hr5)">
-      <text xml:space="preserve" x="20" y="70.75" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%@@@@%%@%%%##*++++++**+=--=                                                  </text>
+      <text xml:space="preserve" x="20" y="70.75" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%@@@@%%@%%%##*++++++**+=--=                                                  </text>
     </g>
     <g clip-path="url(#hr6)">
-      <text xml:space="preserve" x="20" y="76.10" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                    *%%@@@@@@@@%%%%#*++=---=*+=-:-                                                  </text>
+      <text xml:space="preserve" x="20" y="76.10" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                    *%%@@@@@@@@%%%%#*++=---=*+=-:-                                                  </text>
     </g>
     <g clip-path="url(#hr7)">
-      <text xml:space="preserve" x="20" y="81.45" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                    #%%@@@@%%%%%%%#*++===--=**+=---                                                 </text>
+      <text xml:space="preserve" x="20" y="81.45" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                    #%%@@@@%%%%%%%#*++===--=**+=---                                                 </text>
     </g>
     <g clip-path="url(#hr8)">
-      <text xml:space="preserve" x="20" y="86.80" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     %%%%%%%%%%%##*++==-----=+*=--=                                                 </text>
+      <text xml:space="preserve" x="20" y="86.80" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     %%%%%%%%%%%##*++==-----=+*=--=                                                 </text>
     </g>
     <g clip-path="url(#hr9)">
-      <text xml:space="preserve" x="20" y="92.15" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%%%%%%%%%##*++++===----=+===                                                 </text>
+      <text xml:space="preserve" x="20" y="92.15" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%%%%%%%%%##*++++===----=+===                                                 </text>
     </g>
     <g clip-path="url(#hr10)">
-      <text xml:space="preserve" x="20" y="97.50" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     ##%##%%#######*******+=--=--=                                                  </text>
+      <text xml:space="preserve" x="20" y="97.50" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     ##%##%%#######*******+=--=--=                                                  </text>
     </g>
     <g clip-path="url(#hr11)">
-      <text xml:space="preserve" x="20" y="102.85" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%############*+###*+=-=+-=                                                   </text>
+      <text xml:space="preserve" x="20" y="102.85" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #%%############*+###*+=-=+-=                                                   </text>
     </g>
     <g clip-path="url(#hr12)">
-      <text xml:space="preserve" x="20" y="108.20" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     *#######****##*==+++=-----=-                                                   </text>
+      <text xml:space="preserve" x="20" y="108.20" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     *#######****##*==+++=-----=-                                                   </text>
     </g>
     <g clip-path="url(#hr13)">
-      <text xml:space="preserve" x="20" y="113.55" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      *######**+*##*=-====-----=                                                    </text>
+      <text xml:space="preserve" x="20" y="113.55" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      *######**+*##*=-====-----=                                                    </text>
     </g>
     <g clip-path="url(#hr14)">
-      <text xml:space="preserve" x="20" y="118.90" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       *#####**+*##*++=+++=----                                                     </text>
+      <text xml:space="preserve" x="20" y="118.90" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       *#####**+*##*++=+++=----                                                     </text>
     </g>
     <g clip-path="url(#hr15)">
-      <text xml:space="preserve" x="20" y="124.25" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                        *###***####*+===+==---=                                                     </text>
+      <text xml:space="preserve" x="20" y="124.25" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                        *###***####*+===+==---=                                                     </text>
     </g>
     <g clip-path="url(#hr16)">
-      <text xml:space="preserve" x="20" y="129.60" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                        **##***#%%##*++*+==---                                                      </text>
+      <text xml:space="preserve" x="20" y="129.60" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                        **##***#%%##*++*+==---                                                      </text>
     </g>
     <g clip-path="url(#hr17)">
-      <text xml:space="preserve" x="20" y="134.95" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       +##########*+=========                                                       </text>
+      <text xml:space="preserve" x="20" y="134.95" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                       +##########*+=========                                                       </text>
     </g>
     <g clip-path="url(#hr18)">
-      <text xml:space="preserve" x="20" y="140.30" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      +*%%#######**+========                                                        </text>
+      <text xml:space="preserve" x="20" y="140.30" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                      +*%%#######**+========                                                        </text>
     </g>
     <g clip-path="url(#hr19)">
-      <text xml:space="preserve" x="20" y="145.65" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #*%@%########*++=======-                                                       </text>
+      <text xml:space="preserve" x="20" y="145.65" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                     #*%@%########*++=======-                                                       </text>
     </g>
     <g clip-path="url(#hr20)">
-      <text xml:space="preserve" x="20" y="151.00" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                   ++%%##%######**+++===-========-                                                  </text>
+      <text xml:space="preserve" x="20" y="151.00" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                   ++%%##%######**+++===-========-                                                  </text>
     </g>
     <g clip-path="url(#hr21)">
-      <text xml:space="preserve" x="20" y="156.35" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                ++*#%%%%%%####****++====++===============-                                          </text>
+      <text xml:space="preserve" x="20" y="156.35" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">                ++*#%%%%%%####****++====++===============-                                          </text>
     </g>
     <g clip-path="url(#hr22)">
-      <text xml:space="preserve" x="20" y="161.70" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">           ++++***#%%%%%%%###****+++===**+==================-=                                      </text>
+      <text xml:space="preserve" x="20" y="161.70" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">           ++++***#%%%%%%%###****+++===**+==================-=                                      </text>
     </g>
     <g clip-path="url(#hr23)">
-      <text xml:space="preserve" x="20" y="167.05" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">        **+#%*+*#*#%%%%%%####****+++++*#*+========++++++++++=====                                   </text>
+      <text xml:space="preserve" x="20" y="167.05" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">        **+#%*+*#*#%%%%%%####****+++++*#*+========++++++++++=====                                   </text>
     </g>
     <g clip-path="url(#hr24)">
-      <text xml:space="preserve" x="20" y="172.40" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">    ====+++*#%%####%%%%%%#*****+++++++*#*+========++++++++++===+*+                                  </text>
+      <text xml:space="preserve" x="20" y="172.40" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">    ====+++*#%%####%%%%%%#*****+++++++*#*+========++++++++++===+*+                                  </text>
     </g>
     <g clip-path="url(#hr25)">
-      <text xml:space="preserve" x="20" y="177.75" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  =+++***+**##%%%##%%%%%%##*+++++++++##***#%%##*++=++++++**+++==**+                                 </text>
+      <text xml:space="preserve" x="20" y="177.75" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  =+++***+**##%%%##%%%%%%##*+++++++++##***#%%##*++=++++++**+++==**+                                 </text>
     </g>
     <g clip-path="url(#hr26)">
-      <text xml:space="preserve" x="20" y="183.10" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">+*#+*####%#**#%%%%%%%%@%####*++++==+###*****###**++++++++**++++=+##=                                </text>
+      <text xml:space="preserve" x="20" y="183.10" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">+*#+*####%#**#%%%%%%%%@%####*++++==+###*****###**++++++++**++++=+##=                                </text>
     </g>
     <g clip-path="url(#hr27)">
-      <text xml:space="preserve" x="20" y="188.45" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##%%#*####%%###%%%%%%%%%%%#***+===+*#**##*******+++++++****+*++++*%*+                               </text>
+      <text xml:space="preserve" x="20" y="188.45" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##%%#*####%%###%%%%%%%%%%%#***+===+*#**##*******+++++++****+*++++*%*+                               </text>
     </g>
     <g clip-path="url(#hr28)">
-      <text xml:space="preserve" x="20" y="193.80" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%#*###%%%%%#%%%%%%%%%%%%%#*+=+***%%#**+*****+++++++***+**+*++*##*=                              </text>
+      <text xml:space="preserve" x="20" y="193.80" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%#*###%%%%%#%%%%%%%%%%%%%#*+=+***%%#**+*****+++++++***+**+*++*##*=                              </text>
     </g>
     <g clip-path="url(#hr29)">
-      <text xml:space="preserve" x="20" y="199.15" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%**##%%%%%%%%%#%%%%%%%%%%%%%##%%%#**++****++**++*****+****++*##*+=                             </text>
+      <text xml:space="preserve" x="20" y="199.15" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%**##%%%%%%%%%#%%%%%%%%%%%%%##%%%#**++****++**++*****+****++*##*+=                             </text>
     </g>
     <g clip-path="url(#hr30)">
-      <text xml:space="preserve" x="20" y="204.50" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%#**##%%%%%%%%%%%######%%%%#*%%##**++*****++**+******+#**+++*##*++==                           </text>
+      <text xml:space="preserve" x="20" y="204.50" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%#**##%%%%%%%%%%%######%%%%#*%%##**++*****++**+******+#**+++*##*++==                           </text>
     </g>
     <g clip-path="url(#hr31)">
-      <text xml:space="preserve" x="20" y="209.85" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%#####%%%%%%####%########%**####**++*****+**********+##*+++**#*+++==                          </text>
+      <text xml:space="preserve" x="20" y="209.85" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%#####%%%%%%####%########%**####**++*****+**********+##*+++**#*+++==                          </text>
     </g>
     <g clip-path="url(#hr32)">
-      <text xml:space="preserve" x="20" y="215.20" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%%#####%%%%%%#*-#%######%#***###****************++***%#++++*##*++++++                         </text>
+      <text xml:space="preserve" x="20" y="215.20" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%%#####%%%%%%#*-#%######%#***###****************++***%#++++*##*++++++                         </text>
     </g>
     <g clip-path="url(#hr33)">
-      <text xml:space="preserve" x="20" y="220.55" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%@@%%######%%%%##=##########***#########***+*******+*+*#**+++*##*++++++=                        </text>
+      <text xml:space="preserve" x="20" y="220.55" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%@@%%######%%%%##=##########***#########***+*******+*+*#**+++*##*++++++=                        </text>
     </g>
     <g clip-path="url(#hr34)">
-      <text xml:space="preserve" x="20" y="225.90" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@%%%%######%##+*########%#**##########*****##***+*+**##*+++*##*++++++++                       </text>
+      <text xml:space="preserve" x="20" y="225.90" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@%%%%######%##+*########%#**##########*****##***+*+**##*+++*##*++++++++                       </text>
     </g>
     <g clip-path="url(#hr35)">
-      <text xml:space="preserve" x="20" y="231.25" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@%%%%%%######*+#####**#%%#**#########************+++*##*+++**#*+++++++++                      </text>
+      <text xml:space="preserve" x="20" y="231.25" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@%%%%%%######*+#####**#%%#**#########************+++*##*+++**#*+++++++++                      </text>
     </g>
     <g clip-path="url(#hr36)">
-      <text xml:space="preserve" x="20" y="236.60" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%%%%%%%%####*=====-:::=#%#**######****************++*##*+++****+++++++++==                    </text>
+      <text xml:space="preserve" x="20" y="236.60" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%%%%%%%%####*=====-:::=#%#**######****************++*##*+++****+++++++++==                    </text>
     </g>
     <g clip-path="url(#hr37)">
-      <text xml:space="preserve" x="20" y="241.95" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@@%%%%%%%####***#*=-::-+%#*%%##*******************+*#%#**+********+++*+++==                   </text>
+      <text xml:space="preserve" x="20" y="241.95" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@@%%%%%%%####***#*=-::-+%#*%%##*******************+*#%#**+********+++*+++==                   </text>
     </g>
     <g clip-path="url(#hr38)">
-      <text xml:space="preserve" x="20" y="247.30" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%@%%%%%%%%########+-::-+%#*###********************+*#%%#**********++++++*#*                   </text>
+      <text xml:space="preserve" x="20" y="247.30" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%@%%%%%%%%########+-::-+%#*###********************+*#%%#**********++++++*#*                   </text>
     </g>
     <g clip-path="url(#hr39)">
-      <text xml:space="preserve" x="20" y="252.65" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#%%%%%%@@%%%%%###########*=-:-*#**###****************#**+*#%%#*************####                     </text>
+      <text xml:space="preserve" x="20" y="252.65" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#%%%%%%@@%%%%%###########*=-:-*#**###****************#**+*#%%#*************####                     </text>
     </g>
     <g clip-path="url(#hr40)">
-      <text xml:space="preserve" x="20" y="258.00" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%@@@%%###**########+---+***###****************##**+*#%%%%###*****######                       </text>
+      <text xml:space="preserve" x="20" y="258.00" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%%@@@%%###**########+---+***###****************##**+*#%%%%###*****######                       </text>
     </g>
     <g clip-path="url(#hr41)">
-      <text xml:space="preserve" x="20" y="263.35" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@@@%#####****######*=--+****##****************#******#%%%%%###*+==*##                         </text>
+      <text xml:space="preserve" x="20" y="263.35" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%%@@@%#####****######*=--+****##****************#******#%%%%%###*+==*##                         </text>
     </g>
     <g clip-path="url(#hr42)">
-      <text xml:space="preserve" x="20" y="268.70" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%@%#*#####%#*****#****++***#*###*******##******##******##%%%%#*+==----                          </text>
+      <text xml:space="preserve" x="20" y="268.70" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">%%%%%@%#*#####%#*****#****++***#*###*******##******##******##%%%%#*+==----                          </text>
     </g>
     <g clip-path="url(#hr43)">
-      <text xml:space="preserve" x="20" y="274.05" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#*******######%#****####*****###**#*****########***##****** ##%#**+++==--:::                        </text>
+      <text xml:space="preserve" x="20" y="274.05" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#*******######%#****####*****###**#*****########***##****** ##%#**+++==--:::                        </text>
     </g>
     <g clip-path="url(#hr44)">
-      <text xml:space="preserve" x="20" y="279.40" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">******########*+###%%%%%#######%*##****##*****#%***********  ***#*++++==--:::                       </text>
+      <text xml:space="preserve" x="20" y="279.40" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">******########*+###%%%%%#######%*##****##*****#%***********  ***#*++++==--:::                       </text>
     </g>
     <g clip-path="url(#hr45)">
-      <text xml:space="preserve" x="20" y="284.75" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">########*******#%%%%%%%%#######%*************##%#%#********   +*******+==--:::                      </text>
+      <text xml:space="preserve" x="20" y="284.75" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">########*******#%%%%%%%%#######%*************##%#%#********   +*******+==--:::                      </text>
     </g>
     <g clip-path="url(#hr46)">
-      <text xml:space="preserve" x="20" y="290.10" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">######********%@%%%%%%%%%######%*************######********    ++*####*++=--::                      </text>
+      <text xml:space="preserve" x="20" y="290.10" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">######********%@%%%%%%%%%######%*************######********    ++*####*++=--::                      </text>
     </g>
     <g clip-path="url(#hr47)">
-      <text xml:space="preserve" x="20" y="295.45" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##**********#%%%%%%%%%%%%##%###%*****#*******####**********     ++**###*++=--::                     </text>
+      <text xml:space="preserve" x="20" y="295.45" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##**********#%%%%%%%%%%%%##%###%*****#*******####**********     ++**###*++=--::                     </text>
     </g>
     <g clip-path="url(#hr48)">
-      <text xml:space="preserve" x="20" y="300.80" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##**#######%%%%%%%%%%%%%%%%%%##%*****#****#***#*#**********       ++*###*+==--:::                   </text>
+      <text xml:space="preserve" x="20" y="300.80" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##**#######%%%%%%%%%%%%%%%%%%##%*****#****#***#*#**********       ++*###*+==--:::                   </text>
     </g>
     <g clip-path="url(#hr49)">
-      <text xml:space="preserve" x="20" y="306.15" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">########%%%%%%%%%%%%%%%%%%%%###%**######******#************        =+*###*++=--:::                  </text>
+      <text xml:space="preserve" x="20" y="306.15" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">########%%%%%%%%%%%%%%%%%%%%###%**######******#************        =+*###*++=--:::                  </text>
     </g>
     <g clip-path="url(#hr50)">
-      <text xml:space="preserve" x="20" y="311.50" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#####%%%%%%%%%%%%%%%%%%#######%%**#####********************         =++*****+==-:::                 </text>
+      <text xml:space="preserve" x="20" y="311.50" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">#####%%%%%%%%%%%%%%%%%%#######%%**#####********************         =++*****+==-:::                 </text>
     </g>
     <g clip-path="url(#hr51)">
-      <text xml:space="preserve" x="20" y="316.85" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##*#%%%%%%%%%%%%%%%%%%####%%%%%@*##***********************+           =++****+==-:::                </text>
+      <text xml:space="preserve" x="20" y="316.85" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">##*#%%%%%%%%%%%%%%%%%%####%%%%%@*##***********************+           =++****+==-:::                </text>
     </g>
     <g clip-path="url(#hr52)">
-      <text xml:space="preserve" x="20" y="322.20" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">   %%%%%%%%%%%%%%%%%%%%#######%%************#***###*******+             =++***+==-:::               </text>
+      <text xml:space="preserve" x="20" y="322.20" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">   %%%%%%%%%%%%%%%%%%%%#######%%************#***###*******+             =++***+==-:::               </text>
     </g>
     <g clip-path="url(#hr53)">
-      <text xml:space="preserve" x="20" y="327.55" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">   %%%%%%%%%%%%%%%%%%%%#######%%#*****************##******+              ==++***+=-::::             </text>
+      <text xml:space="preserve" x="20" y="327.55" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">   %%%%%%%%%%%%%%%%%%%%#######%%#*****************##******+              ==++***+=-::::             </text>
     </g>
     <g clip-path="url(#hr54)">
-      <text xml:space="preserve" x="20" y="332.90" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  %%%%%%%%%%%%%%%%%%%%%#####%%%%%*#*********###*###*******+                ==++**+=---==-           </text>
+      <text xml:space="preserve" x="20" y="332.90" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  %%%%%%%%%%%%%%%%%%%%%#####%%%%%*#*********###*###*******+                ==++**+=---==-           </text>
     </g>
     <g clip-path="url(#hr55)">
-      <text xml:space="preserve" x="20" y="338.25" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  #%%%%%%%%%%%%%%%%%%%%##%%%%%%%%*#*********#########*****+                  ==+++****++==          </text>
+      <text xml:space="preserve" x="20" y="338.25" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  #%%%%%%%%%%%%%%%%%%%%##%%%%%%%%*#*********#########*****+                  ==+++****++==          </text>
     </g>
     <g clip-path="url(#hr56)">
-      <text xml:space="preserve" x="20" y="343.60" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  #%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%**#*********##**#####***++                    ==+###*++=+=         </text>
+      <text xml:space="preserve" x="20" y="343.60" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  #%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%**#*********##**#####***++                    ==+###*++=+=         </text>
     </g>
     <g clip-path="url(#hr57)">
-      <text xml:space="preserve" x="20" y="348.95" fill="#00FF99" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  ##%%%%%%%%%%%%%%%%%%%%%%%%%%%%@**##*********##**#####***+=                    +*##*++=---:---:--  </text>
+      <text xml:space="preserve" x="20" y="348.95" fill="#ffffff" font-size="4.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" textLength="390" lengthAdjust="spacing">  ##%%%%%%%%%%%%%%%%%%%%%%%%%%%%@**##*********##**#####***+=                    +*##*++=---:---:--  </text>
     </g>
     
-    <rect y="39.60" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="39.60" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.000s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.000s"/>
       <set attributeName="opacity" to="0" begin="0.035s"/>
     </rect>
-    <rect y="44.95" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="44.95" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.035s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.035s"/>
       <set attributeName="opacity" to="0" begin="0.070s"/>
     </rect>
-    <rect y="50.30" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="50.30" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.070s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.070s"/>
       <set attributeName="opacity" to="0" begin="0.105s"/>
     </rect>
-    <rect y="55.65" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="55.65" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.105s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.105s"/>
       <set attributeName="opacity" to="0" begin="0.140s"/>
     </rect>
-    <rect y="61.00" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="61.00" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.140s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.140s"/>
       <set attributeName="opacity" to="0" begin="0.175s"/>
     </rect>
-    <rect y="66.35" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="66.35" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.175s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.175s"/>
       <set attributeName="opacity" to="0" begin="0.210s"/>
     </rect>
-    <rect y="71.70" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="71.70" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.210s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.210s"/>
       <set attributeName="opacity" to="0" begin="0.245s"/>
     </rect>
-    <rect y="77.05" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="77.05" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.245s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.245s"/>
       <set attributeName="opacity" to="0" begin="0.280s"/>
     </rect>
-    <rect y="82.40" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="82.40" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.280s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.280s"/>
       <set attributeName="opacity" to="0" begin="0.315s"/>
     </rect>
-    <rect y="87.75" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="87.75" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.315s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.315s"/>
       <set attributeName="opacity" to="0" begin="0.350s"/>
     </rect>
-    <rect y="93.10" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="93.10" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.350s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.350s"/>
       <set attributeName="opacity" to="0" begin="0.385s"/>
     </rect>
-    <rect y="98.45" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="98.45" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.385s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.385s"/>
       <set attributeName="opacity" to="0" begin="0.420s"/>
     </rect>
-    <rect y="103.80" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="103.80" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.420s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.420s"/>
       <set attributeName="opacity" to="0" begin="0.455s"/>
     </rect>
-    <rect y="109.15" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="109.15" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.455s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.455s"/>
       <set attributeName="opacity" to="0" begin="0.490s"/>
     </rect>
-    <rect y="114.50" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="114.50" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.490s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.490s"/>
       <set attributeName="opacity" to="0" begin="0.525s"/>
     </rect>
-    <rect y="119.85" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="119.85" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.525s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.525s"/>
       <set attributeName="opacity" to="0" begin="0.560s"/>
     </rect>
-    <rect y="125.20" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="125.20" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.560s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.560s"/>
       <set attributeName="opacity" to="0" begin="0.595s"/>
     </rect>
-    <rect y="130.55" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="130.55" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.595s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.595s"/>
       <set attributeName="opacity" to="0" begin="0.630s"/>
     </rect>
-    <rect y="135.90" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="135.90" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.630s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.630s"/>
       <set attributeName="opacity" to="0" begin="0.665s"/>
     </rect>
-    <rect y="141.25" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="141.25" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.665s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.665s"/>
       <set attributeName="opacity" to="0" begin="0.700s"/>
     </rect>
-    <rect y="146.60" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="146.60" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.700s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.700s"/>
       <set attributeName="opacity" to="0" begin="0.735s"/>
     </rect>
-    <rect y="151.95" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="151.95" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.735s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.735s"/>
       <set attributeName="opacity" to="0" begin="0.770s"/>
     </rect>
-    <rect y="157.30" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="157.30" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.770s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.770s"/>
       <set attributeName="opacity" to="0" begin="0.805s"/>
     </rect>
-    <rect y="162.65" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="162.65" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.805s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.805s"/>
       <set attributeName="opacity" to="0" begin="0.840s"/>
     </rect>
-    <rect y="168.00" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="168.00" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.840s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.840s"/>
       <set attributeName="opacity" to="0" begin="0.875s"/>
     </rect>
-    <rect y="173.35" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="173.35" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.875s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.875s"/>
       <set attributeName="opacity" to="0" begin="0.910s"/>
     </rect>
-    <rect y="178.70" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="178.70" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.910s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.910s"/>
       <set attributeName="opacity" to="0" begin="0.945s"/>
     </rect>
-    <rect y="184.05" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="184.05" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.945s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.945s"/>
       <set attributeName="opacity" to="0" begin="0.980s"/>
     </rect>
-    <rect y="189.40" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="189.40" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="0.980s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="0.980s"/>
       <set attributeName="opacity" to="0" begin="1.015s"/>
     </rect>
-    <rect y="194.75" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="194.75" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.015s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.015s"/>
       <set attributeName="opacity" to="0" begin="1.050s"/>
     </rect>
-    <rect y="200.10" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="200.10" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.050s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.050s"/>
       <set attributeName="opacity" to="0" begin="1.085s"/>
     </rect>
-    <rect y="205.45" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="205.45" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.085s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.085s"/>
       <set attributeName="opacity" to="0" begin="1.120s"/>
     </rect>
-    <rect y="210.80" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="210.80" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.120s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.120s"/>
       <set attributeName="opacity" to="0" begin="1.155s"/>
     </rect>
-    <rect y="216.15" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="216.15" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.155s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.155s"/>
       <set attributeName="opacity" to="0" begin="1.190s"/>
     </rect>
-    <rect y="221.50" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="221.50" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.190s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.190s"/>
       <set attributeName="opacity" to="0" begin="1.225s"/>
     </rect>
-    <rect y="226.85" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="226.85" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.225s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.225s"/>
       <set attributeName="opacity" to="0" begin="1.260s"/>
     </rect>
-    <rect y="232.20" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="232.20" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.260s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.260s"/>
       <set attributeName="opacity" to="0" begin="1.295s"/>
     </rect>
-    <rect y="237.55" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="237.55" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.295s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.295s"/>
       <set attributeName="opacity" to="0" begin="1.330s"/>
     </rect>
-    <rect y="242.90" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="242.90" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.330s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.330s"/>
       <set attributeName="opacity" to="0" begin="1.365s"/>
     </rect>
-    <rect y="248.25" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="248.25" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.365s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.365s"/>
       <set attributeName="opacity" to="0" begin="1.400s"/>
     </rect>
-    <rect y="253.60" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="253.60" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.400s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.400s"/>
       <set attributeName="opacity" to="0" begin="1.435s"/>
     </rect>
-    <rect y="258.95" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="258.95" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.435s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.435s"/>
       <set attributeName="opacity" to="0" begin="1.470s"/>
     </rect>
-    <rect y="264.30" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="264.30" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.470s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.470s"/>
       <set attributeName="opacity" to="0" begin="1.505s"/>
     </rect>
-    <rect y="269.65" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="269.65" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.505s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.505s"/>
       <set attributeName="opacity" to="0" begin="1.540s"/>
     </rect>
-    <rect y="275.00" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="275.00" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.540s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.540s"/>
       <set attributeName="opacity" to="0" begin="1.575s"/>
     </rect>
-    <rect y="280.35" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="280.35" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.575s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.575s"/>
       <set attributeName="opacity" to="0" begin="1.610s"/>
     </rect>
-    <rect y="285.70" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="285.70" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.610s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.610s"/>
       <set attributeName="opacity" to="0" begin="1.645s"/>
     </rect>
-    <rect y="291.05" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="291.05" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.645s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.645s"/>
       <set attributeName="opacity" to="0" begin="1.680s"/>
     </rect>
-    <rect y="296.40" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="296.40" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.680s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.680s"/>
       <set attributeName="opacity" to="0" begin="1.715s"/>
     </rect>
-    <rect y="301.75" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="301.75" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.715s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.715s"/>
       <set attributeName="opacity" to="0" begin="1.750s"/>
     </rect>
-    <rect y="307.10" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="307.10" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.750s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.750s"/>
       <set attributeName="opacity" to="0" begin="1.785s"/>
     </rect>
-    <rect y="312.45" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="312.45" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.785s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.785s"/>
       <set attributeName="opacity" to="0" begin="1.820s"/>
     </rect>
-    <rect y="317.80" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="317.80" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.820s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.820s"/>
       <set attributeName="opacity" to="0" begin="1.855s"/>
     </rect>
-    <rect y="323.15" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="323.15" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.855s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.855s"/>
       <set attributeName="opacity" to="0" begin="1.890s"/>
     </rect>
-    <rect y="328.50" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="328.50" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.890s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.890s"/>
       <set attributeName="opacity" to="0" begin="1.925s"/>
     </rect>
-    <rect y="333.85" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="333.85" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.925s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.925s"/>
       <set attributeName="opacity" to="0" begin="1.960s"/>
     </rect>
-    <rect y="339.20" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="339.20" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.960s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.960s"/>
       <set attributeName="opacity" to="0" begin="1.995s"/>
     </rect>
-    <rect y="344.55" width="4" height="5.6" fill="#00FF99" opacity="0">
+    <rect y="344.55" width="4" height="5.6" fill="#ffffff" opacity="0">
       <animate attributeName="x" from="20" to="410" begin="1.995s" dur="0.035s" fill="freeze"/>
       <set attributeName="opacity" to="0.9" begin="1.995s"/>
       <set attributeName="opacity" to="0" begin="2.030s"/>
@@ -779,13 +779,13 @@
   </g>
 
   <!-- ════════════════════ RIGHT PANE: BANNER DESIGN ════════════════════ -->
-  <!-- Top Right: Brand gjcodes. without space before the dot -->
+  <!-- Top Right Brand: title-logo.png direct asset -->
   <g opacity="0">
-    <text x="835" y="75" text-anchor="end" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="0.5">gjcodes<tspan fill="#00FF99">.</tspan></text>
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlMAAADHCAYAAAA9KdaUAAAQAElEQVR4Aex9B4AkRdl2d0/e2V32EhxwyHEkJQmKChhQP1QMGDGgvwEVFP1E/URFRcGA6ZMPs4KgYkIRxYCioKKiIiAqOSmKiITj9nZvdydP1/88czt7s7sTumq6e3pm3rt6tnqqq95666nq6rerqqsdS/4JA8KAMCAMCAPCgDAgDBgzIMaUMXWSUBgQBoQBYSBcBiQ3YSCaDIgxFc16Ea2EAWFAGBAGhAFhoE8YEGOqTypK1BQGwmRA8hIGhAFhQBjwzoAYU965kpjCgDAgDAgDwoAwIAwsY0CMqWWUhBkgeQkDwoAwIAwIA8JAvzMgxlS/16DoLwwIA8KAMCAMhMGA5NGSATGmWlIjJ4QBYUAYEAaEAWFAGOjMgBhTnTmSGMKAMCAMhMmA5CUMCAN9xoAYU31WYaKuMCAMCAPCgDAgDESLATGmolUfok2YDEhewoAwIAwIA8KADwyIMeUDiSJCGBAGhAFhQBgQBoaXgTCMqeFlV0ouDAgDwoAwIAwIAwPPgBhTA1/FUkBhQBgQBoQB7wxITGFAnwExpvQ5kxTCgDAgDAgDwoAwIAwsMCDG1AIVciAMCANhMiB5CQPCgDAwKAyIMTUoNSnlEAaEAWFAGBAGhIGeMCDGVE9oDzNTyUsYEAaEAWFAGBAGgmRAjKkg2RXZwoAwIAwIA8KAMOCdgT6NKcZUn1acqC0MCAPCgDAgDAgD0WBAjKlo1INoIQwIA8JAmAxIXsKAMOAjA2JM+UimiBIGhAFhQBgQBoSB4WNAjKnhq3MpcZgMSF7CgDAgDAgDA8+AGFMDX8VSQGFAGBAGhAFhQBgIkoFBMaaC5EhkCwPCgDAgDAgDwoAw0JIBMaZaUiMnhAFhQBgQBoSBIBgQmYPGgBhTg1ajUh5hQBgQBoQBYUAYCJUBMaZCpVsyEwaEgTAZkLyEAWFAGAiDATGmwmBZ8hAGhAFhQBgQBoSBgWVAjKmBrdowCyZ5CQPCgDAgDAgDw8uAGFPDW/dScmFAGBAGhAFhYPgYCKDEYkwFQKqIFAaEAWFAGBAGhIHhYUCMqeGpaympMCAMCANhMiB5CQNDw4AYU0NT1VJQYUAYEAaEAWFAGAiCATGmgmBVZAoDYTIgeQkDwoAwIAz0lAExpnpKv2QuDAgDwoAwIAwIA/3OgBhT3mtQYgoDwoAwIAwIA8KAMLCMATGmllEiAcKAMCAMCAPCQL8zIPqHyYAYU2GyLXkJA8KAMCAMCAPCwMAxIMbUwFWpFEgYEAbCZEDyEgaEAWFAjClpA8KAMCAMCAPCgDAgDHTBgBhTXZAnScNkQPISBoQBYUAYEAaiyYAYU9GsF9FKGBAGhAFhQBgQBvqEgWXGVJ/oLWoKA8KAMCAMCAPCgDAQCQbEmIpENYgSwoAwIAwIAwYMSBJhIBIMiDEViWoQJYQBYUAYEAaEAWGgXxkQY6pfa070FgbCZEDyEgaEAWFAGGjJgBhTLamRE8KAMCAMCAPCgDAgDHRmQIypzhyFGUPyEgaEAWFAGBAGhIE+Y0CMqT6rMFFXGBAGhAFhQBiIBgOiRZ0BMabqTIgvDAgDwoAwIAwIA8KAAQNiTBmQJkmEAWFAGAiTAclLGBAGos2AGFPRrp/IaKeUsoEJ4Cjg06VS6avVavUsHL8PeCyQBezIKCyKCAPCgDAgDAgDITEgxlRIRPdrNjCQYsDRruvegDLcDVwE/HcikXiF4zjH4fhU4NfAf4A/Iu4TgT5tVyiBOGFAGBAGhAFhQJMBuelpEjZM0WEUJaenZy6FIfVtGE77oOyjQAzgCFQdbENxhI0Dj7IsdSl8jlgxHg7FCQPCgDAgDAgDg80Ab4Shl1AyjD4DMKTsqamp74+NjTwRhhQNIxpPnRRHHDsB4+vViPhJQJwwIAwIA8KAMDDwDIgxNfBVbFzAo9Pp1JGOE9NuIw7+lUql42GQHW6cuyQUBoQBYSAaDIgWwkBHBrRvlB0lSoSBYOC+++77WDqd4YiUUXmSySSm/tSpRoklkTAgDAgDwoAw0EcMiDHVR5UVlqoYUZpwnPjOXeZn5/OF/SEr06UcST4sDAxIOdHm48AuwK7z2AP+vsCB83g4/P2AfYCHAbxODob/kAGhQIohDAwdA2JMDV2VeyrwLiMj6YSnmK0j2YlEfASnVwDihIFhYuBlKOx1wE3AzQDfhL0W/tXzuAb+n4G/AozHc1c+8MDGi/FbnDAgDPQhA2JM9WGldamyl+S+tAs8advIzBdZkCNOGOgXBtZUKlW+3cqHCY7MpqF4CuADSivEisUi35ZFNHHCgDDQbwzIja7faiwcfads21bdZmXbThUy8oA4YWCYGKi3eT5MEG3LPn+h2a5rSX/clik5OZwM9Eep5eLtj3oKW8v7CoVisdtMYZBNQcY0IE4YGCYGivOjsp7KXLe23GrV+IUPTxlJJGFAGAiMATGmAqO2fwXDCComkwmu9VBdlMKNxWKXQValCxmSVBjoRwbKJkqXK5W4STq/0ogcYUAYMGdAjClz7gY65djY2Fvn5nJGNwUSUy5X5uDL1gggQdzQMeCalNh1q9IfmxAnaYSBCDAgF28EKiGKKmBE6YpsduRsy1K6I0sczSonEvGTIYPf8oti8Xqok2Q9BAw4OtN8dT6QRvrjOhniCwN9xoBcvH1WYSGr+2bLsk+1LGszQCMJXlvHJ3LGPQGG1OfbxpSTwsDgMmA0XQdjqr58anCZkZIJAwPKwMAaUwNaX6EWCwaRC3wYmR4AfA7gfjkPwi8AHLHiNCCn8+7Hb+6b83H4D0Wac+GLEwaGlQHpV4e15qXcQ8uAXPRDW/XeCw7j6N/Am5Di4cAewGOBFwHPAQ4CNuD8I4F3ARvxW5wwIAwIA8KAdwYkZp8zIMZUn1dgmOrDUFLANPBn4CLgEuAOIBemHpKXMBBxBsym65SXmfSIl1zUEwaGlAExpoa04qXYwsBQMhBOoY36VZhSZkZYOGWSXIQBYaANA0YXfRt5ckoYEAaEAWFAGBAGhIGhYkCMqaGq7tAKKxkJA8PMgIwwDXPtS9mHkgExpoay2qXQwoAwIAwIA8KAMLCVge7/ijHVPYciQRgQBoQBYUAYEAaGmAExpoa48qXowoAwEAgDykTqMGzaacKLpBEG+oEBMab6oZZER2FAGBAGhAFhQBiILAMDbUzxSQ9IAHsAxwFfAn4DXA38EbgE+BhwDLArYPwZCKS1myHsmm+mg0EYvy2mi1r5WV7mRz/qoJ5AHNgReAbwQeA7wBXA74HfAWwvP4H/SeAE4FBgNRADIrrQWI95lgPgdTIB/0Dg1cB7gPcBpwA8fjf8twEvAfYFxoG+5gD6s81m4LPM74B/AfAH4BqAfcTP4X8UeC6wBoh5ZLav2wXKSV7YHtbhmGU/Hf5FAK8H8sNr49f4fSHAcy+HvxdALvv+noJysPxs22M43gCwb3gDfLZ/tpN34pg4GX4dDH8rfr8WeCqwOzAKUE5ftwePbX7oo/V9w29Wg2jAvKhPhH8TzvPzJ7fA/yLwGuDxwKOARwNPA04Cvg7cCtyNNJcCjwVacoNzTwYuA34L/NF13euKxeIt+Xz+1m0o3Iqwm8vl8o3VavWGUql0E+J+Cnn46iCTxiA7uGtx/BcI52ddroX/p3lcA5+4Gv5VwB/ncSX8PwC/bwB/LwXjEfV0lEF5tfxQ9r8iPfNkfjRQa/lAl5cjPHIOetFIfDT8r0E51vl/4N8J/Ah4N/BCgDu8Hwr/MIDt5enwuQP8Z+H/FrgL+BfA8n4csngjadleEC9yDjrTiDwY/jeg3B0Aefg3fNbtl+B/AOB3Gd8Pn8cfhM/PBTE+6/tu/P4HQKPjU5CzD+DV2ECy3jnoyZsk65r9Aj+FxLb7EWh0NHAIcPA8ngL/7cCFAOv8LqS9GHgk0O4GaTTNhzx65lAetofHwOd1QV7ugTK3Ayz7yfD5tQNeD+SH18YTEPZ8gOe+Cp+fmmKaWyDje8CTAKOHU8gK3UHXJECdv4/MWX5e38SN+P1D4NMA2z/bCT+xRZyOsDoY/gn85n3mJ/B57yEf/8QxjU8a5Xsjj77qJ6C7OI8MDFTFoqGuguHyTZT9PuBM27YfBn8c4EXNsrIDJBBk0ScYzptAGoFrgSOAXwO3Qt7RAM/h5zbnutYTYEQcjpDHAY92HGf/VCq1dyaT2Wsb0nsh7KHxeHxfnN83kUg8bOPGjU9GfF9duVx5LgQ+BuBnXQ6ET/D4ETgmHgmf4A2ibkTSkGSaesfIzpHgb0DxXB2MSzAtQTmUeyD4PQBl2w/y+e0+5lk//0jwQ25wqvcOdcgnzd1UVZ0Pbdg2aED+PxzvBawBWPesZ7YFtolm4DmCbWkEaXYCyAuN8etxfAfyoWG7I44j6aAfedgd18i3oeC9AI3kl8LfHVgNZAGWj+VsBfKURDxeV7vAZ3ugoUlD/u/I40yAIxrkEKej46DXWoBGM29yNA73hnZjAMvkwAKizgSClvUPGQTuDDwDIG9/hazHAfX4CF5wUwtHET6g7sB6gO2BxvTvLGXxuiAvvC5Y5ho3KAbL2Qz1dsI2sQLxeE09D/5lwD2Q/Q2AozRMi6DoOOjFB6tD4F8KrVh++uxPWX5e3xMIJwe8Juo81Mvbymc8xk8hLa+RdfDZt74DPvsJXiMc5aZ8BIkbFAbYIPq+LLgYeJN4C0Z/7sLN/SUoEBuxadl40fNi4Dfozq9WKr+C/FWQueAqlVKqWnV50TAusXCuxQHj2Pl8gTftFlHMgvP5HC/2mnwzCc1SUVyz8KZhjLwM1WqFejVNEGYg6m5dsVxGHVq3WI71YuTNmwTrlzrjZ9eOcthx7gZJNKxoVPEGsqjN4FxPHXjYpVKpYDTVugnXCL+rSOPJLx7IAW+mu6KQJwIc0eC0EG8k+Nlbh7JzquXjKP/focmzABpQy/oHFgLnOjlGSyDS/pB7OXzWNXnE4YK7vlwuwTZb+O3pwHUVZXuK220k6M6lD7+CHI7CsD1svS7smhGJ4K6cjdTsH7eHfwzAURq0PfUQHEfCofwcZaNeHGn+LyjF65X1SN3x03dHubxG1kPym1ylaFR9F3rsgN9hOcknQAaWdSgB5hWIaDTGZC6X+0m1Wv1EMpnkk7VfZWLjj8fi8cfBCOIaCj6V1sqAm1EZ+fJ87bfXP0F8ekspm3oQXtUIJZ7jxKqhZNQiE9QPh+15A70llUgcDpZo8ATJE2Wz7bENcrSHRhXXWfCm0kLL4IPnefio67o3Y5T0ySHwQA5oSD8bpePo7mnQgcYHfobvkPeKubkcp57fhvJzRJH15IciNv7x5vuSfD7P6V4+wNXllusHUfPBB9dC/R/0ug76Hw6fD3h+cQJxFga3al79D9sDrz0ujbgN+Z8B0Kionw/VR94jwA+QKQ1hjkCxbVJHBIXmHMe2yfsL8FB+O/Q5Hghbh9AKOywZ9XUFogGmJyc3X42ptSNj+BdQpTmZTHo9DDYuBcYxGwAAEABJREFUROaN0kKnzHVY2tlBX187ra0KuFu9iP1FR90zYwo87z47O3sjfN5AR0FNALxDamvH/Djl8RlEuRx68BiH4Trku+vc3BymFtTbHccJmwdykLWUei9GhK6HLqFPfyLP7aempq7PZkc4BR1UX+ek0+mDkM+vkN9WwxnVjGP81XNKueRML5FGbKXUunK5zLVNb0YyPw1LiNvmmhZCWegS7DR0eAt0YHsIfdQSee9ULle4xvMoaEuDrqmqOBeWs2MxZxwPOl9Ahnz5gYYdDsX1IwNBdTCBc4ELIz49veU3K1ZMHMCrNOAM7Uwmw2mc83Fz4AV4daVSVrp5Qmff+VbKoj66qoQRvyd6gePHYyTx6tHR0T3QLnznW5M45v84PKtzsf4GzbRdRQcPh2La+9rsSHYvy7Kph9WTf7bt4OFjb76MAZ04tRKKGshrLDeb+8PExARv2oG2RRtlHBsbewT4PqehcIHm2ZCPp0PwcTDq4M+JRALtARPenlL5GGmeDXJFHaDLDdCJi9h9zKS1KOS1C4yW3ycScS7f6N310ERFB/+g3/NgZPKBnQ89TWJJUNQZiFSj0iELF8a5Y2OjB+PinL9MdVLrx0U+Dhr7kcqyXmVZ1jQaPzw9hzSh6KqnVVCxVdBlXaY4+D0CnfQlmUyaI0Gh579YIbSUrQHQw16PaWi++ckF21tDA/wLHp4EHi5NJpMrLRv/A8zLo2g7lUpNFApFvikbuEGF8jv5XP6nmWwmNAM2FovZxWLpZfl8metvSugvFhqAR44CiwY+DoOh9yvUAdfJ2YFl5ElwjZZae8BDD7em4VSjp5SmkVD+ZKVcuQQ2C9f09bj8zUuB9sKHjkPyhTy341gY4WweW0KjyEBfGlO4OJ6LC/EYXByh6p9IJOJbtmx5DyrSY761jgPRh8+FPWKGNrE/prQuwA2DU7ER6DAXqYDh/NhOeADgFhZc6BtYgwAPe2NK+kLwwCfcRUoElqlHwel0KgvdfgQdOVrkMZVRtHcnksnDcIMKtfx4uIsXCjluJVGoVKqRuPjB9W6FQuEHMKy56D5UPprX3DYV8NCTyc3lvg8duSi7eXR/Qj8dT8QfBlHbMsePqDm211QyeQj0OgsQ12cMdDYKIlYgXHiZBx988OxsdqQX88t2Mpng0w0XU3q4MJdG8b9/tW2+0R2xSoI6MByWFh6hwTi0iVFM+V6czWb5KnMwmXQv1Ybxz5cYfgh9A+EGckdmtsz8bGRkhCNz3WvsuwRlQbeVs7OznM4I5PoFB7tNT8+8Ox6P9aJvw4hLgtuGrM/n84HUsU6VgIsU9PhZOp3miJRO0rDi2iPZkRV4QOW6Qi5S9z1fcLBfLpc/FoJ70R6QrZ5znJgzOzv3Cugd+AiunmYSuxMDfdHAGgtRLJY/tt12Ez3rHFKpdOzee+87ATr1vLOEDpbjWD1b6M38WwGdQWhtC0/eF4+Pj3EKLRJ10ooThNtKudyb6kQc++6Uql6QHRulsR9RHmpq2TB6uf7wW74TAIG4MZ83Pj7KN6Xwq9H5/yDTKL1+nMbwW7VafZ1S4U9z13Vo8L+O0R+uEaoR3xCue8i3XCpIlAf48g33apvGcRHguW7ItcfGxnatVirfgyxfXKMQ9A1fHhnJJBvDfDxmuetYIpbBS4I8/hwdzcY3T0+fE5E25FFriRbaDc8PqtG4RjZt2vRqzLZ12zk0qsNWT9Aoad0xMAZSYSjWUsrlK7X41XuXSCTYyc1r13t9GjTws44axC4+VEodizp5POBnfuRzKRZnbPgLI4kORgv42Rpf324DD08tlSpPc0CEoWqhJYOKNm5y/EwJd5r3LV9wsL9l2YdSvrXsn3HzqLcD9g0Efy+TXg9k3rff/jdujbEsTpgB4OIJpVLpuZZlm/bxLBKNJ27G+l7LsrjxJDd3XYtjjrDSSOODATej5DYDNLLID05rOORi41+pXH46dOaGyRqJ20eFvD0rlcqB7WO1PQvtLN4XtiAW9yjjFhuX4PjHwMXz4CawxM/wmzvp82sKMDRtpkOQkbPTySRfFOD6OyMBkih8BkwvtPA1RY6YOjp5zZrVfKUXv4wdLxB2EtxYkBcE91x5LaRxTp2fl+GnM3ix8Pwswhnfsrb1xXY6nXHK5YoVhX+xWDwaiiwhA3W1jbEl5/z6ic4ytXHjgx9NpVLdtmPeBNhh3gzdfgHw8xgfg8/1L6fCPxfg5n7sUNl2trYJBBo4vhmahe7cNsEg+fIkkOVs3jz9BfDAfY+WR/AeQh5yiM4bAj8bxDIT/CIAwTCem7Esi3ER1cyl0+nY3Fze16fvmbncR8fGRrtdvMu65YgLy8kb5ydRwtcD3OWfn1T5XxzzcyG3wZ8Bajw0NHYbfVQS/xqCECtEx/aAqaKzoEPCIFuWv4R0bPPrYOc8Avgw8CfgXqAKuMCDwPXAGQBv+lz3dBLSbQIoA54HN89SJpOxJyc3n03dPaTyFMV1reMwrWx6TbBer0NGTwe2Rxn5dvBj4D8DeDZwFED/ufCJp8PnFyBoZO6JNO8E2IYoB4d6Dnw4szOzp+ilkti9ZKDbm1BouuMis/9x5z+PTyTi85efUdZs2LxZ7oOGvzfAC+Ik+F8G7gB+AZwG8CLh6BOnTPjdPnYuCxmuXLnCWrEiGstzwAe/p8bOnzoSZSjaCIbVwXhEAXGWguGMx7Q00PhkRXjvGCF03mE6S3VTT/NiOnovn5iY6GbKl2XjE/X7kNNDUO/7Ak8BXg28C3g/8EHgOIBvHbGTxOiHxe+V0ahCMiNn53K5I9Gm/VqMfjSmMngzM1IGicjDZvj8ttgGlHV34BDg8Hk8CT7BMI5OcJqO3yTbiDRMC0/b2fFEjE/f3NxTO/HSBOAynZudfQL07KbdsX+g8XgQ5JAD3jj/B8dnAzcBFwPvBJ4FPBQ6PATgdgi8lhZ4WL16lb1q1Uqc6pl7TiKZYFvVVqBSKbNdPw3lY5uf9CoA8eeAMxGfo438Ht0CHwjz4uzsaJb9Lb+P6CV+xziTk5ue5ziOdnvAgyDbAY1mGpKXoVzsGzvmxwiIq4CNwBn4zc94cdSK8vBTy9n5QoEf4DY1BrUyk8jdM9A3xtTsptmHbjcx3s2Nk4bC8aCMHQUvdhy2d7ggJoFXIhafTnryvS3k3clhKN/iTYk3ufpTETtSYulvxiNoKDaCYYzPsH2QIb+3x9/73Xvvfb/Db92OEUmCdbh52ps3T50CY9K0DbODo1HEm+bpqGcMzbfXGXHYUf4dPj+/wT1y/oEUJtzYeGLmLuHHIX1XjjxMTk6/P5VKat805jMmDxfgeDeUi4bC/Thu6xBvE0ADlO3mu4hMoxuenkslk6jDzR/RS9Uy9tPGx8eMR63BIx8i3gDpNBr5iRUctnfgYAp4HWLxm5sPwDdpC0jmr5uamvoQuNW+LnK5fCkeTxyJMnEU0kgppOWI3RFV19XmAzrbD27c9CGjjJckQn2mYBTttCS440+ko+MDNx+muqpPcMF7Bj+nw8/28DrrmH9jhGw2mykWizTYG4PlOKIMaF9wvSpHNV49dmxs3EhfXFRsyHzSOhcNXPsCQRpeDE8pFktzvSp/q3yh2yxwN/BvgP5d8Ov4F469gOmIfyL+34DbgH8At2633fgdrfJuFw7OTW/u7cQ2ntsvHo9x7UZjmKdj9paI+BXgGJSR03s41HNI9yekONSy1F3wTdqUPTc390ro0i1PeyTiDg1pbTnIm3pzZIU8dDQmUc5FDhzwZsFvYf4f6pvX2KLzHn7YjhPbs1AoUH8P0VtH2bRp0wmYOtTmgBKpO8ryFuAsgJww2DOQhh8+PqJSqXDaz3O6ICKiTvcip5CtxUW1WlUY3fwkynIF0nblIOPOmOOcWK6UdY1sO5FM7IYycOSzKx1yudyqFP7pCsH0aDUWi52AMmi3g2Z5QQ5HLV+nlMWRX8okmkVdFoZpWgdF4O79y85FOGBoVTMyTnrB1saNm56RShk9fSvHcf6IRv21bvRG+j8h/9PZ8XqX4/m68S4y5JipVMp0DYpWZ65bLNTDCdls1kQ3ZdsWF9W+3ra7WiRqIT1GceyXlEplEyMbyR2+gaj99LyEq1dnRjImUwHgweaC2jdCEeOGOp/2nbjG+MChLSebHYmhjfHpfUmx9H7iJmi0gS9u3OwffopyfF4vx8Wxkf7GeDz+bsjTNSAWBNk+bHMCg+44GEXa7WFycnN9untBny4PvqtcdS1kaLUJtgekeRnQlRuJxyfwsKXdB5VKJfLAEeeu8m9MjLZxp21bXC7CJRn34tx/APQdFkfvmB+nU/lgwgcaGuRcq5uD/vQbv/mIZOKiykDfGFOxWO3Go80jnnrZufHpWTttkwRnTE9N82Lw2EFoX8tNsuxtEEZPjBaH4aYSaOEfeGDj03ED184jh6kMy7KPtm2b68Ksbv9BzlXJZOKLynU9toltOeLJkze9g7eF6B/dd98Dz8NN3ICHHNeBcOFs1zyAA5b9uFyuJlOrENDduv/++7u6eW7evHkCo1JGN50tW2Y4/c+pfC29W0Q+Cxxw0TH5aBHFp+AWYh544MHnglOt9lAuV9SaNavPRD2yTbSQrBcMWQrt+wOlcllrxJK63/uf+16ul1uT2MnkWuigxQOlVKsul3YEUX9cnM8lFJwa53KKus/lFByZ5W79HJHjujGuf+Qx45xHvQTRZ6AvjCncmBPxeCJtQmc8Hr8ZF9XdJmmXpoGc0oqVKz5TqURjd+Ol+gXxu1Aocm2PtmhwFUSHVNOD7QHyd6j90PvDDv5nSOvrkydU+DBuGnyyxKF3hydPjqxxYbv3RA0xwUPcdd11DUFeDzGlM/Ij8MD9grymaRsPsjhF/AdE0q13Wyl7F5SFXCC5vsNNe8PIyIhJepXJpPnSyaR+rstTgINKNpv9WK/6B3CYisVi2u1hevMU14udvbxEXYf8EsYlR1q0BKEB7YyydHtvWhOPa7zMiEyppOPY80f85R/QNvgWJJdkzOGY/hb4XHNXx2b8roNrEh/Aby5k1zJG/dNYJOky0G2D1c3PNP6KZCKh3VniRqPi8fjHTTNtke6sqala59Pi9GAF48agzXsIDOyEqaGkbj7FYtGFAfMxjXSeoqLT24ybGKc0tDs+3DQe7imTJpFQnl2z2Yz2QwbSUU++uddEqnlQJpP5X8jWvhmNjKS5+7WJcVxTFm1hz1hM/62tfD5P4/q0mhD//nxnbm6Wb8T5J9G7pLWpVFL7uihXK3ypYpP3bLzFxHVRjNkOF6RrtYlsdiQ1Nze3vbdcWsa6uVQqes93fgyrXC5p89dSAzkxVAz0izG1Pjs6oq0r5r85xcfN1HyrVHQQU9VqhfPc2jKVsuYvWe2kPUugVFWb93ll1bwfhHdwOq2/t1Q+X+BiUK6X8l0nGO0/tSzF9ua13LV4aE/G79AjzwMSiYR2/RSLRd7sb/CdBMv67ezsHKfNtETPl4FTHdnY0AYAABAASURBVFrp6pExKnhgPK4xCjGfMJfLU9fr53/64qE+Zx3H8W3ET1OpPZLJhEYfoywY82rHHddeqpmP5+hj42P8VIzn+IzIMmSzWU518acpOOJTu8Z0BKRSmdXgRL8x6WQicQeSAe2OOBAWOgs1eloo5Gs3Db5F0TkHjRipVIqbO2pfqLjZauQSjajoWIzaCG4oBvx4LvPejqM/YAYDjJsO0qDynJFGxF9Zls0tNzitwYWj3PySoOHCPOvgupQ6GGY8BV2tVg8yMSIyI5l7cNNn3paf/yAzV3Wr2m9HzpeB60mM1Jmdmd2A6RlbN7ETszmtQoNKN2nb+Jh2vBERgmz/EN/UaRqVtlXeuvkwp2ebCvQh8EqMbnMk1LOoWKy2lyD38fKcpknEyXyhyIebJqdaB42Pj3Ht3TNax5AzwkBzBoxulM1FBRqq3VHWtLEtzktrXci1dB3+TExMcCfsDrEG4zRG04wKYttWYDcTTLPiphHTbhPxePweo8J4SGTb9nWIxs9rcG8vjrLQ5+JS+o3gOS42pc9w7lmFpPoul8vtZmJEJOIJGn36GXpIUS6VDdaO1bohfoHAQw7Lo0xOTu2Bul1+okOIchXfpuoQS/80HrYC47edNrOzs4/ENLbWdeG6VfaPnvbVapd3m3M3uG5Fy6hBGSiuW2OqUK1UtB8YkHesUql8AQ+RXCROPZpCAoWBpQzUerGlgRH8zbeetNXKZNIcGdBO5yHB9Xii0zYWcIFqdXQe9IhsFNzktfnxWpiNGyd3dBz9phuLxbQ6da/61OPZts2pBS4a5eJRjoL9B2EER4IawTCCcbQ7/Hp+k5Ob9zQxIpC+AkTG2bZj5/P5taYKlUpFrrnamlyj1aFuaEhsTefv3+tM+oduVdiyZcsOutcF+iReE0bLFjzqi5FKW4tnlsF13VUe5TeNhrqtog64FUHT8+0CcU3tWK1WrgU3JwKJdnHlnDBQZ0D/jlRPGa6/aE7Ha38Z4M2TUzfaDGCUx9ZO1LcJgmtauHmadnADxX+xWDLlweslpN36cPPRTsMExWKDQcSAGrz9KZer2x62tGpYK7I3ZbbG4jTu1qMQ/5ZKZe2XEWC40NApB6hmAXnQYPOcBRsn2pFp217IZ926nS7EKBPFLYR5PcBUYxZx+Xmce6DLJcBLge2BGBBYw0Ge4vqUgeDueP4SskhPjZZsdCF5UL2l3JYnPAiNYpQuOo7AqMBNw6ijxdOuRtOJYm0s1qlarS56yFh8tu2vRddT25iaJ03bS7lcMapTqletlrcZUwzwCv2twbxKNmr73TbOctmEB8VsF7Y/Yf3V4bWwjfHqaenPh28bNZwP6ORRIVyrfrTRL87l5uYNW6MqoQ78fuaR0PkbwF0A1zjehPL9BjgXeD3wSGAFIIYWCBpWx8bSD2Xn9aWtJ56ItNN4TNBSn5YnaoKNLuhayiD/dJDdvkitEwdWWNc1NiJMy9K6lD0804UxFRgPuKEYyVbKNe6LKpWGkSmN+lB2zZDQSOE5qlFZMNvZ1TVTqegbpI4TT27cuPEvuVzuVrQnvtnIt12vQUmvVEr9HrgC+B3A40bwPHEVzl0NXAMw7d+QlgbHv/H7fhh492DaTPubiUhr+qCA7Lc6TPXdmx3JXgpZ4NWoWW4VtPUvBXDkb0f85Pq+x8M/FvgcwM8J/Qs+pxVvQ37k7Gz4HM3i24FG7QHyxPURA/1SyUZ64mLCRdRHtRFBVV3Dp/cgucdNw2gkAp1bBBk2V6laVaY3HN4YzDNuk9J0KrtSMTaQrWq1YtQ/tClGt6cC47edYuBQ+7pIJOL2mjVrVmUymb3x8Lk/5HPfs0fCfwxwGPA44LEAjxtxCMIIvnTxKBxzJ/8D4fPlCn4zk59J2j6RSKTRF2jz4brmxjV0WHAw5F6bzxf4mZaFMJ8OWCaCbY+jqqOQy3V/fOmEnL0Wv+ufkKFheRn6n2MAbcMScsQtZiCSv9gQIqnYYCrFa6+/Smbblh01jbvoaCNXlm64dV1jIyJyPOAmY6yT6yrTfsw4zw71FpTcttm6VX8MkLaZhHfSFw5t2944MpI5vlKt+r4FRgcqqD/bJac5OZr1X4hP4+putPVfA0cCNMIQLG4QGGBlD0I5pAwBMYAbFTsFA+mBTaFYruFTqxqwcUp0xvN1o1cwpBuo6960PSDdPH8Gzbt9EiO5uPHrVeQSHVxlbFQukTT/s5ee8q//AK/fjcdiH0G711oI73Px2SY4ksxNep8A2RcD/4JOpwA0uPBTXD8zMFCd6tKKQCNlA14aLL/7nAHzevWvg44ChUrVRw21m7l2gqDLixueMs1jGw96EpSyg+IhKLltCwjjcHD6c9s2bg/NSLJt+zTgA0pZYY9QNVUHgTSsOC34fhzfiT7teYCNY3F9ysDgXHx9WgHRV5tvTkdLS3SIRp0ObjZG6QIuvbF4160alQc8ROi67/6eqZRrxIMKeSSn+5K2bypKmbWH9lJ7czaINkpjyratZ6JEXCwelY6N1yLXl10IvX6ONsktGXAort8YYEX2g85B90P9wEGPdDRrIqYGj5dCdnHTMLrpetGpJ3HMS2Oe0veCblXF7mokYqsMXdWUa2aEecinqUJNAz0I8xxlsHrJQOhCO/sF+NwL+ADAbyhy6i8KzLGjPSKXL9wIg4oL+KGeuH5igBXYD/oaPUXg6WbbBelvKY0uPlzIRun8VV1PGu5xphyaptNTUCM2+I+cThrqL4uq3Po037JTbQPQWUeOB7uLzw+ZlkcF98WjtvwvnFzSG9i42BbORf+A2jeDL5o7tkMjxxdZS4WA5yLA6bX1OPd6gN9a5UbMLo5ZJnidneeInUXVY9gjmfSuMzNz3IpC3vqrs9Infr8YU0YXFkZHgiofL7o+qeLu1MSNKoA+ozudTFO7rpnxYZrfMKazDY0i29b75Igf3KJtB2VUepPrLZbnohpeqEzGHdD5gW5+FH4TMrwf4J5Jd8K/HaCxwY8334BjfoOyjr/i91JwryliaTh/Mx33sqKcm5D2VoDyuTcVv3fK/Lgx5l3pTJp7XeF0cA5tjkbVOciBW0IQ/4dj6shvNvIzTy5+kx94y53P1VfPwB4dHdm1XC5fXA8Qvz8YCMrY8Lv0RsZUpVLR3nfFo+ILOwZ7jF+Lhou35YVZixDBP47lGOkc4KhgFyyxb+wi+YAkDdCIMGbIcczamXGGSBhFHqCWsTO5uefzeX6ncXf0TePASmA1sBbYBWD43vD3BfYHDgAOnMdB8B/RBjy/FEz7cKShnP3gPwyg/D3h7wEwv/XwNwBnGBOhmRB5KeDvwNuBg5D8IcCTARpXV8Cnwfcf+DQ4aXiyI2G/SCDYXwcdbPSfh6N9vspfySItSAb6xZhi49XmAdZ9UIv59ksk4iZ9l3YZep3AtczWlaAjCIwf244ZdWIYqQxMp17Uk204CtQLXTvliWkdo2u8k9wO523L6hDD7HRv2pmt353bW0cE58yKOZipwAlHrK6ET+PqcJTyoQANLO58fhSOPwL8BOAo1j/gcyQrB58P/UZ9E9IucqlUyrn33vs+in5Uv1IXSZIfYTHQLxXFpydtTnAxpNEYY9oJOyQo5Av7dIgyMKfBodGNAU9WRum8EAedDG+8vvRzXlQMJY7jxAx5CE491I0RyU7MiVxZgmMpGMmOo88h+kfeA2TzyDZVwjYNVIF7gJ8DpwBHARx5447v3JST/gsh5ssAp0W3wGebNroekNYaHx/bvlgsPp3HgugzwAsp+lpa1iRGFbQbZSqV5LeUVvldwHyhsDtkahsLdh+OJChlvN/LIn7Al28uFjNbnGrbxmXxTXc/BcXjCT4Ja4u0LVs7jdcEphxjZMqoLNQLefKmxUNdaPcpHjMw0geGTVcVE4vFtB865/MMajmER7r6OxrbH3A/cBHAz8jshxKtA94BcHrQqD1ks1kLD6XHQ4a4PmCgX4ype/K5vHaDTOAf6oDflYLnj0Pns73j2Dv4Iy36UtBAzG44Zqk8EWLbZiMyeHIPUCtPqvsaKRazzQyQAI16cKx9nZKUeCLOtSg81AauR6N6xY3PKJ0HBXHZeIjlcxS0BwPuFQ04wmdthlcc2xUwA3Dd195g4mLcNwzqxrLz+cKjkVbqBySG7LSz68lFr62lZc0WSyXtnWvRmNkI32SQX7skrx0dzRpu/0912omO4DnDFqKsWicdSIFGR9OzJoKr1arvU74meviVZmQka7TWBTxEbSRCZTOZaVNeMCJjZFTiqT+o9rBbLOaEfrGjPRhdF+A9CYgLgAHcg3iNHg3/dxCvbbw7MWc7pJsAxEWcAcNbZbilQkNUlUrFpKPgWxGHwrLnfiJdKw05qVwu/4ZYbDgWn5Mw0+0EcKMK7GaycuWaG0qlsnbHVC5XxlmmIIC2sQ74GfBX4GbgDoCfifgn/LsAfoeL4PHf8fu2eXzbVJ8VKyZuBA/aycuVCjto7XReEsRisTEv8RrjoF4sy3G4mLcx2PMxpkNmwaXn+A0RuQyg4adPh667g+OE37VOTIxrt4d4PGmj1JyWgtcDNwRZ4v7FUddjS8USF6lrlTidSvHBh2uytNJJ5PAZCP+KNyxjIhHnXiTaN1B0ahxF+hw6Wz/Keko6nWLDZgdkUBJt9Q3y8DcJ7gmRU3r16hXcuVi7oK6r1vjUDprlzYWiT8SJAwC+/bMH/N2AXQG+CbQLfILHXKy6J34TjItDfTcxMUHjTLt+3Ep1bRA8QGZcKUvbUEM6Fp57G9HXxnbbjf+9ZpBppozH44EY17O5Avcs0u4jlNvdaO74+ATX52i1B8exqSd3BNdkT6LrMGDb9p22bXGLBa36wYM771t8i1AnO4nbAwZYUT3IVj/Ldet2/l4hX9BqiPO5sLN4Go5PBowdOvznVF337TDO+oYz48I2JFSGC9Btha6jQY6fh8lk8uelUlFbZDqd5KgJv4OlnbZTgnK5TEOKb0WxvRGdktTiKGWZjLjWZMfjzi/LZU+z37X49T/JVJJGBB8K6kF++buPjWW192CbLwM3cTTSY2JiOxpi2n1DJpPJ4rpebZRpi0SQF3PdKl9QaRGjdbB2AZaIQnu4TPe6gEFplUqlw5aIkp8BMJBIJv9oKHbUMJ0kC5GBvjEM8vn8d7bMzGq/rTLPJddGnIqO7nSAI1XzwZ09xI8B/42Y58ccZ9HaAt3ODzfO2g0Usgbeme5P5ZGYm/L5ovY6mVQqRWPnuR7z8BwN7cMuFApPQALd+qXJeQ/Smbob5uZy2gtb53ngfjmm+bZK93oYKNp9Si6XY10a8wBj6ie6RgQLkM2OsF/gh2/50y9sSCYT2qNzPmV+cz5fIJc64uyZmdnD2IZ1EklcIwa4H5XubcMoI0kUPgPaHV/4Km7NEZ30f+bm5viJA9PGSEPonZB2LTqOZwKci8bP5g7nHeAROPsb4EyA6ytqN0vXhakA1H7gxILrcKAsU9U7CI7gaXAe5r3XAAAQAElEQVSnS4/nUti2PVUsFrgbsec0jIh0drVafRt0o1HFIL9wWCKRWAthWmWGHkhimT6tWijPlkKhyAWulOMZSGe7rnor8qcx4Tldu4iQldm0afKVGLnV4oAyS6XKHHTSrk+mJYrF4pVzc3ntiysWi9mVSuV/KMNHnJROp9v2La3yUspsg9y6PHA4lc/n+I25epAnP5VKrgSHnJL2FD/qkZRSHwIuAy4FfjmPXzT4PPdT/P4+8A3g68CXgaCn03YAd1rXB+oUSSz94WemEoTKQN8YU2hUarfddj0TF712p9nAKG8e3HDzIoRxYTA/KPlNXES8+E6G/z7gPOBKnP8X8AeAQ+BMt3ARTE5uVps3T+GUplNqQYZmyr6LbmBrapURN+1btBJsjWwjHdctvWHrz+7/oq3ECoXCF3EDZRvREoi2zFElGuta6RojK+Ua8WBZilNRJzbK6vL4vStWTOiNyGy9khWmBv/UTd4jIyP35fK5soEMXI/2PkqppxikXZYEcnYpl8svxgnIxd8euGpVcV2OVs7ZbDaWSqXerpXIQ2TwkQFopLCfvRLHfwL+AtwA3ATwRY1b4N86j9vh/w2gsWN8b5qdneX6RX4O5gio+aR58DeP6f8Xwo4EngMc0wD+xs9gnOu6j9GVjCljJjFaI8qEnSDn/WPAuMH6p4KWpHM2b542foKdz4kdHUcmdsZv7kHFi+ndOP4wcBrwcuAQgOc5Jcj4BIJqTs3N5aqJBEXUfnv+g06iUY7ndL2M6FhmKqOsTpB677TTjt+AEUNjRCsbGOU0ejjd+zithK0jn5pMJmmgaxM1OzvHUQTultxaeocz69fves5SHrbaKO0TwqiMYZTuNNTTo9rH7HwWMg6AYfhmyNSrczAG3dX4+PjZnXNpHQN1qmZnZiZbx2h9Jh6PxZVyz1VKdfX6OdJzNOqb6Be4Hg0la51nqzMsR6tzXsPxwHkuONW6LpCvk88XXoky+L0Q/WjozV3BD4VPQ4Ij/Q/HMd8e5DXDkSC+gMG9mAi+kLGhXCwnoJNWGSBzwRWLtQWVrINOYHutg339c8AB0yzI8usAcneGoU1+teTDmCIPd/mlh8gJjgE2pOCk+ywZF1hh7drtTymXK2xgfkln416KlrJxUVhr1+7wK8exVctILU4oZWiZtJAXSrBhC1FdTll4KNt3pqe3mA5/j0D+RUopY4MKaW3gPcDJ7YwIhYxaOJVMJv7KNt3ivNfgb05NbaFRthCfjXnhR5sDTHNxQf5PUAY+rbeJ2foU0j4aZ3+JkQ3thedIZ23ePEXdf8jjbjA2NnY5puza0N1aum073K2a0z5GBhU4SEA6DUKOYjehH2c9uS6SbpP/tampaXK6LcTDUSaT5jIGTndxOYSHFO2jgBN+eeJ9iMVrjQVrBIKbu2rVdROpxGebn/UWumrVyt9gFKgW2WODqOmG/vkgJHoG4KsDF5R/hsk1ks8XOeLKFyx81annwtRpzog6f6dRdeGJCfW1XzrqvNsc9bV/2Oprd8K/BWGXp9UF79lOfXt3S13OB5Weq9xJAcNbZSexwZ3HzeezhULeaJsEP7TCqFQ5lUqeZyJr/qIySdq7NK5Z1m6Xr3l3yhXtYBLGwFXg1GN/uUgiOzd29twX6mOQkV10tsMPxOd2B79AtPdDD95IcdjcMaNmZ/D0zBGZ05ud0wlD/vmRkfTlrus256F5aD0Lqse32WhQfQHl8mxMMC7wBQjiNCW5pCz89O6QXk1MbHcxymBqFC9ktn79rp+Aca27+LqenrpzNPoa6HRwPdCLj/jc6uIyxH0FwFFPeL1z4HIORvpvoVf7ml+uIh8OOErJ3bqNDOO6SOTN6+l8/OYWILzHkF/87Ogw6j/L9RM/7hizfYRz8vmtX8zwmjHF2bZFQ/Jr0J8vkzCoa0AWVTgFgl4AOICWU8rdZNu29rpIrUzCjKwuiCXV9462rQ2356yZu2atTZ8sW/knu1ZhL9fKr1dWfjf4D0XYEwvW5g9OW9O3W+pv9yXVNz9gqbNomIeprVZe2pWrJT2gyHgKfUUul+u6AzZQT5VKpVsxjP57NPCtndXWv55EKdV/a6YMbSnLtoMv6+rVq16PkY2FNzw9VcK2SOzk2OmfhCCun+Ni1BehjrYH+AYnby518Pc6hL8J4PoeTs1xKwTTm6dCZ889gWiQIfvuHKbJ3jo9Pc0n2OWCWMrloY0hjMFRCX4DjDz8CmV8I8C1RNw6gGXnyxgphG0AyAHXEnLqgWmYljK0X6/YsmVLIZPJvLlRmS6OrwOnxm8EIl+WgevIuL6HL6m8FmVdAbDsbAd1n8dphB8B/BLpbgQeDyz0pXNzcxaBsJ64lStXnrhly4z23iHo08gB1xPRqDwI5eNvz2VAfHL0VCS4FuBo5wIn+O3F8QHjQuihrfsS4XfiYWXzkjAvP1neFYh4CcrChwvuS8cwBOk5pGc74RQmDW2O0GmPrkCGQl3+XC/nCMdWF2AqN39zyXrwOzCacK0pctKOX55zLNtdVbJmT7Gr6l9x9VW2r0gW0omkVh2UwsV21cjIyHtwwZje6zvk0PS0ghFVWrlyxevT6fQ23ljdTaMvD8TFoRF7efpehDiO9j2ypqZbtQIvK9rBrZhiu9h1W4zK1DTp+Id1ydEZbpnwLcSmkbAR/r0Ab870+ftv+P0p4JEAn5CYDof6jtPUGJF5G/Sv6qdengJy/pZMJi9y3a554AJyGomfRi7ckZzlfhDH9PlaNxe7fxK/uQaGa4MWcaBT4S7+4aHoPOjuyxQG5Ljr1u18Zpd9AovAtTNc23MWykmDl+WmT7AtUF/y8TOc54JmTpWSB6ZFkKU2bZqszszM8lgLjsHSgWYZgIu/jY2Nng+KNR71FiSxLFzPxLdMaVSegH5rB4BGNQ2EejkthPF3Av6ewAchgXuFcVSJa4N0HzQUHpC5Q/h7Iacrh/LDCFlxnmH5WT5e36+DEn8HuHCeLycdiDLuCKwGVgI0tCfgEzxeheNdAK674pTvrUj7F4BGJY0GHOo5GMS8v31OL1VEY6vzYaRPgY8C2wbbmK6itorZqyqV/E8tdR7fytdNH3h8g0IFrpOnDHDBnIHO54JqtWrSYXjKozESLhIFI+os5Ms3/fg03nh6YI9d18sIU7Mq6O41b6+Ewih59ezsrMlT6NIs2InyBsC65dPpDojAjS3p8zdvsoyD4K6ccl33Bkj4LuCby2azx05Pb9nkg0CWkf0CbwCc7pmAzJUAjSdOg/AcfnblODL3IAxhv98g+9Jm/OtKs22JWU62BU5hctsLtgNiDaJwE0W2FXKFn4tdKpnim2rNLorFEQP8BW7fkMvlafyZ5MJysa4PROLPAHcAfJigsXQj+kLieoTRuOZbzzS8+RIPRh5qU2VMj9PeHa4JhQfkz6B/paHqPWHrmB/O5QrdTI+xDDSUuSbwdGTDfp8j0rfhuBG34zf5IcgPr+vXIIyL6dl+KAc/W7g2rQRGOd/iI7ctEvdJsPrG/pY7fbFlKfYn3Skdd2JWae70mPoqXxzrTpbPqdlh+CwyPHGJROJl5XL5ElyItOCDyhjNXbm4yK9ABm8D6Ir4jXAeCqzmg1Ch8IN6mMI018uKxdpCTSvi/1SxWMqlUsmXQm9f+YG8/IoVEy/vBx6gYwXG34ugs/7wTZsKhrzc2rU7nAT5voz4tcmq5alSuezusHb7r7SMENIJcFEYHc2+FP1jN1NmNARoNNKo4PdN+fYdR632RTH4yRwaTzQ0eZPkvYTxcUrbKTwU0zA7VTtliwQo/+To6MjHa/eGFnE8BrNMLBsNo/qDBUeyaVRvDxn0aXDzgYs8cQ0l4zMdTndwLWJhytrdsGH9m1AOX/uJDtr4f1p9btQqbbnCcmzy54/8ZCzmzs5+xVJfitTeaKx0fwrYAyloaC5Gi45yHOuLlUql+ZqR7vRiQ4ahZl8OMUciv/r6HIVjnkPwYDvHcOrBiTmh8YO6+FkqlTrXh44z0MqsVKqVVCp5HPTljcP3vCCXPHw5yjxQt1QqdQZ05cJ13zmAwPNKpRL3Mwqg/XUWuWV6hqOk38XIEPoNaNNDR47xwPlZct5DNTplrWDwPQA9nwJ9/e7DPwojjaNFnSuuk5YhnsfIH43Lq8AH90MMMecgslrxRSsZ4/IBX4Wr0UTKnilEip++NqZYO2hwGDWKvTEejz+zWnXvRJhfnRgvQD7V8SnzacinANl1l8Vvnq//HlK/NQXgx6968MrtG3HTuJwdkdcEYcaDXtV4PHYaeOFbTkFm/QZXuVxEHjb/HcsEDlwYGd9DRE4JwfPfgV81NjZ2dC6X41thrRuoUdYthhHmZblu1d1uu7Gv4ee0bVvaedu2rZ0GeXVybwfnPyb3nSL24LzCA8YMDKlnoeymU5It1YbMMmQ/pVKpUHYQ3LbMu4sTXHN33+joKDce7UJMBJKqCzJWaer5QWmibLW/pT7PN0aDykJLbt8bU/XS4sK5LBZz+PbEWxDGeXyToX5ecLwJ5SHj9wAXDx4P2UtlHRiPJ7S5gxzKh9j+ce11bn1zQQe+lLNACw093Xg8/rRyuXqpi3+BZqYpHDeyKvQ7HeDGsJqp9aIjDzceix+JB4ufgwa2ZU8Cgm6Y4ICjudxP6hjoGGh2kP9vTCMeg6mSMN/4VRs3brofN+/3gXBbBVpC5ODRgQtq8nz4P9JpDx7FdxUNRs4WPGA8HbrxDdmuZLVKDNn3o1/4L5zv5lNkSB6KUzMzM1tWr17FUbrpUHIMNJPiCzEq5d/03lJdR1OOVVSfWBrcq9/aBkGvFPWSLy6cMsAFk7sjPvf14FQCn0q4EJFTdLy5EOxgCB4THF7mzuoc2eLeOQ+DnMcDVwKMB3GLHOfGFwV4+mHrP60ukxtyADo7cqOdazKeDPNGVtMPdVVNJuPPgCF3DowJ1nctfNmfZjW6LJIvAXjyrpSg10mAb+tBOmmGvKrxeOxZ4OHsSqXqyahtbRZ3yK0zlwo38Qp04nV1NHxP+nTIteNp5PPzTCZzMqaQlrWDzip3FL80guL+c6tWrTwW+bKvgac/yoREAahmWZDLPu75aA+fRl3weg4kH8v7P74ZfTeMnEdBN26z4T2lQUzkwTfruKEqF9GTCwMpgSdRmJ6exKgql5NwajLwDIPPoMw3Io27Fi/62RtzvnwKykteneIMlDFVLywuHnbeP4TP17y5uzE3WeTTyWmI83nXcs9Bp3IOjvkKOD90yo36+PmYPZHmvwG+Ho/TLZ0Rb04ww/gtlfTjRCwWM7n5qWQ6yU7bDxW0ZKDuMO1rvy4Wc/gpCxrSy28cgV7eC+qy0/43bhhHQCduJ7BwIowD5EkeToBRRR74VtByHvxQpD2XbrVancRN/IXQ540AOfEjV08ykN8nMVJ0XKlUzjUmaK9yY0xPx6pYLBay2ZHXIa/ankCTk/yyjb4x5Sk3w0jggiODb0VdvAB9H7d7ohKw6QAAEABJREFUCKY9tNePA5Q0br+fTqcfCp34Blz7FD6dRV4cmeInbbh1A3XwSbIvYlAl7l+SyeQjoCe3pPBFaO+FVGoLxIPUQ43EM5b6NN+0DjIbT7KNjAJPkiMSCY2TNxXuIvtbHH8QeFPMjh0fi8U4ffdW/P4UcD0wA3jtYGImxbPt8BZlm+jXLA16YO7wrH3/QcfAqdJmIkMJQ11ySolGNPeG4qhjGDdyth/mw9EJjpDSOOdboKGUuVkm4OEHCCcP/EQH9aKOCArUkQPW/w9wnXGUlzoEmmEr4Sj/V5PJxJNg1P0DcagXPN+cgtzpVCr1GuZTlwqjKgkjljdsLa5h6PitX12lBR96/hj5cDnEtxHI9lDLU0tRJNR0FM+HsluR/5MBjlAuMnA15RlFR76bAe4n90wI4PYGLDt1w8+eOLdSqbAOPo46OQS6cXlKTxTxPVN1mmNVXW4h4rvoRQKTMdybUmYzRYsEdf9j4I2p7ilqKgEV2DS8bSAuGHYobeNE6SQeI51qpcLXfk3U8mPPI5N8F9Kgc+K071sRwNe5ufCbi5Jd/Pa7A6U81i3f5DoX8vdC3m8B+AIDfvbWQQ9ONZ4ILfhKOxeAcz0GeUCQb44cUCa3O/g+pPJjtrxp+rVvEESaOZT/ahh1LPuZkMA6op44NHYsK0der4TcwyCfbWtBGMISMODq09yMu3CuzYHCKCYNsDZR2p3yfg76TgEvRQrW0YXwN6ND65YTiFnmWHbyxF3in42z+yHfnj5cQAcLOlwKn+2BS0H+jGMa/tQVh1bQazGYD/sKboZ7Nup8N+jzLoA81fIfjD/7xEE09ypDcVhkeEG4RBxNd2x1EKJ1ZYoxpcvY1vi8GLYeafyNxZwgOiwNDbSj7pRKJLVfa8W0CjP6C/9EAeio/g38P+jCUbY3wufnLjgXww6MdcKrncCplo7nG8F0TE/DhAtoj0PKXZEPRzy5WzZ+RstBt7uAF0IrbkbK6W1uQkj9eRNneVg+nG50y4IYUAfTkAOO/FEWd69+CPMA7gQYr1FYz46hSx44CQpwbySOVnJ3e+rOMrTSk+F1MB6ve9542X6eA1mPg8xl21yMjIwUR0dHuU6HywXuRjxOs9KoZJujMUejnuAxwTrYsvvuu1EuoofjoPs/gRcjN45cvgP+XwHq09geWH4Et3WMQ9Q54kMEy/wdpHo4gXx+CvA8fvbeQRe+FMIRU36PkMs8uOM963IKd+fGdsFydQOWme2Gb4Nz2cElKP1RwE7Q4QSA7QI/B83NOZZSoJLlmvd46BMWS6zEfRLblRgxpszo48WhnTJmtv5IOx8fExw5OjbGTei0RFarFXY+3BlYK13QkdFxcSr3i/DZgXKN3OHI838BPqlyp2HeALlIlZ+R4MsI/8Q5glNExK34zRvexfA/BDwW2AHyHg18BeCoDIKi7aAnDQtOb/PpnJsO8mbyUWjNbwXeAJ8c0BDAtIPNtSZ14LfFc7zpcu3JKYjLtGsgk6MOH4bPmzGCo+mg30aAhiQ3oXwctPwScBVAY5BlY73Pl92iIcTf5OSniENDfB3Sc+H0JfDZzhG82CF8EjgU4KgDDZWdEIO7p/MJmiO93FGeWIU4K4GJeXD0BlHDdcib18UZyJWf0eEaU37/jOtJf4Uwlp1rm3hN8Brg9UB+6iA/5I4Lyb+O+K8CWOadIZdvbt4CvylPiNdzR92Am4EToAyvB+r+fBxzmp7XOcvF0SuOrtHYYh9BcJqwDvZ15IhgHHLGNLye+GmZl0AeH+TYdp6JvNh2aLAheFBdqWo5wQ0eNDQoHNo0VHtOpBhTZlWAjlFpc5dKpfhUa5ZjyKkwxWdPT0+fmEolFz8EeNADI1N8GuON10Ps3kRBh1YA+LbmyfD5Bs1B8Lm+h5+BIPaAZtzDhNgd54h94PNG+mz4pwLXAHwKR9T+dNCfU6HXwX8P8FTgAIBrvdbD50jbLvDr4G9OYXKh7HMQ/hGA6w37jgPoXQGuBl4P0PDZFz7LzXqul53l3QPhDweOAvg5KY4uaVU20qlW0BIUcOR5HXPwLwe4npQvT7DsrHNeD3xLmtcDFxbXgHjki4Y0R+lehd/fAO4H2AcErLG/4qEz62kL/IsBTtPzOme5+MDAETZOi9LgIrh0gD7BY65D46J6tiNydjBk8Hri6BM/3kwjvu84MWf4+ApGpoLvF0oVqFjhlCn83jptgyAcdaOdy8yWmSdjrltXSTUykuFTnW66XsV/AfTl5yO0jalcLseLiNMYvdK9q3zRCbJTXYSuBEpiYWAAGBjm66JZ2RHGl5vqqPUXA1DN/hSBb647TvD3gCK3frkrEjMCjj/MDY8UjNiMFIrFA1BiLSMD6azR0VEOFSNptB103bFQKH4+kUiavLWIYVfrbnQ09KNdUNFOGBAGhAE/GBAZTRhIcvq3Sbh/QXa5usmyT+PwlH9CDSWJMaVP3FtWrFih/SpmqViiccFv/OnnGGIKGFJcS/TLdDrF9R1aBiPVLJcr1o47ruUnePhTIAwIA8KAMDCUDNifxVQf73vBlF4pS+24kmv7gpGvKVWMKQ3CYGg8ZHZ29h3xeEybt1w+z0Xr12hkF2pUlC0G8E0vLpzk/L+2IUWF5+bm+Eq4GFMkQ+A3AyJPGBAG+oaB9C+sihvcCykzRdxrFPfPiwQj2kZBJLTugRIwNLgA8wpM1Y2bZF+plB/A1BdfgTZJ7nsalMcG0sDDAL7JwzeZvoWM+HaXkSGFtNwr5yqUcyOOxQkDwoAwIAwMKwP2i0pWYtX7Axmdwk3LGh8/y7Jfw21ZIsGwGFNtqgH15QC7AechGl+d3wW+tqGhlOuuWbOGr2AjeXdOKbUHcC1wI/CXeVwH/4Yl4PmbEHbzPG6BfxtwB8DXnLkYnnvtcD8ofhyar4pzvw7bMlSxUMhXR0ezbzNMLsmEAWFAGBAGBoqB7T9v2WluJ+PndJ+yc+UHLCv2rihRNTDGFAyEZwNfB86ex3nwvwWcP4/vwL8A+C5wIfC9eXwf/kXAj4CfAJcAlwP82CRf7+ciOm74OIKKswFtNzOTKyCRX99n21AoFPaHPL6Oy9d1Cf7mK7p8dbcO/t7HUhbfyCM4dbcX0nGEja83c98T7nXD7xr50Q5ULOZwqwFuYIlsxAkDwoAwIAwMNQP2kyqWpY6yrAz35PLFoLKL1TmVHXmWZb+Cn+Kp0RuFP37cRKNQDmtmZvblUOSFADeNezV8GkDcLI07/BI8dzTC+QkBbsr2PBwT/FYTdzN+Fn4/HXgawM0caaxwMXYav415glHmjo+PfgtTX35N8dmu61IfGnZLAVWXOMZYEhTEz3y+UEgkUvxERRDiRaYwIAwIA8JAPzJgH3ufZVWfZFmjfNB2uyiCssrVjSqVeCym9yirC1H+J+VN2X+pPZBYKBT5hl0cWRN8pZ9loylhCojq2qm5ubkpSOE0Gjxf3JwvUroU0viIAePOzWTSp8Jg5E7ZXUqW5MKAMBBNBkQrYcCQgZpBVXqCZW33IctKcuPbxltIJ6GMW7SsxPlWIrW7ZR93facEvTjv9CLTYPJUJJzlofEUTBaaUsvlSnV0dJTfavPTAIrELup1kjny5jjOD2FI8bMsmgxJdGFAGBAGhIGhYMA+tmDZLznVsrJ7OtbE6ZaVudWyUpssyymh/ByxaoCN6cH4rGXF77Ks9KctK7nesl/9MitCC86h8yLnLPrVxz+Uq/95lyCLy9GaRCL+QRgZ3/M5HzQynyWai4MtpfgdKpneM+dwWUoJEAaEAWFgYBmwXzTp2i9+r2W9fB/LGtklZW13QMxa/SrHGn+nY42eFLNWvcCyxjYA21vW3Rss+5VvsWojW1ak/w2MMeWqaiw6TCsXozX8RtUHAtDJDkCmiUhVLBRvRzkPh8FYMBEgaYQBYUAYEAaGlAF+csZ+Ub5ov+i2qv2Cr7v2MZ9w7ZedWbWP/oFlH3O3hXOWfRpHq/qCoIExpqoVpWlMBVM/HJGyLPublmUdCwTholBOVyn161Q6dTAMKb8W1gfBlcgUBoQBYUAYEAYCZ2BgjCml3F6P2KhqtVrESM37UGuvhJERlEXdS2NKua7iKNTHUb4jAMxpo7TihAFhQBgQBoJlQKRHmoGBMabcam27gF6QzYXv/FTMVbFYbB8YGKcDDAtKl14YUyxPBQX6nePY+6J87wKCMhaRjThhQBgQBoQBYaB/GBgYY6qqQjWmaFzQmOCbdVejup8I4+JQ4E4cB+1SQWcwL79eRo5E8Xt9HIl6QkhlnFdBPGEgdAYkQ2FAGBAGtBkYGGMqkYiXUXoaAAQOfXOUR9B4Yh78FtAdkP4RYA8YF4cAv8NxWG4E+VEfws88KY9lLEIo9wG5Bf5Hgd2ARyHP38AXJwwIA8KAMCAMCANLGBgYY2rdup05esJvzRHcPJL+vShvM/wH4QTjMO7d+H0XwO/V/QM+R5hoMPG1/yvwm9sbvAP+YcCOMCz2Bk4BKANBobqNmUyGem9Ersy/jno567/pM14jWFZ+IqdeTn6jj5/LuRKyLgJOBA4C1qJsnM57D/z7ABpaCPbRiShhQBgQBoQBYWBAGBgYYwo3fH5gd1fUC785V/d3mf/NsEbwPLEe5znysgE+v1m3J3x+v47gt+wOxG9O4b0Q8s8A/gT4uQEnxOs55H8NUlDntfBZvkawjCxXHSxfI5hud6RjWQmWcz/Lsh8LuS8APgfcAnAEzpJ/woAwIAwIA8KAMGBZnTgYGGOKBYURoObhwieq8CsGYDqmJyI3KoPyLC0n9aTOXsvKuExDQJYVuTKyPgXCgDAgDAgDwkA/MDBQxlQ/EC46CgPCgDAgDLRiQMKFgf5kQIyp/qw30VoYEAaEAWFAGBAGIsKAGFMRqQhRQxgIkwHJSxgQBoQBYcA/BsSY8o9LkSQMCAPCgDAgDAgDQ8iAGFOBVroIFwaEAWFAGBAGhIFBZ0CMqUGvYSmfMCAMCAPCgDDghQGJY8yAGFPG1ElCYUAYEAaEAWFAGBAGLEuMKWkFwoAwIAyEy4DkJgwIAwPGgBhTA1ahUhxhQBgQBoQBYUAYCJcBMabC5VtyC5MByUsYEAaEAWFAGAiBATGmQiBZshAGhAFhQBgQBoSBwWXAD2NqcNmRkgkDwoAwIAwIA8KAMNCBATGmOhAkp4UBYUAYEAYGiQEpizDgPwNiTPnPqUgUBoQBYUAYEAaEgSFiQIypIapsKaowECYDkpcwIAwIA8PCgBhTw1LTUk5hQBgQBoQBYUAYCIQBMaYCoTVMoZKXMCAMCAPCgDAgDPSSATGmesm+5C0MCAPCgDAgDAwTAwNaVjGmBrRipVjCgDAgDAgDwoAwEA4DYkyFw7PkIgwIA8JAmAxIXsKAMBAiA2JMhUi2ZCUMCAPCgDAgDAgDg8eAGFODV6dSojAZkLyEAWFAGBAGhp4BMaaGvgkIAcKAMCAMCAPCgDDQDQP9Ykx1U0ZJKwwIA6e/pEwAAAE4SURBVMKAMCAMCAPCQGAMiDEVGLUiWBgQBoQBYWA4GZBSDxsDYkwNW41LeYUBYUAYEAaEAWHAVwbEmPKVThEmDAgDYTIgeQkDwoAwEAUGxJiKQi2IDsKAMCAMCAPCgDDQtwyIMdW3VRem4pKXMCAMCAPCgDAgDLRiQIypVsxIuDAgDAgDwoAwIAz0HwM90FiMqR6QLlkKA8KAMCAMCAPCwOAwIMbU4NSllEQYEAaEgTAZkLyEAWFgngExpuaJEE8YEAaEAWFAGBAGhAETBsSYMmFN0ggDYTIgeQkDwoAwIAxEmgExpiJdPaKcMCAMCAPCgDAgDESdATGmttWQHAkDwoAwIAwIA8KAMKDNgBhT2pRJAmFAGBAGhAFhoNcMSP5RYkCMqSjVhugiDAgDwoAwIAwIA33HwP8HAAD//ysPPrMAAAAGSURBVAMADA6SFdiA9a8AAAAASUVORK5CYII=" x="705" y="50" width="134" height="45" preserveAspectRatio="xMidYMid meet"/>
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
   </g>
 
-  <!-- Bottom Right: Right-Aligned Name & Role (matching profile banner 2.png) -->
+  <!-- Bottom Right: Right-Aligned Name & Role (original monospace styling) -->
   <g opacity="0" transform="translate(0,6)">
     <text x="835" y="285" text-anchor="end" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="0.5">Glenn Joshua Corpus</text>
     <text x="835" y="318" text-anchor="end" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="4.5" opacity="0.95">SOFTWARE DEVELOPER</text>
