@@ -11,27 +11,27 @@
 
 <!-- ─── ABOUT ME ─── -->
 
-<h2 align="center">🧑‍💻 About Me</h2>
+<h3 align="center">🧑‍💻 About Me</h3>
 
 <div align="center">
   <img src="./neofetch.svg?v=2" width="100%" alt="Glenn's Terminal Profile" />
 </div>
 
----
+<br>
 
 <!-- ─── TECH STACK ─── -->
 
-<h2 align="center">🛠️ Tech Stack</h2>
+<h3 align="center">🛠️ Tech Stack</h3>
 
 <div align="center">
   <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
 </div>
 
----
+<br>
 
 <!-- ─── FEATURED PROJECTS ─── -->
 
-<h2 align="center">🚀 Featured Projects</h2>
+<h3 align="center">🚀 Featured Projects</h3>
 
 <div align="center">
   <img src="./projects.svg?v=2" width="100%" alt="Glenn's Featured Projects" />
@@ -96,11 +96,11 @@
 
 </details>
 
----
+<br>
 
 <!-- ─── GITHUB STATS ─── -->
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h3 align="center">📊 GitHub Stats</h3>
 
 <div align="center">
 
@@ -110,7 +110,7 @@
 
 </div>
 
----
+<br>
 
 <!-- ─── EXPERIENCE HIGHLIGHTS ─── -->
 
@@ -150,11 +150,11 @@
 
 </details>
 
----
+<br>
 
 <!-- ─── CONNECT WITH ME ─── -->
 
-<h2 align="center">🤝 Connect With Me</h2>
+<h3 align="center">🤝 Connect With Me</h3>
 
 <div align="center">
 
