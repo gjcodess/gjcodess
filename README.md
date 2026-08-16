@@ -64,42 +64,24 @@
 
 ## 🚀 Featured Projects
 
-<table>
-  <thead>
-    <tr>
-      <th width="200">Project</th>
-      <th>Description</th>
-      <th>Tech Stack</th>
-      <th>Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>📱 Abono App</strong></td>
-      <td>A premium, mobile-first, offline-first application designed for friend groups to seamlessly track shared expenses and simplify debts. Features beautiful animations and robust syncing.</td>
-      <td><img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=react&logoColor=white" /></td>
-      <td><a href="https://www.abono.website/"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a></td>
-    </tr>
-    <tr>
-      <td><strong>🏢 LaborConnect</strong></td>
-      <td>Full-stack labor union management system with member portal, admin dashboard, department ticketing, AI-powered features, Stripe payments, n8n automation, and encrypted backups. <em>Capstone Project — 2nd Place.</em></td>
-      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" /> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" /></td>
-      <td><a href="https://www.laborconnect.app"><img src="https://img.shields.io/badge/Live-00FF99?style=flat-square&logo=vercel&logoColor=black" /></a> <a href="https://github.com/gjcodess/ThesisProj"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
-    </tr>
-    <tr>
-      <td><strong>💻 RDS AutoBill</strong></td>
-      <td>Desktop application tailored to provide a frictionless experience for managing sales and invoices. Tailored for local business operations, it features a highly scalable cloud-enabled desktop architecture backed by a robust Supabase database.</td>
-      <td><img src="https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black" /> </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>🛒 Gcorp.</strong></td>
-      <td>Full-stack e-commerce marketplace with JWT + 2FA authentication, dynamic cart system, voucher integration, product reviews & wishlists, and automated inventory management.</td>
-      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
-      <td><a href="https://github.com/gjcodess/WebDev_Project"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a></td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
+  <img src="./projects.svg" width="100%" alt="Glenn's Featured Projects" />
+</div>
+
+<br>
+
+<details>
+<summary><strong>🔗 Direct Project Links &amp; Repositories</strong></summary>
+<br>
+
+| Project | Type | Tech Stack | Live / Repo |
+| :--- | :--- | :--- | :--- |
+| **📱 Abono App** | Mobile App | `React Native` `Expo` `Supabase` `Zustand` | [🌐 Live Website](https://www.abono.website/) |
+| **🏢 LaborConnect** *(2nd Place Capstone)* | Enterprise System | `React` `Node.js` `MySQL` `n8n` `Stripe` | [🌐 Live App](https://www.laborconnect.app) · [💻 GitHub Repo](https://github.com/gjcodess/ThesisProj) |
+| **💻 RDS AutoBill** | Desktop Invoicing | `Electron` `React` `Tailwind CSS` `Supabase` | *Client Production* |
+| **🛒 Gcorp. Store** | E-Commerce Platform | `React` `Express.js` `MySQL` `JWT` | [💻 GitHub Repo](https://github.com/gjcodess/WebDev_Project) |
+
+</details>
 
 <details>
 <summary><strong>🎨 UI/UX Design Projects</strong></summary>

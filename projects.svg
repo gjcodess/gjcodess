@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="869" height="588" viewBox="0 0 869 588" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F0E1A"/>
+      <stop offset="1" stop-color="#090812"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background & Window Border -->
+  <rect width="869" height="588" rx="12" fill="url(#pbg)"/>
+  <rect x="0.5" y="0.5" width="868" height="587" rx="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <line x1="0" y1="30" x2="869" y2="30" stroke="#ffffff" stroke-opacity="0.35"/>
+
+  <!-- Window Controls -->
+  <circle cx="20" cy="15.0" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="15.0" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="15.0" r="5" fill="#27c93f"/>
+  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle">gjcodess@github: ~/featured-projects --grid</text>
+
+  <!-- Project Cards Grid -->
+  
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="24" y="56" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="40" y="82" fill="#00FF99" font-size="14" font-weight="700">📱 Abono App</text>
+      
+      <!-- Badge -->
+      <rect x="315.8" y="69" width="95.2" height="18" rx="4" fill="#0d1117" stroke="#00FF99" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="363.4" y="81.5" fill="#00FF99" font-size="10" font-weight="700" text-anchor="middle">⭐ Production</text>
+
+      <!-- Description -->
+      <text x="40" y="104" fill="#c9d1d9" font-size="11.5">
+        <tspan x="40" dy="0">Mobile-first, offline-first shared expense tracker &amp;</tspan><tspan x="40" dy="16">debt simplifier for friend groups with real-time</tspan><tspan x="40" dy="16">syncing.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="40" y="144" width="99.6" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="47" cy="153.5" r="2.5" fill="#61DAFB"/>
+        <text x="53" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">React Native</text>
+      
+        <rect x="145.6" y="144" width="45.2" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="152.6" cy="153.5" r="2.5" fill="#ffffff"/>
+        <text x="158.6" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">Expo</text>
+      
+        <rect x="196.8" y="144" width="72.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="203.8" cy="153.5" r="2.5" fill="#3FCF8E"/>
+        <text x="209.8" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">Supabase</text>
+      
+        <rect x="275.20000000000005" y="144" width="65.6" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="282.20000000000005" cy="153.5" r="2.5" fill="#764ABC"/>
+        <text x="288.20000000000005" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">Zustand</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="40" y1="174" x2="411" y2="174" stroke="#30363d" stroke-width="0.8"/>
+      <text x="40" y="192" fill="#22d3ee" font-size="11" font-weight="600">🔗 🌐 abono.website</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="442" y="56" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="458" y="82" fill="#00FF99" font-size="14" font-weight="700">🏢 LaborConnect</text>
+      
+      <!-- Badge -->
+      <rect x="674.4" y="69" width="154.6" height="18" rx="4" fill="#0d1117" stroke="#ffa657" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="751.7" y="81.5" fill="#ffa657" font-size="10" font-weight="700" text-anchor="middle">🏆 2nd Place Capstone</text>
+
+      <!-- Description -->
+      <text x="458" y="104" fill="#c9d1d9" font-size="11.5">
+        <tspan x="458" dy="0">Labor union system with member portal, department</tspan><tspan x="458" dy="16">ticketing, AI features, Stripe payments &amp; n8n</tspan><tspan x="458" dy="16">automation.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="458" y="144" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="465" cy="153.5" r="2.5" fill="#61DAFB"/>
+        <text x="471" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">React</text>
+      
+        <rect x="516" y="144" width="65.6" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="523" cy="153.5" r="2.5" fill="#339933"/>
+        <text x="529" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">Node.js</text>
+      
+        <rect x="587.6" y="144" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="594.6" cy="153.5" r="2.5" fill="#4479A1"/>
+        <text x="600.6" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">MySQL</text>
+      
+        <rect x="645.6" y="144" width="38.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="652.6" cy="153.5" r="2.5" fill="#EA4B71"/>
+        <text x="658.6" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">n8n</text>
+      
+        <rect x="690" y="144" width="58.8" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="697" cy="153.5" r="2.5" fill="#635BFF"/>
+        <text x="703" y="157.5" fill="#e6edf3" font-size="10" font-weight="500">Stripe</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="458" y1="174" x2="829" y2="174" stroke="#30363d" stroke-width="0.8"/>
+      <text x="458" y="192" fill="#22d3ee" font-size="11" font-weight="600">🔗 🌐 laborconnect.app · 💻 Repo</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.23s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.23s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="24" y="221" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="40" y="247" fill="#00FF99" font-size="14" font-weight="700">💻 RDS AutoBill</text>
+      
+      <!-- Badge -->
+      <rect x="289.4" y="234" width="121.6" height="18" rx="4" fill="#0d1117" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="350.2" y="246.5" fill="#22d3ee" font-size="10" font-weight="700" text-anchor="middle">⚡ Client Project</text>
+
+      <!-- Description -->
+      <text x="40" y="269" fill="#c9d1d9" font-size="11.5">
+        <tspan x="40" dy="0">Offline-first desktop billing &amp; sales invoicing</tspan><tspan x="40" dy="16">software for a pharmaceutical distributor with cloud</tspan><tspan x="40" dy="16">sync.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="40" y="309" width="72.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="47" cy="318.5" r="2.5" fill="#9FEAF9"/>
+        <text x="53" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">Electron</text>
+      
+        <rect x="118.4" y="309" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="125.4" cy="318.5" r="2.5" fill="#61DAFB"/>
+        <text x="131.4" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">React</text>
+      
+        <rect x="176.4" y="309" width="72.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="183.4" cy="318.5" r="2.5" fill="#38B2AC"/>
+        <text x="189.4" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">Tailwind</text>
+      
+        <rect x="254.8" y="309" width="72.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="261.8" cy="318.5" r="2.5" fill="#3FCF8E"/>
+        <text x="267.8" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">Supabase</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="40" y1="339" x2="411" y2="339" stroke="#30363d" stroke-width="0.8"/>
+      <text x="40" y="357" fill="#22d3ee" font-size="11" font-weight="600">🔗 💼 Client Production</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.31s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.31s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="442" y="221" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="458" y="247" fill="#00FF99" font-size="14" font-weight="700">🛒 Gcorp. Store</text>
+      
+      <!-- Badge -->
+      <rect x="733.8" y="234" width="95.2" height="18" rx="4" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="781.4" y="246.5" fill="#a855f7" font-size="10" font-weight="700" text-anchor="middle">🔐 JWT + 2FA</text>
+
+      <!-- Description -->
+      <text x="458" y="269" fill="#c9d1d9" font-size="11.5">
+        <tspan x="458" dy="0">Full-stack e-commerce marketplace featuring 2FA auth,</tspan><tspan x="458" dy="16">voucher discounts, reviews, and automated inventory.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="458" y="309" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="465" cy="318.5" r="2.5" fill="#61DAFB"/>
+        <text x="471" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">React</text>
+      
+        <rect x="516" y="309" width="86.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="523" cy="318.5" r="2.5" fill="#ffffff"/>
+        <text x="529" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">Express.js</text>
+      
+        <rect x="608" y="309" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="615" cy="318.5" r="2.5" fill="#4479A1"/>
+        <text x="621" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">MySQL</text>
+      
+        <rect x="666" y="309" width="38.4" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="673" cy="318.5" r="2.5" fill="#D63AFF"/>
+        <text x="679" y="322.5" fill="#e6edf3" font-size="10" font-weight="500">JWT</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="458" y1="339" x2="829" y2="339" stroke="#30363d" stroke-width="0.8"/>
+      <text x="458" y="357" fill="#22d3ee" font-size="11" font-weight="600">🔗 💻 WebDev_Project</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.39s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="24" y="386" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="40" y="412" fill="#00FF99" font-size="14" font-weight="700">🍜 kAIn Mobile UI/UX</text>
+      
+      <!-- Badge -->
+      <rect x="249.8" y="399" width="161.2" height="18" rx="4" fill="#0d1117" stroke="#ffa657" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="330.4" y="411.5" fill="#ffa657" font-size="10" font-weight="700" text-anchor="middle">🏆 4th Place Hackathon</text>
+
+      <!-- Description -->
+      <text x="40" y="434" fill="#c9d1d9" font-size="11.5">
+        <tspan x="40" dy="0">AI-powered smart food discovery and gamified</tspan><tspan x="40" dy="16">recommendation mobile app design with interactive user</tspan><tspan x="40" dy="16">flows.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="40" y="474" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="47" cy="483.5" r="2.5" fill="#F24E1E"/>
+        <text x="53" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">Figma</text>
+      
+        <rect x="98" y="474" width="113.2" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="105" cy="483.5" r="2.5" fill="#00FF99"/>
+        <text x="111" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">Design Systems</text>
+      
+        <rect x="217.2" y="474" width="92.8" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="224.2" cy="483.5" r="2.5" fill="#22d3ee"/>
+        <text x="230.2" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">Prototyping</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="40" y1="504" x2="411" y2="504" stroke="#30363d" stroke-width="0.8"/>
+      <text x="40" y="522" fill="#22d3ee" font-size="11" font-weight="600">🔗 🎨 Figma Prototype</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.47s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.47s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+    <g opacity="0" transform="translate(0,5)">
+      <!-- Card Container -->
+      <rect x="442" y="386" width="403" height="150" rx="8" fill="#161b22" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      
+      <!-- Card Header -->
+      <text x="458" y="412" fill="#00FF99" font-size="14" font-weight="700">📚 MangaVerse UI/UX</text>
+      
+      <!-- Badge -->
+      <rect x="700.8" y="399" width="128.2" height="18" rx="4" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="764.9" y="411.5" fill="#a855f7" font-size="10" font-weight="700" text-anchor="middle">🎨 Comics Concept</text>
+
+      <!-- Description -->
+      <text x="458" y="434" fill="#c9d1d9" font-size="11.5">
+        <tspan x="458" dy="0">Anime-inspired manga discovery and reading application</tspan><tspan x="458" dy="16">concept featuring immersive dark-mode ergonomics.</tspan>
+      </text>
+
+      <!-- Tech Stack Pills -->
+      
+        <rect x="458" y="474" width="52.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="465" cy="483.5" r="2.5" fill="#F24E1E"/>
+        <text x="471" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">Figma</text>
+      
+        <rect x="516" y="474" width="99.6" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="523" cy="483.5" r="2.5" fill="#a855f7"/>
+        <text x="529" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">UI/UX Design</text>
+      
+        <rect x="621.6" y="474" width="86.0" height="19" rx="4.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="628.6" cy="483.5" r="2.5" fill="#ffa657"/>
+        <text x="634.6" y="487.5" fill="#e6edf3" font-size="10" font-weight="500">Wireframes</text>
+      
+
+      <!-- Links / Status Bar -->
+      <line x1="458" y1="504" x2="829" y2="504" stroke="#30363d" stroke-width="0.8"/>
+      <text x="458" y="522" fill="#22d3ee" font-size="11" font-weight="600">🔗 🎨 Figma Prototype</text>
+
+      <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.55s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </g>
+
+  <!-- Footer Divider Line -->
+  <line x1="0" y1="550" x2="869" y2="550" stroke="#ffffff" stroke-opacity="0.3"/>
+
+  <!-- Footer Metrics -->
+  <text x="24" y="570" font-size="12" fill="#00FF99">✦ <tspan fill="#7d8590">Featured Projects: </tspan><tspan fill="#c9d1d9" font-weight="700">Full-Stack Apps · Mobile · Desktop · UI/UX</tspan></text>
+  <text x="845" y="570" font-size="12" fill="#7d8590" text-anchor="end">status: <tspan fill="#22d3ee" font-weight="700">active development</tspan></text>
+</svg>
