@@ -222,7 +222,9 @@ const glenn = {
 
 <br>
 
-<img src="https://my-activity-graph-glenn-joshua-corpus-projects.vercel.app/graph?username=gjcodess&bg_color=0F0E1A&color=E5E7EB&line=00FF99&point=A855F7&area=true&area_color=00FF99&hide_border=false&border_color=E5E7EB&radius=5&v=3" width="95%" alt="Contribution Graph" />
+<a href="https://github.com/gjcodess">
+  <img src="./contributions.svg" width="100%" alt="Glenn's Contribution Graph" />
+</a>
 
 </div>
 

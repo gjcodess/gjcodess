@@ -1,0 +1,39 @@
+name: Update Contributions Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  update-graph:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Contribution Graph SVG
+        run: node scripts/generate_contributions.js
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add contributions.svg
+          if git diff --staged --quiet; then
+            echo "No changes detected in contributions graph."
+          else
+            git commit -m "📊 update contribution graph [skip ci]"
+            git push
+          fi
