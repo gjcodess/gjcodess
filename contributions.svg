@@ -96,20 +96,20 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="236.54" height="9" fill="#f1e05a"/><rect x="236.54" y="0" width="114.81" height="9" fill="#563d7c"/><rect x="351.35" y="0" width="22.29" height="9" fill="#3178c6"/><rect x="373.64" y="0" width="9.97" height="9" fill="#e34c26"/><rect x="383.61" y="0" width="1.27" height="9" fill="#3572A5"/><rect x="384.88" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="384.96" y="0" width="0.00" height="9" fill="#89e051"/>
+      <rect x="0.00" y="0" width="236.78" height="9" fill="#f1e05a"/><rect x="236.78" y="0" width="114.65" height="9" fill="#563d7c"/><rect x="351.43" y="0" width="22.25" height="9" fill="#3178c6"/><rect x="373.68" y="0" width="9.97" height="9" fill="#e34c26"/><rect x="383.65" y="0" width="1.27" height="9" fill="#3572A5"/><rect x="384.92" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="385.00" y="0" width="0.00" height="9" fill="#89e051"/>
     </g>
 
     <!-- Language Grid -->
     
     <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
     <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">61.44%</text>
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">61.5%</text>
     <circle cx="466" cy="123" r="4" fill="#563d7c"/>
     <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">29.82%</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">29.78%</text>
     <circle cx="466" cy="147" r="4" fill="#3178c6"/>
     <text x="478" y="151" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">5.79%</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">5.78%</text>
     <circle cx="466" cy="171" r="4" fill="#e34c26"/>
     <text x="478" y="175" fill="#c9d1d9" font-size="12">HTML</text>
     <text x="590" y="175" fill="#7d8590" font-size="11.5">2.59%</text>
