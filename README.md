@@ -5,7 +5,7 @@
 
 <div align="center"> 
 
-<img src="./profile%20banner%202.png" width="100%" alt="Profile Banner" />
+<img src="./header.svg?v=1" width="100%" alt="Glenn Joshua Corpus Header" />
 
 </div>
 
