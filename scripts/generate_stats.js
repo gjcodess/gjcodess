@@ -3,7 +3,7 @@ const path = require('path');
 
 const USERNAME = 'gjcodess';
 
-// Fallback / verified live data
+// Live & verified stats
 const STATS = {
   name: "Glenn Joshua Corpus' GitHub Stats",
   totalStars: 24,
@@ -61,45 +61,55 @@ function generateUnifiedStatsSvg() {
 
   <!-- LEFT PANE: GITHUB STATS -->
   <g opacity="0" transform="translate(0,5)">
-    <text x="25" y="58" fill="#00FF99" font-size="14" font-weight="700">Glenn Joshua Corpus' GitHub Stats</text>
+    <text x="24" y="58" fill="#00FF99" font-size="14" font-weight="700">Glenn Joshua Corpus' GitHub Stats</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
   </g>
 
   <!-- Stat Items -->
   <g opacity="0" transform="translate(0,5)">
-    <!-- Stars -->
-    <path d="M 27 82 L 29 88 L 35 88 L 30 92 L 32 98 L 27 94 L 22 98 L 24 92 L 19 88 L 25 88 Z" fill="#ffa657" transform="scale(0.8) translate(8, 18)"/>
-    <text x="46" y="90" fill="#c9d1d9" font-size="13">Total Stars Earned:</text>
-    <text x="240" y="90" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalStars}</text>
+    <!-- Star Icon -->
+    <svg x="24" y="76" width="16" height="16" viewBox="0 0 16 16" fill="#ffa657">
+      <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+    </svg>
+    <text x="48" y="89" fill="#c9d1d9" font-size="13">Total Stars Earned:</text>
+    <text x="235" y="89" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalStars}</text>
 
-    <!-- Commits -->
-    <path d="M26 109 A 5 5 0 1 0 26 119 A 5 5 0 1 0 26 109 M 21 114 L 16 114 M 31 114 L 36 114" stroke="#22d3ee" stroke-width="1.5" fill="none"/>
-    <text x="46" y="116" fill="#c9d1d9" font-size="13">Total Commits:</text>
-    <text x="240" y="116" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalCommits.toLocaleString()}</text>
+    <!-- Commit Icon -->
+    <svg x="24" y="102" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
+      <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
+    </svg>
+    <text x="48" y="115" fill="#c9d1d9" font-size="13">Total Commits:</text>
+    <text x="235" y="115" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalCommits.toLocaleString()}</text>
 
-    <!-- PRs -->
-    <path d="M19 135 A 2.5 2.5 0 1 0 19 140 A 2.5 2.5 0 1 0 19 135 M 33 145 A 2.5 2.5 0 1 0 33 150 A 2.5 2.5 0 1 0 33 145 M 19 140 L 19 148 C 19 151 22 153 25 153 L 33 153" stroke="#a855f7" stroke-width="1.5" fill="none"/>
-    <text x="46" y="142" fill="#c9d1d9" font-size="13">Total PRs:</text>
-    <text x="240" y="142" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalPRs}</text>
+    <!-- PR Icon -->
+    <svg x="24" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
+      <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
+    </svg>
+    <text x="48" y="141" fill="#c9d1d9" font-size="13">Total PRs:</text>
+    <text x="235" y="141" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalPRs}</text>
 
-    <!-- Issues -->
-    <circle cx="26" cy="164" r="5" stroke="#f43f5e" stroke-width="1.5" fill="none"/>
-    <circle cx="26" cy="164" r="1.5" fill="#f43f5e"/>
-    <text x="46" y="168" fill="#c9d1d9" font-size="13">Total Issues:</text>
-    <text x="240" y="168" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalIssues}</text>
+    <!-- Issue Icon -->
+    <svg x="24" y="154" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
+      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
+    </svg>
+    <text x="48" y="167" fill="#c9d1d9" font-size="13">Total Issues:</text>
+    <text x="235" y="167" fill="#ffffff" font-weight="700" font-size="13">${STATS.totalIssues}</text>
 
-    <!-- Contributed to -->
-    <path d="M21 189 L 31 189 L 31 199 L 26 196 L 21 199 Z" stroke="#38bdf8" stroke-width="1.3" fill="none"/>
-    <text x="46" y="194" fill="#c9d1d9" font-size="13">Contributed to (last year):</text>
-    <text x="240" y="194" fill="#ffffff" font-weight="700" font-size="13">${STATS.contributedTo}</text>
+    <!-- Contributed To Icon -->
+    <svg x="24" y="180" width="16" height="16" viewBox="0 0 16 16" fill="#38bdf8">
+      <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.218.585L8 11.834l-3.782 2.999A.75.75 0 0 1 3 14.25V2.75Z"/>
+    </svg>
+    <text x="48" y="193" fill="#c9d1d9" font-size="13">Contributed to (yr):</text>
+    <text x="235" y="193" fill="#ffffff" font-weight="700" font-size="13">${STATS.contributedTo}</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
   </g>
 
   <!-- Rank Ring Badge -->
-  <g opacity="0" transform="translate(355, 138)">
+  <g opacity="0" transform="translate(348, 138)">
     <circle cx="0" cy="0" r="42" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="5"/>
     <circle cx="0" cy="0" r="42" fill="none" stroke="#00FF99" stroke-width="5" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="65" transform="rotate(-90)"/>
     <text x="0" y="-3" fill="#00FF99" font-size="20" font-weight="800" text-anchor="middle">${STATS.rank}</text>
@@ -120,43 +130,35 @@ function generateUnifiedStatsSvg() {
     </g>
 
     <!-- Language Grid Col 1 -->
-    <!-- JS -->
     <circle cx="466" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="478" y="111" fill="#c9d1d9" font-size="12.5">JavaScript</text>
     <text x="590" y="111" fill="#7d8590" font-size="12">65.68%</text>
 
-    <!-- TS -->
     <circle cx="466" cy="133" r="4.5" fill="#3178c6"/>
     <text x="478" y="137" fill="#c9d1d9" font-size="12.5">TypeScript</text>
     <text x="590" y="137" fill="#7d8590" font-size="12">15.28%</text>
 
-    <!-- CSS -->
     <circle cx="466" cy="159" r="4.5" fill="#563d7c"/>
     <text x="478" y="163" fill="#c9d1d9" font-size="12.5">CSS</text>
     <text x="590" y="163" fill="#7d8590" font-size="12">13.11%</text>
 
-    <!-- PHP -->
     <circle cx="466" cy="185" r="4.5" fill="#4F5D95"/>
     <text x="478" y="189" fill="#c9d1d9" font-size="12.5">PHP</text>
     <text x="590" y="189" fill="#7d8590" font-size="12">5.12%</text>
 
     <!-- Language Grid Col 2 -->
-    <!-- HTML -->
     <circle cx="666" cy="107" r="4.5" fill="#e34c26"/>
     <text x="678" y="111" fill="#c9d1d9" font-size="12.5">HTML</text>
     <text x="785" y="111" fill="#7d8590" font-size="12">0.38%</text>
 
-    <!-- PLpgSQL -->
     <circle cx="666" cy="133" r="4.5" fill="#336790"/>
     <text x="678" y="137" fill="#c9d1d9" font-size="12.5">PLpgSQL</text>
     <text x="785" y="137" fill="#7d8590" font-size="12">0.22%</text>
 
-    <!-- Python -->
     <circle cx="666" cy="159" r="4.5" fill="#3572A5"/>
     <text x="678" y="163" fill="#c9d1d9" font-size="12.5">Python</text>
     <text x="785" y="163" fill="#7d8590" font-size="12">0.15%</text>
 
-    <!-- Shell -->
     <circle cx="666" cy="185" r="4.5" fill="#89e051"/>
     <text x="678" y="189" fill="#c9d1d9" font-size="12.5">Shell</text>
     <text x="785" y="189" fill="#7d8590" font-size="12">0.06%</text>
@@ -193,32 +195,42 @@ function generateStatsCardSvg() {
   </g>
 
   <g opacity="0" transform="translate(0,5)">
-    <path d="M 25 82 L 27 88 L 33 88 L 28 92 L 30 98 L 25 94 L 20 98 L 22 92 L 17 88 L 23 88 Z" fill="#ffa657" transform="scale(0.8) translate(8, 18)"/>
-    <text x="44" y="90" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
-    <text x="235" y="90" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalStars}</text>
+    <svg x="22" y="76" width="16" height="16" viewBox="0 0 16 16" fill="#ffa657">
+      <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+    </svg>
+    <text x="46" y="89" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
+    <text x="230" y="89" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalStars}</text>
 
-    <path d="M26 109 A 5 5 0 1 0 26 119 A 5 5 0 1 0 26 109 M 21 114 L 16 114 M 31 114 L 36 114" stroke="#22d3ee" stroke-width="1.5" fill="none"/>
-    <text x="44" y="116" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="116" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalCommits.toLocaleString()}</text>
+    <svg x="22" y="102" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
+      <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
+    </svg>
+    <text x="46" y="115" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
+    <text x="230" y="115" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalCommits.toLocaleString()}</text>
 
-    <path d="M19 135 A 2.5 2.5 0 1 0 19 140 A 2.5 2.5 0 1 0 19 135 M 33 145 A 2.5 2.5 0 1 0 33 150 A 2.5 2.5 0 1 0 33 145 M 19 140 L 19 148 C 19 151 22 153 25 153 L 33 153" stroke="#a855f7" stroke-width="1.5" fill="none"/>
-    <text x="44" y="142" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
-    <text x="235" y="142" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalPRs}</text>
+    <svg x="22" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
+      <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
+    </svg>
+    <text x="46" y="141" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
+    <text x="230" y="141" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalPRs}</text>
 
-    <circle cx="26" cy="164" r="5" stroke="#f43f5e" stroke-width="1.5" fill="none"/>
-    <circle cx="26" cy="164" r="1.5" fill="#f43f5e"/>
-    <text x="44" y="168" fill="#c9d1d9" font-size="12.5">Total Issues:</text>
-    <text x="235" y="168" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalIssues}</text>
+    <svg x="22" y="154" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
+      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
+    </svg>
+    <text x="46" y="167" fill="#c9d1d9" font-size="12.5">Total Issues:</text>
+    <text x="230" y="167" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalIssues}</text>
 
-    <path d="M21 189 L 31 189 L 31 199 L 26 196 L 21 199 Z" stroke="#38bdf8" stroke-width="1.3" fill="none"/>
-    <text x="44" y="194" fill="#c9d1d9" font-size="12.5">Contributed to (last yr):</text>
-    <text x="235" y="194" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.contributedTo}</text>
+    <svg x="22" y="180" width="16" height="16" viewBox="0 0 16 16" fill="#38bdf8">
+      <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.218.585L8 11.834l-3.782 2.999A.75.75 0 0 1 3 14.25V2.75Z"/>
+    </svg>
+    <text x="46" y="193" fill="#c9d1d9" font-size="12.5">Contributed to (yr):</text>
+    <text x="230" y="193" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.contributedTo}</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
   </g>
 
-  <g opacity="0" transform="translate(345, 138)">
+  <g opacity="0" transform="translate(340, 138)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="4.5"/>
     <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="55" transform="rotate(-90)"/>
     <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">${STATS.rank}</text>
@@ -316,7 +328,7 @@ function main() {
   fs.writeFileSync(statsPath, generateStatsCardSvg(), 'utf8');
   fs.writeFileSync(langsPath, generateLanguagesCardSvg(), 'utf8');
 
-  console.log('Successfully generated github_stats.svg, stats.svg, and languages.svg!');
+  console.log('Successfully regenerated github_stats.svg, stats.svg, and languages.svg with aligned icons!');
 }
 
 main();
