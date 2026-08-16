@@ -40,13 +40,57 @@ const DEFAULT_LANGUAGES = [
 
 async function fetchContributions(username) {
   try {
-    const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}`);
-    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-    return await res.json();
+    // 1. Fetch directly from GitHub official contributions endpoint (real-time, no caching delay)
+    const res = await fetch(`https://github.com/users/${username}/contributions`, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'X-Requested-With': 'XMLHttpRequest'
+      }
+    });
+
+    if (res.ok) {
+      const html = await res.text();
+      const matchTotal = html.match(/([\d,]+)\s+contributions\s+in\s+the\s+last\s+year/i);
+      const totalStr = matchTotal ? matchTotal[1] : null;
+
+      const cellRegex = /<td[^>]*data-date="([^"]+)"[^>]*data-level="(\d+)"[^>]*><\/td>\s*<tool-tip[^>]*>([\s\S]*?)<\/tool-tip>/g;
+      let m;
+      const contributions = [];
+      while ((m = cellRegex.exec(html)) !== null) {
+        const date = m[1];
+        const level = parseInt(m[2], 10);
+        const tipText = m[3].trim();
+        let count = 0;
+        const countM = tipText.match(/^(\d+)\s+contribution/);
+        if (countM) count = parseInt(countM[1], 10);
+        contributions.push({ date, level, count });
+      }
+
+      if (contributions.length > 0) {
+        console.log(`[Official GitHub] Successfully fetched ${contributions.length} days. Total: ${totalStr}`);
+        return {
+          totalStr,
+          contributions
+        };
+      }
+    }
   } catch (err) {
-    console.error('Failed to fetch contribution data:', err.message);
-    return null;
+    console.error('Error fetching direct GitHub HTML, falling back to API:', err.message);
   }
+
+  // Fallback to Jogruber API
+  try {
+    const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}`);
+    if (res.ok) {
+      const data = await res.json();
+      return {
+        totalStr: null,
+        contributions: data.contributions || []
+      };
+    }
+  } catch (e) {}
+
+  return null;
 }
 
 async function fetchGitHubStats(username) {
@@ -61,7 +105,6 @@ async function fetchGitHubStats(username) {
   let languages = DEFAULT_LANGUAGES;
 
   try {
-    // 1. Fetch Repos & Stars & Languages
     const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
     if (repoRes.ok) {
       const repos = await repoRes.json();
@@ -101,21 +144,19 @@ async function fetchGitHubStats(username) {
       }
     }
 
-    // 2. Fetch Total PRs
     const prRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:pr`, { headers });
     if (prRes.ok) {
       const prData = await prRes.json();
       if (typeof prData.total_count === 'number') totalPRs = prData.total_count;
     }
 
-    // 3. Fetch Total Issues
     const issueRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:issue`, { headers });
     if (issueRes.ok) {
       const issueData = await issueRes.json();
       if (typeof issueData.total_count === 'number') totalIssues = issueData.total_count;
     }
   } catch (err) {
-    console.error('Error fetching live GitHub stats, using verified data:', err.message);
+    console.error('Error fetching live GitHub stats:', err.message);
   }
 
   return {
@@ -126,35 +167,29 @@ async function fetchGitHubStats(username) {
   };
 }
 
-function getColor(count) {
-  if (count === 0) return '#161b22';
-  if (count <= 3) return '#0e4429';
-  if (count <= 9) return '#006d32';
-  if (count <= 19) return '#26a641';
-  if (count <= 34) return '#39d353';
+function getColor(count, level) {
+  if (count === 0 && level === 0) return '#161b22';
+  if (level === 1 || (count > 0 && count <= 3)) return '#0e4429';
+  if (level === 2 || (count > 3 && count <= 9)) return '#006d32';
+  if (level === 3 || (count > 9 && count <= 19)) return '#26a641';
+  if (level === 4 || (count > 19 && count <= 34)) return '#39d353';
   return '#69f0a0';
 }
 
 function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
   const contribMap = new Map();
-  let lifetimeCommits = 796;
-
-  if (contribData) {
-    if (contribData.contributions) {
-      for (const item of contribData.contributions) {
-        contribMap.set(item.date, item);
-      }
-    }
-    if (contribData.total && typeof contribData.total === 'object') {
-      const allYearsTotal = Object.values(contribData.total).reduce((a, b) => a + b, 0);
-      if (allYearsTotal > 0) lifetimeCommits = allYearsTotal;
+  if (contribData && contribData.contributions) {
+    for (const item of contribData.contributions) {
+      contribMap.set(item.date, item);
     }
   }
 
   const now = new Date();
   const nowUtc = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
-  const dayOfWeek = nowUtc.getUTCDay();
+  const todayStr = nowUtc.toISOString().split('T')[0];
+  const dayOfWeek = nowUtc.getUTCDay(); // 0: Sun, 6: Sat
   
+  // Last column end Saturday (or today)
   const endSaturday = new Date(nowUtc);
   if (dayOfWeek < 6) {
     endSaturday.setUTCDate(nowUtc.getUTCDate() + (6 - dayOfWeek));
@@ -164,7 +199,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
   startSunday.setUTCDate(endSaturday.getUTCDate() - 370);
 
   const startDateStr = startSunday.toISOString().split('T')[0];
-  const endDateStr = endSaturday.toISOString().split('T')[0];
+  const endDateStr = todayStr; // Graph displays up to today
 
   let totalYearContributions = 0;
   let bestDay = { count: 0, date: startDateStr };
@@ -182,6 +217,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
       const dateStr = curDate.toISOString().split('T')[0];
       const month = curDate.getUTCMonth();
       const dayOfMonth = curDate.getUTCDate();
+      const isFuture = dateStr > todayStr;
 
       if (dayOfMonth <= 7 && month !== lastMonthSeen && d === 0) {
         monthLabels.push({ x: colX, text: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][month] });
@@ -191,8 +227,16 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
         lastMonthSeen = month;
       }
 
+      if (isFuture) {
+        // Future days in current week: render as subtle empty placeholder box
+        const rowY = 254 + d * 15;
+        cellsSvg += `<rect class="c" x="${colX}" y="${rowY}" width="11" height="11" rx="2.2" fill="#161b22" opacity="0.4" style="animation-delay:0.5s"/>`;
+        continue;
+      }
+
       const item = contribMap.get(dateStr) || { date: dateStr, count: 0, level: 0 };
       const count = item.count;
+      const level = item.level;
       totalYearContributions += count;
 
       if (count > bestDay.count) {
@@ -201,7 +245,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
 
       const rowY = 254 + d * 15;
       const delay = (w * 0.015 + d * 0.04 + 0.35).toFixed(3);
-      const color = getColor(count);
+      const color = getColor(count, level);
       const tooltip = `${dateStr}: ${count} contribution${count === 1 ? '' : 's'}`;
 
       cellsSvg += `<rect class="c" x="${colX}" y="${rowY}" width="11" height="11" rx="2.2" fill="${color}" style="animation-delay:${delay}s"><title>${tooltip}</title></rect>`;
@@ -224,7 +268,6 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
       }
     }
 
-    const todayStr = nowUtc.toISOString().split('T')[0];
     const yesterdayDate = new Date(nowUtc);
     yesterdayDate.setUTCDate(nowUtc.getUTCDate() - 1);
     const yesterdayStr = yesterdayDate.toISOString().split('T')[0];
@@ -246,7 +289,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
     }
   }
 
-  const formattedTotal = totalYearContributions.toLocaleString();
+  const formattedTotal = (contribData && contribData.totalStr) ? contribData.totalStr : totalYearContributions.toLocaleString();
 
   const monthLabelsSvg = monthLabels
     .map(m => `<text x="${m.x}" y="244" fill="#7d8590" font-size="10">${m.text}</text>`)
@@ -334,7 +377,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">${lifetimeCommits.toLocaleString()}</text>
+    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">796</text>
 
     <!-- PR Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
@@ -432,7 +475,7 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
 }
 
 async function main() {
-  console.log(`[1/2] Fetching live contribution data for ${USERNAME}...`);
+  console.log(`[1/2] Fetching live contribution data for ${USERNAME} directly from GitHub...`);
   const contribData = await fetchContributions(USERNAME);
 
   console.log(`[2/2] Fetching live GitHub profile stats for ${USERNAME}...`);
