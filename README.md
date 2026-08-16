@@ -5,7 +5,7 @@
 
 <div align="center"> 
 
-<img src="./header.svg?v=1" width="100%" alt="Glenn Joshua Corpus Header" />
+<img src="./header.svg?v=3" width="100%" alt="Glenn Joshua Corpus Header" />
 
 </div>
 
