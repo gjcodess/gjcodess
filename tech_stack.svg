@@ -23,14 +23,14 @@
   <!-- Tech Categories & Interactive Pills -->
   
     <g opacity="0" transform="translate(0,5)">
-      <text x="24" y="56" fill="#00FF99" font-size="13.5" font-weight="700">🎨 Frontend & Mobile</text>
+      <text x="24" y="56" fill="#00FF99" font-size="13.5" font-weight="700">🎨 Frontend &amp; Mobile</text>
       
-      <g transform="translate(24, 76)">
+      <g transform="translate(24.0, 76)">
         <rect width="61.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#61DAFB"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">React</text>
       </g>
-      <g transform="translate(91, 76)">
+      <g transform="translate(91.0, 76)">
         <rect width="112.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#61DAFB"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">React Native</text>
@@ -45,12 +45,12 @@
         <circle cx="9" cy="10" r="3.5" fill="#3178C6"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">TypeScript</text>
       </g>
-      <g transform="translate(24, 102)">
+      <g transform="translate(24.0, 102)">
         <rect width="98.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#F7DF1E"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">JavaScript</text>
       </g>
-      <g transform="translate(128, 102)">
+      <g transform="translate(128.0, 102)">
         <rect width="83.2" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#9FEAF9"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Electron</text>
@@ -60,7 +60,7 @@
         <circle cx="9" cy="10" r="3.5" fill="#38B2AC"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Tailwind CSS</text>
       </g>
-      <g transform="translate(24, 128)">
+      <g transform="translate(24.0, 128)">
         <rect width="112.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#E34F26"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">HTML5 / CSS3</text>
@@ -80,7 +80,7 @@
         <circle cx="9" cy="10" r="3.5" fill="#88CE02"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">GSAP</text>
       </g>
-      <g transform="translate(24, 154)">
+      <g transform="translate(24.0, 154)">
         <rect width="120.2" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#0055FF"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Framer Motion</text>
@@ -89,14 +89,14 @@
       <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </g>
     <g opacity="0" transform="translate(0,5)">
-      <text x="24" y="190" fill="#22d3ee" font-size="13.5" font-weight="700">⚙️ Backend & APIs</text>
+      <text x="24" y="190" fill="#22d3ee" font-size="13.5" font-weight="700">⚙️ Backend &amp; APIs</text>
       
-      <g transform="translate(24, 210)">
+      <g transform="translate(24.0, 210)">
         <rect width="75.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#339933"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Node.js</text>
       </g>
-      <g transform="translate(105.80000000000001, 210)">
+      <g transform="translate(105.8, 210)">
         <rect width="98.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#ffffff"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Express.js</text>
@@ -106,12 +106,12 @@
         <circle cx="9" cy="10" r="3.5" fill="#3776AB"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Python</text>
       </g>
-      <g transform="translate(284.20000000000005, 210)">
+      <g transform="translate(284.2, 210)">
         <rect width="90.6" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#FF6C37"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">REST APIs</text>
       </g>
-      <g transform="translate(24, 236)">
+      <g transform="translate(24.0, 236)">
         <rect width="83.2" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#D63AFF"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">JWT Auth</text>
@@ -125,19 +125,19 @@
       <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.23s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </g>
     <g opacity="0" transform="translate(0,5)">
-      <text x="24" y="300" fill="#ffa657" font-size="13.5" font-weight="700">🗄️ Databases & Storage</text>
+      <text x="24" y="300" fill="#ffa657" font-size="13.5" font-weight="700">🗄️ Databases &amp; Storage</text>
       
-      <g transform="translate(24, 320)">
+      <g transform="translate(24.0, 320)">
         <rect width="61.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#4479A1"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">MySQL</text>
       </g>
-      <g transform="translate(91, 320)">
+      <g transform="translate(91.0, 320)">
         <rect width="98.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#4169E1"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">PostgreSQL</text>
       </g>
-      <g transform="translate(195, 320)">
+      <g transform="translate(195.0, 320)">
         <rect width="83.2" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#3FCF8E"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Supabase</text>
@@ -147,7 +147,7 @@
         <circle cx="9" cy="10" r="3.5" fill="#003B57"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">SQLite</text>
       </g>
-      <g transform="translate(24, 346)">
+      <g transform="translate(24.0, 346)">
         <rect width="68.4" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#00E699"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">NeonDB</text>
@@ -156,14 +156,14 @@
       <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.31s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </g>
     <g opacity="0" transform="translate(0,5)">
-      <text x="455" y="56" fill="#00FF99" font-size="13.5" font-weight="700">🚀 DevOps & Cloud</text>
+      <text x="455" y="56" fill="#00FF99" font-size="13.5" font-weight="700">🚀 DevOps &amp; Cloud</text>
       
-      <g transform="translate(455, 76)">
+      <g transform="translate(455.0, 76)">
         <rect width="54.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#F05032"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Git</text>
       </g>
-      <g transform="translate(515, 76)">
+      <g transform="translate(515.0, 76)">
         <rect width="127.6" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#2088FF"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">GitHub Actions</text>
@@ -173,12 +173,12 @@
         <circle cx="9" cy="10" r="3.5" fill="#ffffff"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Vercel</text>
       </g>
-      <g transform="translate(723, 76)">
+      <g transform="translate(723.0, 76)">
         <rect width="75.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#ffffff"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Railway</text>
       </g>
-      <g transform="translate(455, 102)">
+      <g transform="translate(455.0, 102)">
         <rect width="127.6" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#FCC624"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Linux / Ubuntu</text>
@@ -197,9 +197,9 @@
       <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.39s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </g>
     <g opacity="0" transform="translate(0,5)">
-      <text x="455" y="190" fill="#22d3ee" font-size="13.5" font-weight="700">⚡ Automation & AI</text>
+      <text x="455" y="190" fill="#22d3ee" font-size="13.5" font-weight="700">⚡ Automation &amp; AI</text>
       
-      <g transform="translate(455, 210)">
+      <g transform="translate(455.0, 210)">
         <rect width="149.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#EA4B71"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">n8n Orchestration</text>
@@ -209,7 +209,7 @@
         <circle cx="9" cy="10" r="3.5" fill="#F55036"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Groq AI</text>
       </g>
-      <g transform="translate(455, 236)">
+      <g transform="translate(455.0, 236)">
         <rect width="164.6" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#00FF99"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Workflow Automation</text>
@@ -223,29 +223,29 @@
       <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.47s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </g>
     <g opacity="0" transform="translate(0,5)">
-      <text x="455" y="300" fill="#a855f7" font-size="13.5" font-weight="700">🎨 UI/UX & Creative</text>
+      <text x="455" y="300" fill="#a855f7" font-size="13.5" font-weight="700">🎨 UI/UX &amp; Creative</text>
       
-      <g transform="translate(455, 320)">
+      <g transform="translate(455.0, 320)">
         <rect width="61.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#F24E1E"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Figma</text>
       </g>
-      <g transform="translate(522, 320)">
+      <g transform="translate(522.0, 320)">
         <rect width="135.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#31A8FF"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Adobe Photoshop</text>
       </g>
-      <g transform="translate(663, 320)">
+      <g transform="translate(663.0, 320)">
         <rect width="112.8" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#9999FF"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Premiere Pro</text>
       </g>
-      <g transform="translate(455, 346)">
+      <g transform="translate(455.0, 346)">
         <rect width="61.0" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#00C4CC"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Canva</text>
       </g>
-      <g transform="translate(522, 346)">
+      <g transform="translate(522.0, 346)">
         <rect width="105.4" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="#a855f7"/>
         <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">Wireframing</text>

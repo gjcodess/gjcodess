@@ -1,11 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
+function escapeXml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 function generateTechStackSvg() {
   const categories = [
     // LEFT COLUMN
     {
-      title: "🎨 Frontend & Mobile",
+      title: "🎨 Frontend &amp; Mobile",
       color: "#00FF99",
       x: 24,
       y: 56,
@@ -25,7 +29,7 @@ function generateTechStackSvg() {
       ]
     },
     {
-      title: "⚙️ Backend & APIs",
+      title: "⚙️ Backend &amp; APIs",
       color: "#22d3ee",
       x: 24,
       y: 190,
@@ -39,7 +43,7 @@ function generateTechStackSvg() {
       ]
     },
     {
-      title: "🗄️ Databases & Storage",
+      title: "🗄️ Databases &amp; Storage",
       color: "#ffa657",
       x: 24,
       y: 300,
@@ -54,7 +58,7 @@ function generateTechStackSvg() {
 
     // RIGHT COLUMN
     {
-      title: "🚀 DevOps & Cloud",
+      title: "🚀 DevOps &amp; Cloud",
       color: "#00FF99",
       x: 455,
       y: 56,
@@ -69,7 +73,7 @@ function generateTechStackSvg() {
       ]
     },
     {
-      title: "⚡ Automation & AI",
+      title: "⚡ Automation &amp; AI",
       color: "#22d3ee",
       x: 455,
       y: 190,
@@ -81,7 +85,7 @@ function generateTechStackSvg() {
       ]
     },
     {
-      title: "🎨 UI/UX & Creative",
+      title: "🎨 UI/UX &amp; Creative",
       color: "#a855f7",
       x: 455,
       y: 300,
@@ -102,8 +106,7 @@ function generateTechStackSvg() {
     const maxX = cat.x + 380;
     const rowHeight = 26;
 
-    cat.skills.forEach((skill, idx) => {
-      // Calculate pill width based on text length
+    cat.skills.forEach((skill) => {
       const textLen = skill.name.length;
       const pillWidth = Math.max(54, textLen * 7.4 + 24);
 
@@ -113,10 +116,10 @@ function generateTechStackSvg() {
       }
 
       pillsSvg += `
-      <g transform="translate(${curX}, ${curY})">
+      <g transform="translate(${curX.toFixed(1)}, ${curY})">
         <rect width="${pillWidth.toFixed(1)}" height="20" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="9" cy="10" r="3.5" fill="${skill.color}"/>
-        <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">${skill.name}</text>
+        <text x="18" y="14" fill="#e6edf3" font-size="11" font-weight="500">${escapeXml(skill.name)}</text>
       </g>`;
 
       curX += pillWidth + 6;
@@ -171,7 +174,7 @@ function main() {
   const svg = generateTechStackSvg();
   const outPath = path.join(__dirname, '..', 'tech_stack.svg');
   fs.writeFileSync(outPath, svg, 'utf8');
-  console.log(`✅ Successfully generated tech_stack.svg at ${outPath}`);
+  console.log(`✅ Successfully regenerated valid tech_stack.svg at ${outPath}`);
 }
 
 main();
