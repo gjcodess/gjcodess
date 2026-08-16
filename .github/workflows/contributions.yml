@@ -27,6 +27,8 @@ jobs:
         run: |
           node scripts/generate_contributions.js
           node scripts/generate_stats.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push if Changed
         run: |

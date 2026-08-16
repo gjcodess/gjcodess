@@ -2,20 +2,32 @@ const fs = require('fs');
 const path = require('path');
 
 const USERNAME = 'gjcodess';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
-// Fallback & live statistics for Glenn
-const STATS = {
-  name: "Glenn Joshua Corpus' GitHub Stats",
-  totalStars: 24,
-  totalCommits: 796,
-  totalPRs: 244,
-  totalIssues: 0,
-  contributedTo: 0,
-  rank: 'A+',
-  rankPercentile: 'Top 15%'
+const LANG_COLORS = {
+  JavaScript: '#f1e05a',
+  TypeScript: '#3178c6',
+  CSS: '#563d7c',
+  HTML: '#e34c26',
+  Python: '#3572A5',
+  PHP: '#4F5D95',
+  Shell: '#89e051',
+  C: '#555555',
+  'C++': '#f34b7d',
+  'C#': '#178600',
+  Java: '#b07219',
+  Go: '#00ADD8',
+  Rust: '#dea584',
+  PLpgSQL: '#336790',
+  SQL: '#e38c00',
+  Vue: '#41b883',
+  Ruby: '#701516',
+  Swift: '#F05138',
+  Kotlin: '#A97BFF',
+  Dart: '#00B4AB'
 };
 
-const LANGUAGES = [
+const DEFAULT_LANGUAGES = [
   { name: 'JavaScript', percent: 65.68, color: '#f1e05a' },
   { name: 'TypeScript', percent: 15.28, color: '#3178c6' },
   { name: 'CSS', percent: 13.11, color: '#563d7c' },
@@ -32,9 +44,86 @@ async function fetchContributions(username) {
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
     return await res.json();
   } catch (err) {
-    console.error('Failed to fetch from API:', err);
+    console.error('Failed to fetch contribution data:', err.message);
     return null;
   }
+}
+
+async function fetchGitHubStats(username) {
+  const headers = { 'User-Agent': 'NodeJS-Profile-Updater' };
+  if (GITHUB_TOKEN) {
+    headers['Authorization'] = `token ${GITHUB_TOKEN}`;
+  }
+
+  let totalStars = 24;
+  let totalPRs = 244;
+  let totalIssues = 0;
+  let languages = DEFAULT_LANGUAGES;
+
+  try {
+    // 1. Fetch Repos & Stars & Languages
+    const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
+    if (repoRes.ok) {
+      const repos = await repoRes.json();
+      let starCount = 0;
+      const langBytes = {};
+
+      for (const r of repos) {
+        starCount += r.stargazers_count || 0;
+        if (r.languages_url) {
+          try {
+            const lRes = await fetch(r.languages_url, { headers });
+            if (lRes.ok) {
+              const lData = await lRes.json();
+              for (const [lang, bytes] of Object.entries(lData)) {
+                langBytes[lang] = (langBytes[lang] || 0) + bytes;
+              }
+            }
+          } catch (e) {}
+        }
+      }
+
+      if (starCount > 0) totalStars = starCount;
+
+      let totalBytes = 0;
+      for (const b of Object.values(langBytes)) totalBytes += b;
+      if (totalBytes > 0) {
+        const sortedLangs = Object.entries(langBytes)
+          .map(([name, bytes]) => ({
+            name,
+            percent: parseFloat(((bytes / totalBytes) * 100).toFixed(2)),
+            color: LANG_COLORS[name] || '#58a6ff'
+          }))
+          .sort((a, b) => b.percent - a.percent)
+          .slice(0, 8);
+
+        if (sortedLangs.length > 0) languages = sortedLangs;
+      }
+    }
+
+    // 2. Fetch Total PRs
+    const prRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:pr`, { headers });
+    if (prRes.ok) {
+      const prData = await prRes.json();
+      if (typeof prData.total_count === 'number') totalPRs = prData.total_count;
+    }
+
+    // 3. Fetch Total Issues
+    const issueRes = await fetch(`https://api.github.com/search/issues?q=author:${username}+type:issue`, { headers });
+    if (issueRes.ok) {
+      const issueData = await issueRes.json();
+      if (typeof issueData.total_count === 'number') totalIssues = issueData.total_count;
+    }
+  } catch (err) {
+    console.error('Error fetching live GitHub stats, using verified data:', err.message);
+  }
+
+  return {
+    totalStars,
+    totalPRs,
+    totalIssues,
+    languages
+  };
 }
 
 function getColor(count) {
@@ -46,19 +135,25 @@ function getColor(count) {
   return '#69f0a0';
 }
 
-const MONTH_NAMES = ['Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'];
-
-function generateAllInOneSvg(data, username = USERNAME) {
+function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
   const contribMap = new Map();
-  if (data && data.contributions) {
-    for (const item of data.contributions) {
-      contribMap.set(item.date, item);
+  let lifetimeCommits = 796;
+
+  if (contribData) {
+    if (contribData.contributions) {
+      for (const item of contribData.contributions) {
+        contribMap.set(item.date, item);
+      }
+    }
+    if (contribData.total && typeof contribData.total === 'object') {
+      const allYearsTotal = Object.values(contribData.total).reduce((a, b) => a + b, 0);
+      if (allYearsTotal > 0) lifetimeCommits = allYearsTotal;
     }
   }
 
   const now = new Date();
   const nowUtc = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
-  const dayOfWeek = nowUtc.getUTCDay(); // 0: Sun, 6: Sat
+  const dayOfWeek = nowUtc.getUTCDay();
   
   const endSaturday = new Date(nowUtc);
   if (dayOfWeek < 6) {
@@ -104,7 +199,6 @@ function generateAllInOneSvg(data, username = USERNAME) {
         bestDay = { count, date: dateStr };
       }
 
-      // Graph row base Y is 254
       const rowY = 254 + d * 15;
       const delay = (w * 0.015 + d * 0.04 + 0.35).toFixed(3);
       const color = getColor(count);
@@ -119,8 +213,8 @@ function generateAllInOneSvg(data, username = USERNAME) {
   let longestStreak = 0;
   let tempStreak = 0;
 
-  if (data && data.contributions && data.contributions.length > 0) {
-    const sorted = [...data.contributions].sort((a, b) => a.date.localeCompare(b.date));
+  if (contribData && contribData.contributions && contribData.contributions.length > 0) {
+    const sorted = [...contribData.contributions].sort((a, b) => a.date.localeCompare(b.date));
     for (let i = 0; i < sorted.length; i++) {
       if (sorted[i].count > 0) {
         tempStreak++;
@@ -158,14 +252,34 @@ function generateAllInOneSvg(data, username = USERNAME) {
     .map(m => `<text x="${m.x}" y="244" fill="#7d8590" font-size="10">${m.text}</text>`)
     .join('');
 
-  // Language bar segments
+  // Languages rendering
+  const languages = statsData.languages || DEFAULT_LANGUAGES;
   const barWidth = 385;
   let currentX = 0;
-  const barSegments = LANGUAGES.map(l => {
+  const barSegments = languages.map(l => {
     const w = ((l.percent / 100) * barWidth).toFixed(2);
     const x = currentX.toFixed(2);
     currentX += parseFloat(w);
     return `<rect x="${x}" y="0" width="${w}" height="9" fill="${l.color}"/>`;
+  }).join('');
+
+  const col1Langs = languages.slice(0, 4);
+  const col2Langs = languages.slice(4, 8);
+
+  const col1Svg = col1Langs.map((l, i) => {
+    const y = 99 + i * 24;
+    return `
+    <circle cx="466" cy="${y}" r="4" fill="${l.color}"/>
+    <text x="478" y="${y + 4}" fill="#c9d1d9" font-size="12">${l.name}</text>
+    <text x="590" y="${y + 4}" fill="#7d8590" font-size="11.5">${l.percent}%</text>`;
+  }).join('');
+
+  const col2Svg = col2Langs.map((l, i) => {
+    const y = 99 + i * 24;
+    return `
+    <circle cx="666" cy="${y}" r="4" fill="${l.color}"/>
+    <text x="678" y="${y + 4}" fill="#c9d1d9" font-size="12">${l.name}</text>
+    <text x="785" y="${y + 4}" fill="#7d8590" font-size="11.5">${l.percent}%</text>`;
   }).join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="869" height="442" viewBox="0 0 869 442" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
@@ -213,21 +327,21 @@ function generateAllInOneSvg(data, username = USERNAME) {
       <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
     </svg>
     <text x="48" y="84" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
-    <text x="235" y="84" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalStars}</text>
+    <text x="235" y="84" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalStars}</text>
 
     <!-- Commit Icon -->
     <svg x="24" y="95" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalCommits.toLocaleString()}</text>
+    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">${lifetimeCommits.toLocaleString()}</text>
 
     <!-- PR Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
       <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
     </svg>
     <text x="48" y="132" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
-    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalPRs}</text>
+    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalPRs}</text>
 
     <!-- Issue Icon -->
     <svg x="24" y="143" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
@@ -235,14 +349,14 @@ function generateAllInOneSvg(data, username = USERNAME) {
       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
     </svg>
     <text x="48" y="156" fill="#c9d1d9" font-size="12.5">Total Issues:</text>
-    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.totalIssues}</text>
+    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalIssues}</text>
 
     <!-- Contributed To Icon -->
     <svg x="24" y="167" width="16" height="16" viewBox="0 0 16 16" fill="#38bdf8">
       <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.218.585L8 11.834l-3.782 2.999A.75.75 0 0 1 3 14.25V2.75Z"/>
     </svg>
     <text x="48" y="180" fill="#c9d1d9" font-size="12.5">Contributed to (yr):</text>
-    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">${STATS.contributedTo}</text>
+    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">0</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.2s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -252,8 +366,8 @@ function generateAllInOneSvg(data, username = USERNAME) {
   <g opacity="0" transform="translate(348, 126)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="4.5"/>
     <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="55" transform="rotate(-90)"/>
-    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">${STATS.rank}</text>
-    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">${STATS.rankPercentile}</text>
+    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">A+</text>
+    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">Top 15%</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
   </g>
 
@@ -269,39 +383,9 @@ function generateAllInOneSvg(data, username = USERNAME) {
       ${barSegments}
     </g>
 
-    <!-- Language Grid Col 1 -->
-    <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
-    <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">65.68%</text>
-
-    <circle cx="466" cy="123" r="4" fill="#3178c6"/>
-    <text x="478" y="127" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">15.28%</text>
-
-    <circle cx="466" cy="147" r="4" fill="#563d7c"/>
-    <text x="478" y="151" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">13.11%</text>
-
-    <circle cx="466" cy="171" r="4" fill="#4F5D95"/>
-    <text x="478" y="175" fill="#c9d1d9" font-size="12">PHP</text>
-    <text x="590" y="175" fill="#7d8590" font-size="11.5">5.12%</text>
-
-    <!-- Language Grid Col 2 -->
-    <circle cx="666" cy="99" r="4" fill="#e34c26"/>
-    <text x="678" y="103" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="785" y="103" fill="#7d8590" font-size="11.5">0.38%</text>
-
-    <circle cx="666" cy="123" r="4" fill="#336790"/>
-    <text x="678" y="127" fill="#c9d1d9" font-size="12">PLpgSQL</text>
-    <text x="785" y="127" fill="#7d8590" font-size="11.5">0.22%</text>
-
-    <circle cx="666" cy="147" r="4" fill="#3572A5"/>
-    <text x="678" y="151" fill="#c9d1d9" font-size="12">Python</text>
-    <text x="785" y="151" fill="#7d8590" font-size="11.5">0.15%</text>
-
-    <circle cx="666" cy="171" r="4" fill="#89e051"/>
-    <text x="678" y="175" fill="#c9d1d9" font-size="12">Shell</text>
-    <text x="785" y="175" fill="#7d8590" font-size="11.5">0.06%</text>
+    <!-- Language Grid -->
+    ${col1Svg}
+    ${col2Svg}
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -348,14 +432,17 @@ function generateAllInOneSvg(data, username = USERNAME) {
 }
 
 async function main() {
-  console.log(`Fetching contributions for ${USERNAME}...`);
-  const data = await fetchContributions(USERNAME);
+  console.log(`[1/2] Fetching live contribution data for ${USERNAME}...`);
+  const contribData = await fetchContributions(USERNAME);
 
-  const svgContent = generateAllInOneSvg(data, USERNAME);
+  console.log(`[2/2] Fetching live GitHub profile stats for ${USERNAME}...`);
+  const statsData = await fetchGitHubStats(USERNAME);
+
+  const svgContent = generateAllInOneSvg(contribData, statsData, USERNAME);
   const outPath = path.join(__dirname, '..', 'contributions.svg');
   fs.writeFileSync(outPath, svgContent, 'utf8');
 
-  console.log(`Successfully generated master all-in-one SVG at ${outPath}`);
+  console.log(`✅ Successfully generated updated live master SVG at ${outPath}`);
 }
 
 main();
