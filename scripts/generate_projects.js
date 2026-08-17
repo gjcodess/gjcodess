@@ -193,9 +193,9 @@ function generateProjectsSvg() {
     </linearGradient>
   </defs>
 
-  <!-- Background & Window Border -->
-  <rect width="869" height="588" rx="12" fill="url(#pbg)"/>
-  <rect x="0.5" y="0.5" width="868" height="587" rx="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <!-- Background & Window Border (Top rounded 12px, Bottom flat 0px to connect with banner) -->
+  <path d="M 0,12 A 12,12 0 0 1 12,0 L 857,0 A 12,12 0 0 1 869,12 L 869,588 L 0,588 Z" fill="url(#pbg)"/>
+  <path d="M 0.5,12 A 11.5,11.5 0 0 1 12,0.5 L 857,0.5 A 11.5,11.5 0 0 1 868.5,12 L 868.5,587.5 L 0.5,587.5 Z" fill="none" stroke="#ffffff" stroke-width="1.2"/>
   <line x1="0" y1="30" x2="869" y2="30" stroke="#ffffff" stroke-opacity="0.35"/>
 
   <!-- Window Controls -->

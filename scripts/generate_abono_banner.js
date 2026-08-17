@@ -21,15 +21,15 @@ function generateAbonoBannerSvg() {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <defs>
     <clipPath id="card-clip">
-      <rect width="${width}" height="${height}" rx="12"/>
+      <path d="M 0,0 L ${width},0 L ${width},${height - 12} A 12,12 0 0 1 ${width - 12},${height} L 12,${height} A 12,12 0 0 1 0,${height - 12} Z"/>
     </clipPath>
   </defs>
 
-  <!-- Banner Poster Image with Rounded Corners -->
+  <!-- Banner Poster Image with Bottom Rounded Corners (Top flat to connect with projects.svg) -->
   <image href="${dataUri}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice" clip-path="url(#card-clip)"/>
 
-  <!-- Outer Solid White Border (Standardized across all profile cards) -->
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <!-- Outer Solid White Border (Top flat 0px, Bottom rounded 12px) -->
+  <path d="M 0.5,0.5 L ${width - 0.5},0.5 L ${width - 0.5},${height - 12.5} A 12,12 0 0 1 ${width - 12.5},${height - 0.5} L 12.5,${height - 0.5} A 12,12 0 0 1 0.5,${height - 12.5} Z" fill="none" stroke="#ffffff" stroke-width="1.2"/>
 </svg>`;
 
   const outPath = path.join(rootDir, 'abono_banner.svg');

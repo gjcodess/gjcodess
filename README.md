@@ -32,13 +32,9 @@
 <h3 align="center">🚀 Featured Projects</h3>
 
 <div align="center">
-  <img src="./projects.svg?v=2" width="100%" alt="Glenn's Featured Projects" />
-</div>
-
-
-<div align="center">
+  <img src="./projects.svg?v=3" width="100%" alt="Glenn's Featured Projects" />
   <a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
-    <img src="./abono_banner.svg?v=1" width="100%" alt="Abono App - Split Bills. Not Friendships." />
+    <img src="./abono_banner.svg?v=2" width="100%" alt="Abono App - Split Bills. Not Friendships." />
   </a>
 </div>
 
