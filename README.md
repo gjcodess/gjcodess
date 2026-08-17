@@ -60,7 +60,7 @@
 <h3 align="center">💼 Experience &amp; Education</h3>
 
 <div align="center">
-  <img src="./experience.svg?v=2" width="100%" alt="Glenn's Experience &amp; Education" />
+  <img src="./experience.svg?v=3" width="100%" alt="Glenn's Experience &amp; Education" />
 </div>
 
 

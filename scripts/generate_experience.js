@@ -5,7 +5,7 @@ function escapeXml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-function wrapText(text, maxChars = 86) {
+function wrapText(text, maxChars = 110) {
   const words = text.split(' ');
   const lines = [];
   let currentLine = '';
