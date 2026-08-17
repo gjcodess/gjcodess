@@ -44,7 +44,7 @@ const TECH_COLORS = {
 const workExperience = [
   {
     title: "Application Developer (Contract)",
-    org: "🏢 Rameson Distribution Inc.",
+    org: "Rameson Distribution Inc.",
     badge: "JUN 2026 — PRESENT",
     badgeColor: "#00FF99",
     bullets: [
@@ -59,7 +59,7 @@ const workExperience = [
   },
   {
     title: "Junior IT Specialist & Web Developer (Internship)",
-    org: "🏢 Associated Labor Unions — Luzon",
+    org: "Associated Labor Unions — Luzon",
     badge: "FEB 2026 — APR 2026",
     badgeColor: "#ffa657",
     bullets: [
@@ -72,7 +72,7 @@ const workExperience = [
   },
   {
     title: "Technical Support & Designer (Freelance)",
-    org: "🛠️ Self-Employed",
+    org: "Self-Employed",
     badge: "2019 — 2026",
     badgeColor: "#22d3ee",
     bullets: [
@@ -88,7 +88,7 @@ const workExperience = [
 const education = [
   {
     title: "Bachelor of Science in Information Technology",
-    org: "🏛️ Technological University of the Philippines, Manila",
+    org: "Technological University of the Philippines, Manila",
     badge: "EXPECTED AUG 2026",
     badgeColor: "#00FF99",
     bullets: [
@@ -104,7 +104,7 @@ const education = [
   },
   {
     title: "Senior High School — Science, Technology, Engineering, & Math (STEM)",
-    org: "🏛️ San Juan de Dios Educational Foundation Inc., Pasay",
+    org: "San Juan de Dios Educational Foundation Inc., Pasay",
     badge: "2020 — 2022",
     badgeColor: "#ffa657",
     bullets: [
@@ -116,7 +116,7 @@ const education = [
   },
   {
     title: "Junior High School",
-    org: "🏛️ Parañaque National High School — Baclaran, Parañaque",
+    org: "Parañaque National High School — Baclaran, Parañaque",
     badge: "2016 — 2020",
     badgeColor: "#22d3ee",
     bullets: [
@@ -159,7 +159,7 @@ function generateExperienceSvg() {
       const textStartX = cardX + innerPaddingX;
 
       // Wrap bullets
-      const bulletBlocks = item.bullets.map(b => wrapText(b, 86));
+      const bulletBlocks = item.bullets.map(b => wrapText(b, 110));
       let totalBulletLines = 0;
       bulletBlocks.forEach(lines => totalBulletLines += lines.length);
 
@@ -193,7 +193,7 @@ function generateExperienceSvg() {
         }).join('');
       }
 
-      // Bullets rendering
+      // Bullets rendering (All lines consistently colored #c9d1d9)
       let bulletContentY = itemTopY + headerHeight + 8;
       let bulletsSvg = '';
       bulletBlocks.forEach(lines => {
@@ -205,7 +205,7 @@ function generateExperienceSvg() {
             `;
           } else {
             bulletsSvg += `
-              <text x="${textStartX + 14}" y="${bulletContentY}" fill="#8b949e" font-size="11.5">${escapeXml(line)}</text>
+              <text x="${textStartX + 14}" y="${bulletContentY}" fill="#c9d1d9" font-size="11.5">${escapeXml(line)}</text>
             `;
           }
           bulletContentY += 17.5;
