@@ -20,44 +20,50 @@
 
 <!-- ─── TECH STACK ─── -->
 
+<div align="center">
+
 <details>
-<summary><h3>🛠️ Tech Stack</h3></summary>
+<summary align="center"><h3>🛠️ Tech Stack</h3></summary>
 <br>
 
-<div align="center">
-  <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
-</div>
+<img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
 
 </details>
+
+</div>
 
 
 <!-- ─── FEATURED PROJECTS ─── -->
 
+<div align="center">
+
 <details>
-<summary><h3>🚀 Featured Projects</h3></summary>
+<summary align="center"><h3>🚀 Featured Projects</h3></summary>
 <br>
 
-<div align="center">
-  <img src="./projects.svg?v=3" width="100%" alt="Glenn's Featured Projects" />
-  <a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
-    <img src="./abono_banner.svg?v=2" width="100%" alt="Abono App - Split Bills. Not Friendships." />
-  </a>
-</div>
+<img src="./projects.svg?v=3" width="100%" alt="Glenn's Featured Projects" />
+<a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
+  <img src="./abono_banner.svg?v=2" width="100%" alt="Abono App - Split Bills. Not Friendships." />
+</a>
 
 </details>
+
+</div>
 
 
 <!-- ─── EXPERIENCE & EDUCATION ─── -->
 
+<div align="center">
+
 <details>
-<summary><h3>💼 Experience &amp; Education</h3></summary>
+<summary align="center"><h3>💼 Experience &amp; Education</h3></summary>
 <br>
 
-<div align="center">
-  <img src="./experience.svg?v=5" width="100%" alt="Glenn's Experience &amp; Education" />
-</div>
+<img src="./experience.svg?v=5" width="100%" alt="Glenn's Experience &amp; Education" />
 
 </details>
+
+</div>
 
 
 <!-- ─── GITHUB STATS ─── -->
