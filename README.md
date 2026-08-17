@@ -36,62 +36,13 @@
 </div>
 
 
-<details>
-<summary><strong>🔗 Direct Project Links &amp; Repositories</strong></summary>
 <br>
 
-| Project | Type | Tech Stack | Live / Repo |
-| :--- | :--- | :--- | :--- |
-| **📱 Abono App** | Mobile App | `React Native` `Expo` `Supabase` `Zustand` | [🌐 Live Website](https://www.abono.website/) |
-| **🏢 LaborConnect** *(2nd Place Capstone)* | Enterprise System | `React` `Node.js` `MySQL` `n8n` `Stripe` | [🌐 Live App](https://www.laborconnect.app) · [💻 GitHub Repo](https://github.com/gjcodess/ThesisProj) |
-| **💻 RDS AutoBill** | Desktop Invoicing | `Electron` `React` `Tailwind CSS` `Supabase` | *Client Production* |
-| **🛒 Gcorp. Store** | E-Commerce Platform | `React` `Express.js` `MySQL` `JWT` | [💻 GitHub Repo](https://github.com/gjcodess/WebDev_Project) |
-
-</details>
-
-<details>
-<summary><strong>🎨 UI/UX Design Projects</strong></summary>
-<br>
-
-<table>
-  <thead>
-    <tr>
-      <th width="160">Project</th>
-      <th>Description</th>
-      <th>Tools</th>
-      <th align="center">Preview</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>📚 MangaVerse</strong></td>
-      <td>A modern manga reading and discovery UI/UX concept with anime-inspired dark theme, responsive layouts, and immersive user flows</td>
-      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
-      <td align="center"><a href="https://www.figma.com/proto/y3JbsPe7btzPUtRmEN71ni/MangaVerse?node-id=283-1625&t=tS9s8rszJlWNVM4u-1&starting-point-node-id=285%3A2486">View Design</a></td>
-    </tr>
-    <tr>
-      <td><strong>🍜 kAIn</strong></td>
-      <td>AI-powered food discovery mobile app concept — <em>4th Place, University Hackathon 2025</em></td>
-      <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></td>
-      <td align="center"><a href="https://www.figma.com/proto/rPlg6lcGFfdD33MWG6waZ5/UX-TO-GO---KAIN?node-id=36-918&t=EkmEJSsStUOT9Z9b-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">View Design</a></td>
-    </tr>
-  </tbody>
-</table>
-
-</details>
-
-<details>
-<summary><strong>🖥️ Console &amp; Academic Projects</strong></summary>
-<br>
-
-| Project | Description | Language |
-| :--- | :--- | :--- |
-| **🎓 TUP-AIS** | Dual-portal academic grading system with teacher/student modules and GWA calculation | `C` |
-| **🎮 2048 Puzzle** | Console-based sliding block puzzle with ANSI-colored UI and game history logging | `C` |
-| **🏧 ATM Simulator** | Banking simulation with ADT list operations, PIN encryption, and simulated card insertion | `C++` |
-| **🧮 Arithmetic Game** | OOP-based practice game with linked lists, leaderboards, and file-backed persistence | `C++` |
-
-</details>
+<div align="center">
+  <a href="https://www.abono.website/">
+    <img src="./abono_banner.svg?v=1" width="100%" alt="Abono App - Split Bills. Not Friendships." />
+  </a>
+</div>
 
 
 <!-- ─── GITHUB STATS ─── -->
