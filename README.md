@@ -5,7 +5,7 @@
 
 <div align="center"> 
 
-<img src="./header.svg?v=13" width="100%" alt="Glenn Joshua Corpus Header" />
+<img src="./header.svg" width="100%" alt="Glenn Joshua Corpus Header" />
 
 </div>
 
@@ -14,7 +14,7 @@
 <h3 align="center">🧑‍💻 About Me</h3>
 
 <div align="center">
-  <img src="./neofetch.svg?v=2" width="100%" alt="Glenn's Terminal Profile" />
+  <img src="./neofetch.svg" width="100%" alt="Glenn's Terminal Profile" />
 </div>
 
 
@@ -25,7 +25,7 @@
 <div align="center">
 
 <a href="https://github.com/gjcodess">
-  <img src="./contributions.svg?v=2" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
+  <img src="./contributions.svg" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
 </a>
 
 </div>
@@ -38,7 +38,7 @@
 <details>
 <summary align="center"><h3>🛠️ Tech Stack</h3></summary>
 
-<img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
+<img src="./tech_stack.svg" width="100%" alt="Glenn's Tech Stack" />
 
 </details>
 
@@ -52,9 +52,9 @@
 <details>
 <summary align="center"><h3>🚀 Featured Projects</h3></summary>
 
-<img src="./projects.svg?v=3" width="100%" alt="Glenn's Featured Projects" />
+<img src="./projects.svg" width="100%" alt="Glenn's Featured Projects" />
 <a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
-  <img src="./abono_banner.svg?v=2" width="100%" alt="Abono App - Split Bills. Not Friendships." />
+  <img src="./abono_banner.svg" width="100%" alt="Abono App - Split Bills. Not Friendships." />
 </a>
 
 </details>
@@ -69,7 +69,7 @@
 <details>
 <summary align="center"><h3>💼 Experience &amp; Education</h3></summary>
 
-<img src="./experience.svg?v=5" width="100%" alt="Glenn's Experience &amp; Education" />
+<img src="./experience.svg" width="100%" alt="Glenn's Experience &amp; Education" />
 
 </details>
 
