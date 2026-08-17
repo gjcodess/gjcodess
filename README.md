@@ -36,10 +36,8 @@
 </div>
 
 
-<br>
-
 <div align="center">
-  <a href="https://www.abono.website/">
+  <a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
     <img src="./abono_banner.svg?v=1" width="100%" alt="Abono App - Split Bills. Not Friendships." />
   </a>
 </div>
