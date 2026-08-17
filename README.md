@@ -17,7 +17,6 @@
   <img src="./neofetch.svg?v=2" width="100%" alt="Glenn's Terminal Profile" />
 </div>
 
-<br>
 
 <!-- ─── TECH STACK ─── -->
 
@@ -27,7 +26,6 @@
   <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
 </div>
 
-<br>
 
 <!-- ─── FEATURED PROJECTS ─── -->
 
@@ -37,7 +35,6 @@
   <img src="./projects.svg?v=2" width="100%" alt="Glenn's Featured Projects" />
 </div>
 
-<br>
 
 <details>
 <summary><strong>🔗 Direct Project Links &amp; Repositories</strong></summary>
@@ -96,7 +93,6 @@
 
 </details>
 
-<br>
 
 <!-- ─── GITHUB STATS ─── -->
 
@@ -150,7 +146,6 @@
 
 </details>
 
-<br>
 
 <!-- ─── CONNECT WITH ME ─── -->
 
