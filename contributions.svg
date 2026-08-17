@@ -96,23 +96,23 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="241.20" height="9" fill="#f1e05a"/><rect x="241.20" y="0" width="111.23" height="9" fill="#563d7c"/><rect x="352.43" y="0" width="21.60" height="9" fill="#3178c6"/><rect x="374.03" y="0" width="9.66" height="9" fill="#e34c26"/><rect x="383.69" y="0" width="1.23" height="9" fill="#3572A5"/><rect x="384.92" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="385.00" y="0" width="0.00" height="9" fill="#89e051"/>
+      <rect x="0.00" y="0" width="242.63" height="9" fill="#f1e05a"/><rect x="242.63" y="0" width="110.11" height="9" fill="#563d7c"/><rect x="352.74" y="0" width="21.37" height="9" fill="#3178c6"/><rect x="374.11" y="0" width="9.55" height="9" fill="#e34c26"/><rect x="383.66" y="0" width="1.23" height="9" fill="#3572A5"/><rect x="384.89" y="0" width="0.08" height="9" fill="#58a6ff"/><rect x="384.97" y="0" width="0.00" height="9" fill="#89e051"/>
     </g>
 
     <!-- Language Grid -->
     
     <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
     <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">62.65%</text>
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">63.02%</text>
     <circle cx="466" cy="123" r="4" fill="#563d7c"/>
     <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">28.89%</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">28.6%</text>
     <circle cx="466" cy="147" r="4" fill="#3178c6"/>
     <text x="478" y="151" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">5.61%</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">5.55%</text>
     <circle cx="466" cy="171" r="4" fill="#e34c26"/>
     <text x="478" y="175" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="590" y="175" fill="#7d8590" font-size="11.5">2.51%</text>
+    <text x="590" y="175" fill="#7d8590" font-size="11.5">2.48%</text>
     
     <circle cx="666" cy="99" r="4" fill="#3572A5"/>
     <text x="678" y="103" fill="#c9d1d9" font-size="12">Python</text>
