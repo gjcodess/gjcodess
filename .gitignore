@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Scratch & Temporary Testing Files
+scratch/
+*.tmp
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
