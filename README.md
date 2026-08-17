@@ -55,45 +55,13 @@
 
 </div>
 
-<br>
+<!-- ─── EXPERIENCE & EDUCATION ─── -->
 
-<!-- ─── EXPERIENCE HIGHLIGHTS ─── -->
+<h3 align="center">💼 Experience &amp; Education</h3>
 
-<details>
-<summary><strong>💼 Experience &amp; Education</strong></summary>
-<br>
-
-### 🏢 Professional Experience
-
-**Junior IT Personnel &amp; Web Developer (Intern)** — *Associated Labor Unions, Luzon (Feb 2026 – Apr 2026)*
-- Built **LaborConnect** — a full-stack union management system with membership, venue booking, ticketing, and workflow automation
-- Resolved hardware, software, and network issues for employees, improving operational continuity
-- Completed **486 hours** of hands-on internship collaborating on troubleshooting, system maintenance, and development
-
-**Freelance Technical Support &amp; Designer** — *Self-Employed (2019 – Present)*
-- Developed **RDS AutoBill**, an offline-first desktop sales invoicing application for a local pharmaceutical distributor
-- Executed computer building commissions, OS configurations (Windows/Ubuntu), and hardware troubleshooting
-- Designed marketing materials and digital assets for local businesses and clothing brands
-- Awarded **"Best Video Edit"** in 2024 for exceptional post-production quality
-
----
-
-### 🎓 Education
-
-**Bachelor of Science in Information Technology** — *Technological University of the Philippines, Manila (2022 – 2026)*
-- **Magna Cum Laude** &amp; **Consistent President's Lister**
-- **Ranked 1st** in IT Program &amp; **Ranked 2nd** in College of Science Department
-- **4th Placer** in University Hackathon 2025 &amp; **2nd Placer** in Best Capstone Project 2026
-
-**Senior High School (STEM)** — *San Juan de Dios Educational Foundation, Pasay (2020 – 2022)*
-- Graduated with **High Honors**
-- **Ranked 1st** in Batch &amp; Strand Ranking (A.Y. 2020-2021)
-
-**Junior High School** — *Parañaque National High School, Baclaran (2016 – 2020)*
-- Completed with **High Honors (Valedictorian)**
-- **Ranked 1st** among Grade 10 students (A.Y. 2020)
-
-</details>
+<div align="center">
+  <img src="./experience.svg?v=1" width="100%" alt="Glenn's Experience &amp; Education" />
+</div>
 
 
 <!-- ─── CONNECT WITH ME ─── -->

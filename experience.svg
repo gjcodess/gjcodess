@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="869" height="1406" viewBox="0 0 869 1406" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F0E1A"/>
+      <stop offset="1" stop-color="#090812"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background & Outer Solid White Border -->
+  <rect width="869" height="1406" rx="12" fill="url(#ebg)"/>
+  <rect x="0.5" y="0.5" width="868" height="1405" rx="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  
+  <!-- Header Bar -->
+  <line x1="0" y1="30" x2="869" y2="30" stroke="#ffffff" stroke-opacity="0.35"/>
+  <circle cx="20" cy="15.0" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="15.0" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="15.0" r="5" fill="#27c93f"/>
+  <text x="434.5" y="19.0" fill="#9ca3af" font-size="12" text-anchor="middle">gjcodess@github: ~/experience-and-education --timeline</text>
+
+  <!-- Section Cards & Timeline -->
+  
+      <!-- Vertical Timeline Connector -->
+      <line x1="36" y1="911" x2="36" y2="1277" stroke="#4c566a" stroke-opacity="0.6" stroke-width="1.5"/>
+      
+      <!-- Vertical Timeline Connector -->
+      <line x1="36" y1="100" x2="36" y2="653" stroke="#4c566a" stroke-opacity="0.6" stroke-width="1.5"/>
+      
+    <g opacity="0" transform="translate(0,4)">
+      <line x1="24" y1="62" x2="42" y2="62" stroke="#818cf8" stroke-width="2"/>
+      <text x="50" y="67" fill="#ffffff" font-size="14.5" font-weight="700" letter-spacing="0.5">Work Experience</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.10s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" begin="0.10s" dur="0.4s" fill="freeze"/>
+    </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="112" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="112" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="84" width="780" height="279" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="104" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">JUN 2026 — PRESENT</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="122" fill="#ffffff" font-size="14" font-weight="800">Application Developer (Contract)</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="138" fill="#94a3b8" font-size="12" font-weight="500">Rameson Distribution Inc.</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="150" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="150" fill="#cbd5e1" font-size="11.5">Contracted Application Developer responsible for developing and maintaining a custom</text>
+            
+              <text x="96" y="167" fill="#94a3b8" font-size="11.5">business management system.</text>
+            
+              <text x="84" y="187" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="187" fill="#cbd5e1" font-size="11.5">Developed a centralized application supporting sales, invoicing, inventory, customer</text>
+            
+              <text x="96" y="204" fill="#94a3b8" font-size="11.5">management, and business operations.</text>
+            
+              <text x="84" y="224" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="224" fill="#cbd5e1" font-size="11.5">Implemented a cloud-based database using Supabase with multi-user access and</text>
+            
+              <text x="96" y="241" fill="#94a3b8" font-size="11.5">Role-Based Access Control (RBAC).</text>
+            
+              <text x="84" y="261" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="261" fill="#cbd5e1" font-size="11.5">Continuously enhance, maintain, and troubleshoot the system based on business</text>
+            
+              <text x="96" y="278" fill="#94a3b8" font-size="11.5">requirements and operational needs.</text>
+            
+              <text x="84" y="298" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="298" fill="#cbd5e1" font-size="11.5">Provide ongoing development and technical support under a monthly contract.</text>
+            
+
+        <!-- Tech Pills -->
+        
+            <rect x="84.0" y="319" width="72.4" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="91.0" cy="328.5" r="2.5" fill="#9FEAF9"/>
+            <text x="97.0" y="332.5" fill="#e2e8f0" font-size="10" font-weight="500">Electron</text>
+          
+            <rect x="162.4" y="319" width="52.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="169.4" cy="328.5" r="2.5" fill="#61DAFB"/>
+            <text x="175.4" y="332.5" fill="#e2e8f0" font-size="10" font-weight="500">React</text>
+          
+            <rect x="220.4" y="319" width="72.4" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="227.4" cy="328.5" r="2.5" fill="#3FCF8E"/>
+            <text x="233.4" y="332.5" fill="#e2e8f0" font-size="10" font-weight="500">Supabase</text>
+          
+            <rect x="298.8" y="319" width="92.8" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="305.8" cy="328.5" r="2.5" fill="#38B2AC"/>
+            <text x="311.8" y="332.5" fill="#e2e8f0" font-size="10" font-weight="500">TailwindCSS</text>
+          
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.21s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.21s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="405" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="405" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="377" width="780" height="222" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="397" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">FEB 2026 — APR 2026</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="415" fill="#ffffff" font-size="14" font-weight="800">Junior IT Specialist &amp; Web Developer (Internship)</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="431" fill="#94a3b8" font-size="12" font-weight="500">Associated Labor Unions — Luzon</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="443" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="443" fill="#cbd5e1" font-size="11.5">Developed LaborConnect, a full-stack labor union management system featuring</text>
+            
+              <text x="96" y="460" fill="#94a3b8" font-size="11.5">membership management, venue booking, ticketing, and workflow automation modules.</text>
+            
+              <text x="84" y="480" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="480" fill="#cbd5e1" font-size="11.5">Resolved hardware, software, and network issues for employees, improving operational</text>
+            
+              <text x="96" y="497" fill="#94a3b8" font-size="11.5">continuity and reducing technical downtime.</text>
+            
+              <text x="84" y="517" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="517" fill="#cbd5e1" font-size="11.5">Collaborated with senior IT personnel on troubleshooting, system maintenance, and web</text>
+            
+              <text x="96" y="534" fill="#94a3b8" font-size="11.5">application development initiatives.</text>
+            
+
+        <!-- Tech Pills -->
+        
+            <rect x="84.0" y="555" width="52.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="91.0" cy="564.5" r="2.5" fill="#61DAFB"/>
+            <text x="97.0" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">React</text>
+          
+            <rect x="142.0" y="555" width="65.6" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="149.0" cy="564.5" r="2.5" fill="#339933"/>
+            <text x="155.0" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">Node.js</text>
+          
+            <rect x="213.6" y="555" width="38.4" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="220.6" cy="564.5" r="2.5" fill="#563d7c"/>
+            <text x="226.6" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">CSS</text>
+          
+            <rect x="258.0" y="555" width="52.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="265.0" cy="564.5" r="2.5" fill="#4479A1"/>
+            <text x="271.0" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">MySQL</text>
+          
+            <rect x="316.0" y="555" width="38.4" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="323.0" cy="564.5" r="2.5" fill="#EA4B71"/>
+            <text x="329.0" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">n8n</text>
+          
+            <rect x="360.4" y="555" width="58.8" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="367.4" cy="564.5" r="2.5" fill="#ffffff"/>
+            <text x="373.4" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">Vercel</text>
+          
+            <rect x="425.2" y="555" width="65.6" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="432.2" cy="564.5" r="2.5" fill="#a855f7"/>
+            <text x="438.2" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">Railway</text>
+          
+            <rect x="496.8" y="555" width="86.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="503.8" cy="564.5" r="2.5" fill="#00FF99"/>
+            <text x="509.8" y="568.5" fill="#e2e8f0" font-size="10" font-weight="500">IT Support</text>
+          
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.27s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="641" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="641" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="613" width="780" height="222" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="633" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">2019 — 2026</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="651" fill="#ffffff" font-size="14" font-weight="800">Technical Support &amp; Designer (Freelance)</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="667" fill="#94a3b8" font-size="12" font-weight="500">Self-Employed</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="679" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="679" fill="#cbd5e1" font-size="11.5">Executed computer building commissions, complete Windows/Ubuntu operating system</text>
+            
+              <text x="96" y="696" fill="#94a3b8" font-size="11.5">configurations, and routine hardware troubleshooting.</text>
+            
+              <text x="84" y="716" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="716" fill="#cbd5e1" font-size="11.5">Designed compelling marketing materials, including digital assets and physical prints</text>
+            
+              <text x="96" y="733" fill="#94a3b8" font-size="11.5">for local businesses and clothing brands.</text>
+            
+              <text x="84" y="753" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="753" fill="#cbd5e1" font-size="11.5">Edited multimedia projects and short films, achieving the &quot;Best Video Edit&quot; award in</text>
+            
+              <text x="96" y="770" fill="#94a3b8" font-size="11.5">2024 for exceptional post-production quality.</text>
+            
+
+        <!-- Tech Pills -->
+        
+            <rect x="84.0" y="791" width="133.6" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="91.0" cy="800.5" r="2.5" fill="#ffa657"/>
+            <text x="97.0" y="804.5" fill="#e2e8f0" font-size="10" font-weight="500">Computer Assembly</text>
+          
+            <rect x="223.6" y="791" width="120.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="230.6" cy="800.5" r="2.5" fill="#22d3ee"/>
+            <text x="236.6" y="804.5" fill="#e2e8f0" font-size="10" font-weight="500">Troubleshooting</text>
+          
+            <rect x="349.6" y="791" width="106.4" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="356.6" cy="800.5" r="2.5" fill="#a855f7"/>
+            <text x="362.6" y="804.5" fill="#e2e8f0" font-size="10" font-weight="500">Video Editing</text>
+          
+            <rect x="462.0" y="791" width="113.2" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="469.0" cy="800.5" r="2.5" fill="#f43f5e"/>
+            <text x="475.0" y="804.5" fill="#e2e8f0" font-size="10" font-weight="500">Graphic Design</text>
+          
+            <rect x="581.2" y="791" width="52.0" height="19" rx="4.5" fill="#1b1a2e" stroke="#2e2b48" stroke-width="0.8"/>
+            <circle cx="588.2" cy="800.5" r="2.5" fill="#F24E1E"/>
+            <text x="594.2" y="804.5" fill="#e2e8f0" font-size="10" font-weight="500">Figma</text>
+          
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.33s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+    <g opacity="0" transform="translate(0,4)">
+      <line x1="24" y1="873" x2="42" y2="873" stroke="#818cf8" stroke-width="2"/>
+      <text x="50" y="878" fill="#ffffff" font-size="14.5" font-weight="700" letter-spacing="0.5">Education</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" begin="0.30s" dur="0.4s" fill="freeze"/>
+    </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="923" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="923" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="895" width="780" height="197" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="915" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">EXPECTED AUG 2026</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="933" fill="#ffffff" font-size="14" font-weight="800">College - Bachelor of Science in Information Technology</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="949" fill="#94a3b8" font-size="12" font-weight="500">Technological University of the Philippines, Manila</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="961" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="961" fill="#cbd5e1" font-size="11.5">TUP-Manila Class of 2026 Salutatorian</text>
+            
+              <text x="84" y="981" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="981" fill="#cbd5e1" font-size="11.5">Ranked 2nd in Overall Batch Ranking</text>
+            
+              <text x="84" y="1001" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1001" fill="#cbd5e1" font-size="11.5">Ranked 2nd in College of Science Department</text>
+            
+              <text x="84" y="1021" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1021" fill="#cbd5e1" font-size="11.5">Ranked 1st in BS Information Technology Program</text>
+            
+              <text x="84" y="1041" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1041" fill="#cbd5e1" font-size="11.5">Magna Cum Laude</text>
+            
+              <text x="84" y="1061" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1061" fill="#cbd5e1" font-size="11.5">Consistent President's Lister</text>
+            
+
+        <!-- Tech Pills -->
+        
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.45s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="1134" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="1134" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="1106" width="780" height="117" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="1126" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">2020 — 2022</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="1144" fill="#ffffff" font-size="14" font-weight="800">Senior High School - Science, Technology, Engineering, and Mathematics</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="1160" fill="#94a3b8" font-size="12" font-weight="500">San Juan de Dios Educational Foundation Inc., Pasay</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="1172" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1172" fill="#cbd5e1" font-size="11.5">Graduated with High Honors</text>
+            
+              <text x="84" y="1192" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1192" fill="#cbd5e1" font-size="11.5">Ranked 1st in Batch and Strand Ranking (A.Y. 2020-2021)</text>
+            
+
+        <!-- Tech Pills -->
+        
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.51s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+      <g opacity="0" transform="translate(0,6)">
+        <!-- Timeline Node Circle -->
+        <circle cx="36" cy="1265" r="6" fill="#0F0E1A" stroke="#818cf8" stroke-width="2"/>
+        <circle cx="36" cy="1265" r="2.5" fill="#818cf8"/>
+
+        <!-- Card Container -->
+        <rect x="64" y="1237" width="780" height="117" rx="8" fill="#131220" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+        <!-- Date Badge -->
+        <text x="84" y="1257" fill="#818cf8" font-size="10.5" font-weight="700" letter-spacing="1">2016 — 2020</text>
+
+        <!-- Role / Title -->
+        <text x="84" y="1275" fill="#ffffff" font-size="14" font-weight="800">Junior High School</text>
+
+        <!-- Organization / Company -->
+        <text x="84" y="1291" fill="#94a3b8" font-size="12" font-weight="500">Parañaque National High School — Baclaran, Parañaque</text>
+
+        <!-- Bullets -->
+        
+              <text x="84" y="1303" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1303" fill="#cbd5e1" font-size="11.5">Completed with High Honors (Valedictorian)</text>
+            
+              <text x="84" y="1323" fill="#818cf8" font-size="11.5" font-weight="700">•</text>
+              <text x="96" y="1323" fill="#cbd5e1" font-size="11.5">Ranked 1st among Grade 10 students (A.Y. 2020)</text>
+            
+
+        <!-- Tech Pills -->
+        
+
+        <animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.57s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+  <!-- Footer Divider Line -->
+  <line x1="0" y1="1372" x2="869" y2="1372" stroke="#ffffff" stroke-opacity="0.3"/>
+
+  <!-- Footer Metrics -->
+  <text x="24" y="1393" font-size="11.5" fill="#00FF99">✦ <tspan fill="#7d8590">Career &amp; Academic Timeline: </tspan><tspan fill="#c9d1d9" font-weight="700">Software Engineering · Systems · Leadership</tspan></text>
+  <text x="845" y="1393" font-size="11.5" fill="#7d8590" text-anchor="end">status: <tspan fill="#818cf8" font-weight="700">actively contributing</tspan></text>
+</svg>
