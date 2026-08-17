@@ -2,7 +2,7 @@ name: Update Contributions Graph
 
 on:
   schedule:
-    - cron: '0 16 * * *' # Runs daily at 12:00 AM (midnight) Philippine Time (UTC+8)
+    - cron: '0 */6 * * *' # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
   push:
     branches:
