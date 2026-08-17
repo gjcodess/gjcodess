@@ -24,7 +24,6 @@
 
 <details>
 <summary align="center"><h3>🛠️ Tech Stack</h3></summary>
-<br>
 
 <img src="./tech_stack.svg?v=2" width="100%" alt="Glenn's Tech Stack" />
 
@@ -39,7 +38,6 @@
 
 <details>
 <summary align="center"><h3>🚀 Featured Projects</h3></summary>
-<br>
 
 <img src="./projects.svg?v=3" width="100%" alt="Glenn's Featured Projects" />
 <a href="https://www.abono.website/" target="_blank" rel="noopener noreferrer">
@@ -57,7 +55,6 @@
 
 <details>
 <summary align="center"><h3>💼 Experience &amp; Education</h3></summary>
-<br>
 
 <img src="./experience.svg?v=5" width="100%" alt="Glenn's Experience &amp; Education" />
 
