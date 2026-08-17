@@ -55,7 +55,7 @@ const workExperience = [
       "Provide ongoing development and technical support under a monthly contract."
     ],
     tech: ["Electron", "React", "Supabase", "TailwindCSS"],
-    footer: "💼 Contract Production System · Custom Business Suite"
+    footer: "Contract Production System · Custom Business Suite"
   },
   {
     title: "Junior IT Specialist & Web Developer (Internship)",
@@ -68,7 +68,7 @@ const workExperience = [
       "Collaborated with senior IT personnel on troubleshooting, system maintenance, and web application development initiatives."
     ],
     tech: ["React", "Node.js", "CSS", "MySQL", "n8n", "Vercel", "Railway", "IT Support"],
-    footer: "💼 486-Hour Internship · LaborConnect Enterprise System"
+    footer: "486-Hour Internship · LaborConnect Enterprise System"
   },
   {
     title: "Technical Support & Designer (Freelance)",
@@ -81,7 +81,7 @@ const workExperience = [
       "Edited multimedia projects and short films, achieving the \"Best Video Edit\" award in 2024 for exceptional post-production quality."
     ],
     tech: ["Computer Assembly", "Troubleshooting", "Video Editing", "Graphic Design", "Figma"],
-    footer: "🏆 Awarded \"Best Video Edit\" (2024) · Hardware & UI/UX"
+    footer: "Awarded \"Best Video Edit\" (2024) · Hardware & UI/UX"
   }
 ];
 
@@ -89,7 +89,7 @@ const education = [
   {
     title: "Bachelor of Science in Information Technology",
     org: "Technological University of the Philippines, Manila",
-    badge: "EXPECTED AUG 2026",
+    badge: "2022 — 2026",
     badgeColor: "#00FF99",
     bullets: [
       "TUP-Manila Class of 2026 Salutatorian",
@@ -100,7 +100,7 @@ const education = [
       "Consistent President's Lister"
     ],
     tech: [],
-    footer: "🎓 Salutatorian · Magna Cum Laude · Rank 1 BSIT Program"
+    footer: "Salutatorian · Magna Cum Laude · Rank 1 BSIT Program"
   },
   {
     title: "Senior High School — Science, Technology, Engineering, & Math (STEM)",
@@ -112,7 +112,7 @@ const education = [
       "Ranked 1st in Batch and Strand Ranking (A.Y. 2020-2021)"
     ],
     tech: [],
-    footer: "🎓 High Honors · Ranked 1st in Batch & STEM Strand"
+    footer: "High Honors · Ranked 1st in Batch & STEM Strand"
   },
   {
     title: "Junior High School",
@@ -124,7 +124,7 @@ const education = [
       "Ranked 1st among Grade 10 students (A.Y. 2020)"
     ],
     tech: [],
-    footer: "🎓 Valedictorian · High Honors · Ranked 1st in Grade 10"
+    footer: "Valedictorian · High Honors · Ranked 1st in Grade 10"
   }
 ];
 
