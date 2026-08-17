@@ -18,6 +18,19 @@
 </div>
 
 
+<!-- ─── GITHUB STATS ─── -->
+
+<h3 align="center">📊 GitHub Stats</h3>
+
+<div align="center">
+
+<a href="https://github.com/gjcodess">
+  <img src="./contributions.svg?v=2" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
+</a>
+
+</div>
+
+
 <!-- ─── TECH STACK ─── -->
 
 <div align="center">
@@ -59,19 +72,6 @@
 <img src="./experience.svg?v=5" width="100%" alt="Glenn's Experience &amp; Education" />
 
 </details>
-
-</div>
-
-
-<!-- ─── GITHUB STATS ─── -->
-
-<h3 align="center">📊 GitHub Stats</h3>
-
-<div align="center">
-
-<a href="https://github.com/gjcodess">
-  <img src="./contributions.svg?v=2" width="100%" alt="Glenn's GitHub Stats &amp; Contribution Graph" />
-</a>
 
 </div>
 
