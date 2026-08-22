@@ -83,7 +83,7 @@
 <div align="center">
 
 <a href="https://www.gjcodes.me">
-  <img src="https://img.shields.io/badge/Portfolio-00FF99?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-818CF5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/glenn-joshua-corpus-671b5b18a/">
