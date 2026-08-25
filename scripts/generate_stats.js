@@ -107,11 +107,45 @@ async function fetchGraphQL(query, variables = {}) {
   }
 }
 
+async function fetchLifetimeContributions(username) {
+  const currentYear = new Date().getUTCFullYear();
+  const startYear = 2022;
+  const yearPromises = [];
+
+  for (let y = startYear; y <= currentYear; y++) {
+    yearPromises.push(
+      fetch(`https://github.com/users/${username}/contributions?from=${y}-12-01&to=${y}-12-31`, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        signal: AbortSignal.timeout(5000)
+      })
+      .then(res => res.ok ? res.text() : '')
+      .then(html => {
+        const m = html.match(/([\d,]+)\s+contributions/i);
+        return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0;
+      })
+      .catch(() => 0)
+    );
+  }
+
+  try {
+    const results = await Promise.all(yearPromises);
+    const total = results.reduce((sum, val) => sum + val, 0);
+    if (total > 0) return total;
+  } catch (e) {}
+
+  return 1185;
+}
+
 async function fetchGitHubStats(username) {
   let totalStars = 16;
-  let totalCommits = 796;
+  let totalCommits = 1185;
   let totalRepos = 5;
   let languages = DEFAULT_LANGUAGES;
+
+  const lifetimePromise = fetchLifetimeContributions(username);
 
   if (GITHUB_TOKEN) {
     try {
@@ -215,7 +249,11 @@ async function fetchGitHubStats(username) {
           }
         }
 
-        if (lifetimeCommits > 0) totalCommits = lifetimeCommits;
+        if (lifetimeCommits > 0) {
+          totalCommits = lifetimeCommits;
+        } else {
+          totalCommits = await lifetimePromise;
+        }
 
         return {
           totalStars,
@@ -227,7 +265,8 @@ async function fetchGitHubStats(username) {
     } catch (err) {}
   }
 
-  // REST fallback
+  // REST fallback + scrape
+  totalCommits = await lifetimePromise;
   try {
     const headers = { 'User-Agent': 'NodeJS-Profile-Updater' };
     if (GITHUB_TOKEN) headers['Authorization'] = `token ${GITHUB_TOKEN}`;
@@ -371,7 +410,7 @@ function generateUnifiedStatsSvg(statsData) {
     <svg x="24" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
       <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.6-1.2-1.6 1.2a.25.25 0 0 1-.4-.2Z"/>
     </svg>
-    <text x="48" y="141" fill="#c9d1d9" font-size="13">Total Repositories:</text>
+    <text x="48" y="141" fill="#c9d1d9" font-size="13">Total Public Repos:</text>
     <text x="235" y="141" fill="#ffffff" font-weight="700" font-size="13">${statsData.totalRepos.toLocaleString()}</text>
 
     <!-- Contributions (yr) Icon -->
@@ -468,7 +507,7 @@ function generateStatsCardSvg(statsData) {
     <svg x="22" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
       <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.6-1.2-1.6 1.2a.25.25 0 0 1-.4-.2Z"/>
     </svg>
-    <text x="46" y="141" fill="#c9d1d9" font-size="12.5">Total Repositories:</text>
+    <text x="46" y="141" fill="#c9d1d9" font-size="12.5">Total Public Repos:</text>
     <text x="230" y="141" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalRepos.toLocaleString()}</text>
 
     <svg x="22" y="154" width="16" height="16" viewBox="0 0 16 16" fill="#39d353">
