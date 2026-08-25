@@ -95,20 +95,20 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="276.20" height="9" fill="#f1e05a"/><rect x="276.20" y="0" width="95.83" height="9" fill="#563d7c"/><rect x="372.03" y="0" width="10.82" height="9" fill="#e34c26"/><rect x="382.85" y="0" width="2.19" height="9" fill="#3572A5"/>
+      <rect x="0.00" y="0" width="276.58" height="9" fill="#f1e05a"/><rect x="276.58" y="0" width="95.48" height="9" fill="#563d7c"/><rect x="372.06" y="0" width="10.78" height="9" fill="#e34c26"/><rect x="382.84" y="0" width="2.19" height="9" fill="#3572A5"/>
     </g>
 
     <!-- Language Grid -->
     
     <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
     <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">71.74%</text>
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">71.84%</text>
     <circle cx="466" cy="123" r="4" fill="#563d7c"/>
     <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">24.89%</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">24.8%</text>
     <circle cx="466" cy="147" r="4" fill="#e34c26"/>
     <text x="478" y="151" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">2.81%</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">2.8%</text>
     <circle cx="466" cy="171" r="4" fill="#3572A5"/>
     <text x="478" y="175" fill="#c9d1d9" font-size="12">Python</text>
     <text x="590" y="175" fill="#7d8590" font-size="11.5">0.57%</text>
