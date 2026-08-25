@@ -93,41 +93,41 @@ async function fetchContributions(username) {
   return null;
 }
 
-function calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo }) {
+function calculateRank({ totalCommits, totalRepos, totalStars, contributionsYear, currentStreak }) {
   const COMMITS_WEIGHT = 1.5;
-  const PRS_WEIGHT = 3;
-  const ISSUES_WEIGHT = 1.5;
-  const STARS_WEIGHT = 4;
-  const CONTRIBUTED_WEIGHT = 2;
+  const REPOS_WEIGHT = 4;
+  const STARS_WEIGHT = 5;
+  const CONTRIB_WEIGHT = 1.2;
+  const STREAK_WEIGHT = 3;
 
   const score =
     (totalCommits || 0) * COMMITS_WEIGHT +
-    (totalPRs || 0) * PRS_WEIGHT +
-    (totalIssues || 0) * ISSUES_WEIGHT +
+    (totalRepos || 0) * REPOS_WEIGHT +
     (totalStars || 0) * STARS_WEIGHT +
-    (contributedTo || 0) * CONTRIBUTED_WEIGHT;
+    (contributionsYear || 0) * CONTRIB_WEIGHT +
+    (currentStreak || 0) * STREAK_WEIGHT;
 
   let rank = 'A';
   let rankPercentile = 'Top 25%';
   let strokeDashoffset = 75;
 
-  if (score >= 2500) {
+  if (score >= 3000) {
     rank = 'S';
     rankPercentile = 'Top 1%';
     strokeDashoffset = 20;
-  } else if (score >= 1200) {
+  } else if (score >= 1500) {
     rank = 'A++';
     rankPercentile = 'Top 5%';
     strokeDashoffset = 35;
-  } else if (score >= 600) {
+  } else if (score >= 750) {
     rank = 'A+';
     rankPercentile = 'Top 15%';
     strokeDashoffset = 55;
-  } else if (score >= 300) {
+  } else if (score >= 350) {
     rank = 'A';
     rankPercentile = 'Top 25%';
     strokeDashoffset = 75;
-  } else if (score >= 100) {
+  } else if (score >= 150) {
     rank = 'B+';
     rankPercentile = 'Top 35%';
     strokeDashoffset = 95;
@@ -172,9 +172,7 @@ async function fetchGraphQL(query, variables = {}) {
 async function fetchGitHubStats(username) {
   let totalStars = 16;
   let totalCommits = 796;
-  let totalPRs = 0;
-  let totalIssues = 0;
-  let contributedTo = 0;
+  let totalRepos = 5;
   let languages = DEFAULT_LANGUAGES;
 
   // 1. Attempt GraphQL query if token is present
@@ -183,21 +181,13 @@ async function fetchGitHubStats(username) {
       const mainQuery = `
         query($username: String!) {
           user(login: $username) {
-            repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
-              totalCount
-            }
-            pullRequests(first: 1) {
-              totalCount
-            }
-            issues(first: 1) {
-              totalCount
-            }
             contributionsCollection {
               contributionYears
               totalCommitContributions
               restrictedContributionsCount
             }
             repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+              totalCount
               nodes {
                 stargazerCount
                 languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
@@ -218,13 +208,12 @@ async function fetchGitHubStats(username) {
       const gqlData = await fetchGraphQL(mainQuery, { username });
       if (gqlData && gqlData.user) {
         const u = gqlData.user;
-        if (typeof u.pullRequests?.totalCount === 'number') totalPRs = u.pullRequests.totalCount;
-        if (typeof u.issues?.totalCount === 'number') totalIssues = u.issues.totalCount;
-        if (typeof u.repositoriesContributedTo?.totalCount === 'number') contributedTo = u.repositoriesContributedTo.totalCount;
+        if (typeof u.repositories?.totalCount === 'number') totalRepos = u.repositories.totalCount;
 
         let starCount = 0;
         const langBytes = {};
         if (u.repositories && Array.isArray(u.repositories.nodes)) {
+          if (!totalRepos) totalRepos = u.repositories.nodes.length;
           for (const repo of u.repositories.nodes) {
             starCount += repo.stargazerCount || 0;
             if (repo.languages && Array.isArray(repo.languages.edges)) {
@@ -292,19 +281,13 @@ async function fetchGitHubStats(username) {
 
         if (lifetimeCommits > 0) totalCommits = lifetimeCommits;
 
-        const rankInfo = calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo });
-        console.log(`[GraphQL Stats] Commits: ${totalCommits}, PRs: ${totalPRs}, Issues: ${totalIssues}, Stars: ${totalStars}, ContributedTo: ${contributedTo}, Rank: ${rankInfo.rank}`);
+        console.log(`[GraphQL Stats] Commits: ${totalCommits}, Repos: ${totalRepos}, Stars: ${totalStars}`);
 
         return {
           totalStars,
           totalCommits,
-          totalPRs,
-          totalIssues,
-          contributedTo,
-          languages,
-          rank: rankInfo.rank,
-          rankPercentile: rankInfo.rankPercentile,
-          strokeDashoffset: rankInfo.strokeDashoffset
+          totalRepos,
+          languages
         };
       }
     } catch (err) {
@@ -323,6 +306,7 @@ async function fetchGitHubStats(username) {
     });
     if (repoRes.ok) {
       const repos = await repoRes.json();
+      if (Array.isArray(repos) && repos.length > 0) totalRepos = repos.length;
       let starCount = 0;
       const langBytes = {};
 
@@ -367,17 +351,11 @@ async function fetchGitHubStats(username) {
     console.error('Notice while fetching live stats (using fallback):', err.message);
   }
 
-  const rankInfo = calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo });
   return {
     totalStars,
     totalCommits,
-    totalPRs,
-    totalIssues,
-    contributedTo,
-    languages,
-    rank: rankInfo.rank,
-    rankPercentile: rankInfo.rankPercentile,
-    strokeDashoffset: rankInfo.strokeDashoffset
+    totalRepos,
+    languages
   };
 }
 
@@ -539,6 +517,15 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
     <text x="785" y="${y + 4}" fill="#7d8590" font-size="11.5">${l.percent}%</text>`;
   }).join('');
 
+  // Calculate rank dynamically based on all profile metrics
+  const rankInfo = calculateRank({
+    totalCommits: statsData.totalCommits,
+    totalRepos: statsData.totalRepos,
+    totalStars: statsData.totalStars,
+    contributionsYear: totalYearContributions,
+    currentStreak
+  });
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="869" height="442" viewBox="0 0 869 442" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <style>
     @keyframes cell {
@@ -579,41 +566,40 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
 
   <!-- Stat Items with Standardized 16x16 Octicons -->
   <g opacity="0" transform="translate(0,5)">
-    <!-- Star Icon -->
+    <!-- 1. Star Icon -->
     <svg x="24" y="71" width="16" height="16" viewBox="0 0 16 16" fill="#ffa657">
       <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
     </svg>
     <text x="48" y="84" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
     <text x="235" y="84" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalStars.toLocaleString()}</text>
 
-    <!-- Commit Icon -->
+    <!-- 2. Commit Icon -->
     <svg x="24" y="95" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
     <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalCommits.toLocaleString()}</text>
 
-    <!-- PR Icon -->
+    <!-- 3. Repository Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
-      <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.6-1.2-1.6 1.2a.25.25 0 0 1-.4-.2Z"/>
     </svg>
-    <text x="48" y="132" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
-    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalPRs.toLocaleString()}</text>
+    <text x="48" y="132" fill="#c9d1d9" font-size="12.5">Total Repositories:</text>
+    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalRepos.toLocaleString()}</text>
 
-    <!-- Issue Icon -->
-    <svg x="24" y="143" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
-      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
-      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
+    <!-- 4. Contributions (yr) Icon -->
+    <svg x="24" y="143" width="16" height="16" viewBox="0 0 16 16" fill="#39d353">
+      <path d="M1.5 1.75a.75.75 0 0 0-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 0 0 0-1.5H1.5V1.75Zm14.28 2.53a.75.75 0 0 0-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 0 0-1.06 0L3.22 8.72a.75.75 0 0 0 1.06 1.06L6.75 7.31l2.47 2.47a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
     </svg>
-    <text x="48" y="156" fill="#c9d1d9" font-size="12.5">Total Issues:</text>
-    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalIssues.toLocaleString()}</text>
+    <text x="48" y="156" fill="#c9d1d9" font-size="12.5">Contributions (yr):</text>
+    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${formattedTotal}</text>
 
-    <!-- Contributed To Icon -->
-    <svg x="24" y="167" width="16" height="16" viewBox="0 0 16 16" fill="#38bdf8">
-      <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.218.585L8 11.834l-3.782 2.999A.75.75 0 0 1 3 14.25V2.75Z"/>
+    <!-- 5. Current Streak Icon -->
+    <svg x="24" y="167" width="16" height="16" viewBox="0 0 16 16" fill="#ff5f56">
+      <path d="M9.504.43a1.5 1.5 0 0 1 .568 1.447l-.462 2.774h3.64a1.5 1.5 0 0 1 1.258 2.316l-6.5 9.75A1.5 1.5 0 0 1 5.44 15.19l.524-3.142H2.25a1.5 1.5 0 0 1-1.258-2.316l6.5-9.75a1.5 1.5 0 0 1 2.012-.554Z"/>
     </svg>
-    <text x="48" y="180" fill="#c9d1d9" font-size="12.5">Contributed to (yr):</text>
-    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.contributedTo.toLocaleString()}</text>
+    <text x="48" y="180" fill="#c9d1d9" font-size="12.5">Current Streak:</text>
+    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">${currentStreak} days</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.2s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -622,9 +608,9 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
   <!-- Rank Ring Badge -->
   <g opacity="0" transform="translate(348, 126)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="4.5"/>
-    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="${statsData.strokeDashoffset || 55}" transform="rotate(-90)"/>
-    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">${statsData.rank || 'A+'}</text>
-    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">${statsData.rankPercentile || 'Top 15%'}</text>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="${rankInfo.strokeDashoffset || 35}" transform="rotate(-90)"/>
+    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">${rankInfo.rank || 'A++'}</text>
+    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">${rankInfo.rankPercentile || 'Top 5%'}</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
   </g>
 
