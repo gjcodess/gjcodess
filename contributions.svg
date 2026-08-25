@@ -50,7 +50,7 @@
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">796</text>
+    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">1,178</text>
 
     <!-- PR Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
@@ -96,33 +96,24 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="243.82" height="9" fill="#f1e05a"/><rect x="243.82" y="0" width="92.21" height="9" fill="#563d7c"/><rect x="336.03" y="0" width="32.19" height="9" fill="#3178c6"/><rect x="368.22" y="0" width="14.71" height="9" fill="#e34c26"/><rect x="382.93" y="0" width="1.93" height="9" fill="#3572A5"/><rect x="384.86" y="0" width="0.12" height="9" fill="#58a6ff"/><rect x="384.98" y="0" width="0.04" height="9" fill="#89e051"/>
+      <rect x="0.00" y="0" width="274.00" height="9" fill="#f1e05a"/><rect x="274.00" y="0" width="97.75" height="9" fill="#563d7c"/><rect x="371.75" y="0" width="11.01" height="9" fill="#e34c26"/><rect x="382.76" y="0" width="2.23" height="9" fill="#3572A5"/>
     </g>
 
     <!-- Language Grid -->
     
     <circle cx="466" cy="99" r="4" fill="#f1e05a"/>
     <text x="478" y="103" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">63.33%</text>
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">71.17%</text>
     <circle cx="466" cy="123" r="4" fill="#563d7c"/>
     <text x="478" y="127" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">23.95%</text>
-    <circle cx="466" cy="147" r="4" fill="#3178c6"/>
-    <text x="478" y="151" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">8.36%</text>
-    <circle cx="466" cy="171" r="4" fill="#e34c26"/>
-    <text x="478" y="175" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="590" y="175" fill="#7d8590" font-size="11.5">3.82%</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">25.39%</text>
+    <circle cx="466" cy="147" r="4" fill="#e34c26"/>
+    <text x="478" y="151" fill="#c9d1d9" font-size="12">HTML</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">2.86%</text>
+    <circle cx="466" cy="171" r="4" fill="#3572A5"/>
+    <text x="478" y="175" fill="#c9d1d9" font-size="12">Python</text>
+    <text x="590" y="175" fill="#7d8590" font-size="11.5">0.58%</text>
     
-    <circle cx="666" cy="99" r="4" fill="#3572A5"/>
-    <text x="678" y="103" fill="#c9d1d9" font-size="12">Python</text>
-    <text x="785" y="103" fill="#7d8590" font-size="11.5">0.5%</text>
-    <circle cx="666" cy="123" r="4" fill="#58a6ff"/>
-    <text x="678" y="127" fill="#c9d1d9" font-size="12">Nix</text>
-    <text x="785" y="127" fill="#7d8590" font-size="11.5">0.03%</text>
-    <circle cx="666" cy="147" r="4" fill="#89e051"/>
-    <text x="678" y="151" fill="#c9d1d9" font-size="12">Shell</text>
-    <text x="785" y="151" fill="#7d8590" font-size="11.5">0.01%</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>

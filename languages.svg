@@ -22,35 +22,26 @@
     <text x="22" y="58" fill="#00FF99" font-size="13.5" font-weight="700">Most Used Languages</text>
     
     <g transform="translate(22, 74)" mask="url(#bar-mask2)">
-      <rect x="0.00" y="0" width="240.65" height="9" fill="#f1e05a"/><rect x="240.65" y="0" width="91.01" height="9" fill="#563d7c"/><rect x="331.66" y="0" width="31.77" height="9" fill="#3178c6"/><rect x="363.43" y="0" width="14.52" height="9" fill="#e34c26"/><rect x="377.95" y="0" width="1.90" height="9" fill="#3572A5"/><rect x="379.85" y="0" width="0.11" height="9" fill="#58a6ff"/><rect x="379.96" y="0" width="0.04" height="9" fill="#89e051"/>
+      <rect x="0.00" y="0" width="270.45" height="9" fill="#f1e05a"/><rect x="270.45" y="0" width="96.48" height="9" fill="#563d7c"/><rect x="366.93" y="0" width="10.87" height="9" fill="#e34c26"/><rect x="377.80" y="0" width="2.20" height="9" fill="#3572A5"/>
     </g>
 
     <!-- Column 1 -->
     
     <circle cx="28" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="40" y="111" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="145" y="111" fill="#7d8590" font-size="11.5">63.33%</text>
+    <text x="145" y="111" fill="#7d8590" font-size="11.5">71.17%</text>
     <circle cx="28" cy="133" r="4.5" fill="#563d7c"/>
     <text x="40" y="137" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="145" y="137" fill="#7d8590" font-size="11.5">23.95%</text>
-    <circle cx="28" cy="159" r="4.5" fill="#3178c6"/>
-    <text x="40" y="163" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="145" y="163" fill="#7d8590" font-size="11.5">8.36%</text>
-    <circle cx="28" cy="185" r="4.5" fill="#e34c26"/>
-    <text x="40" y="189" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="145" y="189" fill="#7d8590" font-size="11.5">3.82%</text>
+    <text x="145" y="137" fill="#7d8590" font-size="11.5">25.39%</text>
+    <circle cx="28" cy="159" r="4.5" fill="#e34c26"/>
+    <text x="40" y="163" fill="#c9d1d9" font-size="12">HTML</text>
+    <text x="145" y="163" fill="#7d8590" font-size="11.5">2.86%</text>
+    <circle cx="28" cy="185" r="4.5" fill="#3572A5"/>
+    <text x="40" y="189" fill="#c9d1d9" font-size="12">Python</text>
+    <text x="145" y="189" fill="#7d8590" font-size="11.5">0.58%</text>
 
     <!-- Column 2 -->
     
-    <circle cx="225" cy="107" r="4.5" fill="#3572A5"/>
-    <text x="237" y="111" fill="#c9d1d9" font-size="12">Python</text>
-    <text x="340" y="111" fill="#7d8590" font-size="11.5">0.5%</text>
-    <circle cx="225" cy="133" r="4.5" fill="#58a6ff"/>
-    <text x="237" y="137" fill="#c9d1d9" font-size="12">Nix</text>
-    <text x="340" y="137" fill="#7d8590" font-size="11.5">0.03%</text>
-    <circle cx="225" cy="159" r="4.5" fill="#89e051"/>
-    <text x="237" y="163" fill="#c9d1d9" font-size="12">Shell</text>
-    <text x="340" y="163" fill="#7d8590" font-size="11.5">0.01%</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
