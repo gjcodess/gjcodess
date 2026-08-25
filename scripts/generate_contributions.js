@@ -93,18 +93,230 @@ async function fetchContributions(username) {
   return null;
 }
 
-async function fetchGitHubStats(username) {
-  const headers = { 'User-Agent': 'NodeJS-Profile-Updater' };
-  if (GITHUB_TOKEN) {
-    headers['Authorization'] = `token ${GITHUB_TOKEN}`;
+function calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo }) {
+  const COMMITS_WEIGHT = 1.5;
+  const PRS_WEIGHT = 3;
+  const ISSUES_WEIGHT = 1.5;
+  const STARS_WEIGHT = 4;
+  const CONTRIBUTED_WEIGHT = 2;
+
+  const score =
+    (totalCommits || 0) * COMMITS_WEIGHT +
+    (totalPRs || 0) * PRS_WEIGHT +
+    (totalIssues || 0) * ISSUES_WEIGHT +
+    (totalStars || 0) * STARS_WEIGHT +
+    (contributedTo || 0) * CONTRIBUTED_WEIGHT;
+
+  let rank = 'A';
+  let rankPercentile = 'Top 25%';
+  let strokeDashoffset = 75;
+
+  if (score >= 2500) {
+    rank = 'S';
+    rankPercentile = 'Top 1%';
+    strokeDashoffset = 20;
+  } else if (score >= 1200) {
+    rank = 'A++';
+    rankPercentile = 'Top 5%';
+    strokeDashoffset = 35;
+  } else if (score >= 600) {
+    rank = 'A+';
+    rankPercentile = 'Top 15%';
+    strokeDashoffset = 55;
+  } else if (score >= 300) {
+    rank = 'A';
+    rankPercentile = 'Top 25%';
+    strokeDashoffset = 75;
+  } else if (score >= 100) {
+    rank = 'B+';
+    rankPercentile = 'Top 35%';
+    strokeDashoffset = 95;
+  } else {
+    rank = 'B';
+    rankPercentile = 'Top 50%';
+    strokeDashoffset = 120;
   }
 
-  let totalStars = 24;
-  let totalPRs = 244;
+  return { rank, rankPercentile, strokeDashoffset };
+}
+
+async function fetchGraphQL(query, variables = {}) {
+  if (!GITHUB_TOKEN) return null;
+  try {
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        'Authorization': `bearer ${GITHUB_TOKEN}`,
+        'User-Agent': 'NodeJS-Profile-Updater',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ query, variables }),
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) {
+      console.warn(`[GraphQL] Non-OK status: ${res.status}`);
+      return null;
+    }
+    const json = await res.json();
+    if (json.errors) {
+      console.warn('[GraphQL] Query error:', json.errors[0]?.message);
+      return null;
+    }
+    return json.data;
+  } catch (err) {
+    console.warn('[GraphQL] Notice:', err.message);
+    return null;
+  }
+}
+
+async function fetchGitHubStats(username) {
+  let totalStars = 16;
+  let totalCommits = 796;
+  let totalPRs = 0;
   let totalIssues = 0;
+  let contributedTo = 0;
   let languages = DEFAULT_LANGUAGES;
 
+  // 1. Attempt GraphQL query if token is present
+  if (GITHUB_TOKEN) {
+    try {
+      const mainQuery = `
+        query($username: String!) {
+          user(login: $username) {
+            repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
+              totalCount
+            }
+            pullRequests(first: 1) {
+              totalCount
+            }
+            issues(first: 1) {
+              totalCount
+            }
+            contributionsCollection {
+              contributionYears
+              totalCommitContributions
+              restrictedContributionsCount
+            }
+            repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+              nodes {
+                stargazerCount
+                languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                  edges {
+                    size
+                    node {
+                      name
+                      color
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      `;
+
+      const gqlData = await fetchGraphQL(mainQuery, { username });
+      if (gqlData && gqlData.user) {
+        const u = gqlData.user;
+        if (typeof u.pullRequests?.totalCount === 'number') totalPRs = u.pullRequests.totalCount;
+        if (typeof u.issues?.totalCount === 'number') totalIssues = u.issues.totalCount;
+        if (typeof u.repositoriesContributedTo?.totalCount === 'number') contributedTo = u.repositoriesContributedTo.totalCount;
+
+        let starCount = 0;
+        const langBytes = {};
+        if (u.repositories && Array.isArray(u.repositories.nodes)) {
+          for (const repo of u.repositories.nodes) {
+            starCount += repo.stargazerCount || 0;
+            if (repo.languages && Array.isArray(repo.languages.edges)) {
+              for (const edge of repo.languages.edges) {
+                const name = edge.node?.name;
+                const color = edge.node?.color;
+                if (name) {
+                  if (!LANG_COLORS[name] && color) {
+                    LANG_COLORS[name] = color;
+                  }
+                  langBytes[name] = (langBytes[name] || 0) + (edge.size || 0);
+                }
+              }
+            }
+          }
+        }
+        if (starCount > 0) totalStars = starCount;
+
+        let totalBytes = 0;
+        for (const b of Object.values(langBytes)) totalBytes += b;
+        if (totalBytes > 0) {
+          const sortedLangs = Object.entries(langBytes)
+            .map(([name, bytes]) => ({
+              name,
+              percent: parseFloat(((bytes / totalBytes) * 100).toFixed(2)),
+              color: LANG_COLORS[name] || '#58a6ff'
+            }))
+            .sort((a, b) => b.percent - a.percent)
+            .slice(0, 8);
+
+          if (sortedLangs.length > 0) languages = sortedLangs;
+        }
+
+        // Lifetime commit contributions (public + private restricted)
+        const years = u.contributionsCollection?.contributionYears || [];
+        let lifetimeCommits = (u.contributionsCollection?.totalCommitContributions || 0) + (u.contributionsCollection?.restrictedContributionsCount || 0);
+
+        if (years.length > 1) {
+          const yearFields = years.map(y => `
+            year_${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${y}-12-31T23:59:59Z") {
+              totalCommitContributions
+              restrictedContributionsCount
+            }
+          `).join('\n');
+
+          const yearsQuery = `
+            query($username: String!) {
+              user(login: $username) {
+                ${yearFields}
+              }
+            }
+          `;
+
+          const yearsData = await fetchGraphQL(yearsQuery, { username });
+          if (yearsData && yearsData.user) {
+            let sum = 0;
+            for (const [key, val] of Object.entries(yearsData.user)) {
+              if (val) {
+                sum += (val.totalCommitContributions || 0) + (val.restrictedContributionsCount || 0);
+              }
+            }
+            if (sum > 0) lifetimeCommits = sum;
+          }
+        }
+
+        if (lifetimeCommits > 0) totalCommits = lifetimeCommits;
+
+        const rankInfo = calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo });
+        console.log(`[GraphQL Stats] Commits: ${totalCommits}, PRs: ${totalPRs}, Issues: ${totalIssues}, Stars: ${totalStars}, ContributedTo: ${contributedTo}, Rank: ${rankInfo.rank}`);
+
+        return {
+          totalStars,
+          totalCommits,
+          totalPRs,
+          totalIssues,
+          contributedTo,
+          languages,
+          rank: rankInfo.rank,
+          rankPercentile: rankInfo.rankPercentile,
+          strokeDashoffset: rankInfo.strokeDashoffset
+        };
+      }
+    } catch (err) {
+      console.error('GraphQL fetch failed, falling back to REST/defaults:', err.message);
+    }
+  }
+
+  // 2. Fallback via REST if GraphQL not available or no token
   try {
+    const headers = { 'User-Agent': 'NodeJS-Profile-Updater' };
+    if (GITHUB_TOKEN) headers['Authorization'] = `token ${GITHUB_TOKEN}`;
+
     const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { 
       headers, 
       signal: AbortSignal.timeout(4000) 
@@ -151,29 +363,21 @@ async function fetchGitHubStats(username) {
         if (sortedLangs.length > 0) languages = sortedLangs;
       }
     }
-
-    const prPromise = fetch(`https://api.github.com/search/issues?q=author:${username}+type:pr`, { 
-      headers, 
-      signal: AbortSignal.timeout(4000) 
-    }).then(res => res.ok ? res.json() : null).catch(() => null);
-
-    const issuePromise = fetch(`https://api.github.com/search/issues?q=author:${username}+type:issue`, { 
-      headers, 
-      signal: AbortSignal.timeout(4000) 
-    }).then(res => res.ok ? res.json() : null).catch(() => null);
-
-    const [prData, issueData] = await Promise.all([prPromise, issuePromise]);
-    if (prData && typeof prData.total_count === 'number') totalPRs = prData.total_count;
-    if (issueData && typeof issueData.total_count === 'number') totalIssues = issueData.total_count;
   } catch (err) {
     console.error('Notice while fetching live stats (using fallback):', err.message);
   }
 
+  const rankInfo = calculateRank({ totalCommits, totalPRs, totalIssues, totalStars, contributedTo });
   return {
     totalStars,
+    totalCommits,
     totalPRs,
     totalIssues,
-    languages
+    contributedTo,
+    languages,
+    rank: rankInfo.rank,
+    rankPercentile: rankInfo.rankPercentile,
+    strokeDashoffset: rankInfo.strokeDashoffset
   };
 }
 
@@ -380,21 +584,21 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
       <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
     </svg>
     <text x="48" y="84" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
-    <text x="235" y="84" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalStars}</text>
+    <text x="235" y="84" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalStars.toLocaleString()}</text>
 
     <!-- Commit Icon -->
     <svg x="24" y="95" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">796</text>
+    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalCommits.toLocaleString()}</text>
 
     <!-- PR Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
       <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
     </svg>
     <text x="48" y="132" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
-    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalPRs}</text>
+    <text x="235" y="132" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalPRs.toLocaleString()}</text>
 
     <!-- Issue Icon -->
     <svg x="24" y="143" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
@@ -402,14 +606,14 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
     </svg>
     <text x="48" y="156" fill="#c9d1d9" font-size="12.5">Total Issues:</text>
-    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalIssues}</text>
+    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.totalIssues.toLocaleString()}</text>
 
     <!-- Contributed To Icon -->
     <svg x="24" y="167" width="16" height="16" viewBox="0 0 16 16" fill="#38bdf8">
       <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.218.585L8 11.834l-3.782 2.999A.75.75 0 0 1 3 14.25V2.75Z"/>
     </svg>
     <text x="48" y="180" fill="#c9d1d9" font-size="12.5">Contributed to (yr):</text>
-    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">0</text>
+    <text x="235" y="180" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.contributedTo.toLocaleString()}</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.2s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -418,9 +622,9 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
   <!-- Rank Ring Badge -->
   <g opacity="0" transform="translate(348, 126)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="4.5"/>
-    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="55" transform="rotate(-90)"/>
-    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">A+</text>
-    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">Top 15%</text>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="${statsData.strokeDashoffset || 55}" transform="rotate(-90)"/>
+    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">${statsData.rank || 'A+'}</text>
+    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">${statsData.rankPercentile || 'Top 15%'}</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
   </g>
 

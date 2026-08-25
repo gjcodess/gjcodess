@@ -26,7 +26,7 @@
       <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
     </svg>
     <text x="46" y="89" fill="#c9d1d9" font-size="12.5">Total Stars Earned:</text>
-    <text x="230" y="89" fill="#ffffff" font-weight="700" font-size="12.5">24</text>
+    <text x="230" y="89" fill="#ffffff" font-weight="700" font-size="12.5">16</text>
 
     <svg x="22" y="102" width="16" height="16" viewBox="0 0 16 16" fill="#22d3ee">
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
@@ -38,7 +38,7 @@
       <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677 5.2a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6.75a2.25 2.25 0 0 1-2.25-2.25v-1.5a.75.75 0 0 1 1.5 0v1.5c0 .414.336.75.75.75h1.64l-1.22-1.22a.75.75 0 0 1 0-1.06Z M13 1.75a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
     </svg>
     <text x="46" y="141" fill="#c9d1d9" font-size="12.5">Total PRs:</text>
-    <text x="230" y="141" fill="#ffffff" font-weight="700" font-size="12.5">244</text>
+    <text x="230" y="141" fill="#ffffff" font-weight="700" font-size="12.5">0</text>
 
     <svg x="22" y="154" width="16" height="16" viewBox="0 0 16 16" fill="#f43f5e">
       <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
@@ -59,9 +59,9 @@
 
   <g opacity="0" transform="translate(340, 138)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="4.5"/>
-    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="55" transform="rotate(-90)"/>
-    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">A+</text>
-    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">Top 15%</text>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#00FF99" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="238" stroke-dashoffset="35" transform="rotate(-90)"/>
+    <text x="0" y="-2" fill="#00FF99" font-size="18" font-weight="800" text-anchor="middle">A++</text>
+    <text x="0" y="13" fill="#7d8590" font-size="9.5" text-anchor="middle">Top 5%</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.5s" fill="freeze"/>
   </g>
 </svg>
