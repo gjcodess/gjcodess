@@ -41,7 +41,7 @@
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="115" fill="#c9d1d9" font-size="13">Total Commits:</text>
-    <text x="235" y="115" fill="#ffffff" font-weight="700" font-size="13">1,253</text>
+    <text x="235" y="115" fill="#ffffff" font-weight="700" font-size="13">1,264</text>
 
     <!-- Repository Icon -->
     <svg x="24" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
@@ -86,23 +86,23 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 74)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="270.54" height="9" fill="#f1e05a"/><rect x="270.54" y="0" width="104.30" height="9" fill="#563d7c"/><rect x="374.84" y="0" width="8.51" height="9" fill="#e34c26"/><rect x="383.35" y="0" width="1.66" height="9" fill="#3572A5"/>
+      <rect x="0.00" y="0" width="272.46" height="9" fill="#f1e05a"/><rect x="272.46" y="0" width="104.57" height="9" fill="#563d7c"/><rect x="377.03" y="0" width="6.70" height="9" fill="#e34c26"/><rect x="383.73" y="0" width="1.31" height="9" fill="#3572A5"/>
     </g>
 
     <!-- Language Grid Col 1 -->
     
     <circle cx="466" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="478" y="111" fill="#c9d1d9" font-size="12.5">JavaScript</text>
-    <text x="590" y="111" fill="#7d8590" font-size="12">70.27%</text>
+    <text x="590" y="111" fill="#7d8590" font-size="12">70.77%</text>
     <circle cx="466" cy="133" r="4.5" fill="#563d7c"/>
     <text x="478" y="137" fill="#c9d1d9" font-size="12.5">CSS</text>
-    <text x="590" y="137" fill="#7d8590" font-size="12">27.09%</text>
+    <text x="590" y="137" fill="#7d8590" font-size="12">27.16%</text>
     <circle cx="466" cy="159" r="4.5" fill="#e34c26"/>
     <text x="478" y="163" fill="#c9d1d9" font-size="12.5">HTML</text>
-    <text x="590" y="163" fill="#7d8590" font-size="12">2.21%</text>
+    <text x="590" y="163" fill="#7d8590" font-size="12">1.74%</text>
     <circle cx="466" cy="185" r="4.5" fill="#3572A5"/>
     <text x="478" y="189" fill="#c9d1d9" font-size="12.5">Python</text>
-    <text x="590" y="189" fill="#7d8590" font-size="12">0.43%</text>
+    <text x="590" y="189" fill="#7d8590" font-size="12">0.34%</text>
 
     <!-- Language Grid Col 2 -->
     
