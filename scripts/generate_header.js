@@ -141,8 +141,9 @@ function generateHeaderSvg() {
 
   <!-- Bottom Right: Right-Aligned Name & Role (original monospace styling) -->
   <g opacity="0" transform="translate(0,6)">
-    <text x="835" y="285" text-anchor="end" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="0.5">Glenn Joshua Corpus</text>
-    <text x="835" y="318" text-anchor="end" font-size="16" font-weight="700" fill="#00FF99" letter-spacing="3.5">APPLICATION DEVELOPER</text>
+    <text x="835" y="270" text-anchor="end" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="0.5">Glenn Joshua Corpus</text>
+    <text x="835" y="302" text-anchor="end" font-size="14.5" font-weight="700" fill="#00FF99" letter-spacing="2">ADVANCED APP ENGINEERING ASSOCIATE</text>
+    <text x="835" y="326" text-anchor="end" font-size="14.5" font-weight="700" fill="#00FF99" letter-spacing="2">&amp; APPLICATION DEVELOPER</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.5s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="0.4s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
   </g>
