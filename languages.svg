@@ -22,35 +22,35 @@
     <text x="22" y="58" fill="#00FF99" font-size="13.5" font-weight="700">Most Used Languages</text>
     
     <g transform="translate(22, 74)" mask="url(#bar-mask2)">
-      <rect x="0.00" y="0" width="176.13" height="9" fill="#f1e05a"/><rect x="176.13" y="0" width="114.72" height="9" fill="#563d7c"/><rect x="290.85" y="0" width="59.43" height="9" fill="#3178c6"/><rect x="350.28" y="0" width="25.38" height="9" fill="#336790"/><rect x="375.66" y="0" width="3.61" height="9" fill="#e34c26"/><rect x="379.27" y="0" width="0.61" height="9" fill="#3572A5"/><rect x="379.88" y="0" width="0.15" height="9" fill="#012456"/>
+      <rect x="0.00" y="0" width="173.96" height="9" fill="#f1e05a"/><rect x="173.96" y="0" width="113.32" height="9" fill="#563d7c"/><rect x="287.28" y="0" width="63.35" height="9" fill="#3178c6"/><rect x="350.63" y="0" width="25.04" height="9" fill="#336790"/><rect x="375.67" y="0" width="3.57" height="9" fill="#e34c26"/><rect x="379.24" y="0" width="0.57" height="9" fill="#3572A5"/><rect x="379.81" y="0" width="0.11" height="9" fill="#012456"/>
     </g>
 
     <!-- Column 1 -->
     
     <circle cx="28" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="40" y="111" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="145" y="111" fill="#7d8590" font-size="11.5">46.35%</text>
+    <text x="145" y="111" fill="#7d8590" font-size="11.5">45.78%</text>
     <circle cx="28" cy="133" r="4.5" fill="#563d7c"/>
     <text x="40" y="137" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="145" y="137" fill="#7d8590" font-size="11.5">30.19%</text>
+    <text x="145" y="137" fill="#7d8590" font-size="11.5">29.82%</text>
     <circle cx="28" cy="159" r="4.5" fill="#3178c6"/>
     <text x="40" y="163" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="145" y="163" fill="#7d8590" font-size="11.5">15.64%</text>
+    <text x="145" y="163" fill="#7d8590" font-size="11.5">16.67%</text>
     <circle cx="28" cy="185" r="4.5" fill="#336790"/>
     <text x="40" y="189" fill="#c9d1d9" font-size="12">PLpgSQL</text>
-    <text x="145" y="189" fill="#7d8590" font-size="11.5">6.68%</text>
+    <text x="145" y="189" fill="#7d8590" font-size="11.5">6.59%</text>
 
     <!-- Column 2 -->
     
     <circle cx="225" cy="107" r="4.5" fill="#e34c26"/>
     <text x="237" y="111" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="340" y="111" fill="#7d8590" font-size="11.5">0.95%</text>
+    <text x="340" y="111" fill="#7d8590" font-size="11.5">0.94%</text>
     <circle cx="225" cy="133" r="4.5" fill="#3572A5"/>
     <text x="237" y="137" fill="#c9d1d9" font-size="12">Python</text>
-    <text x="340" y="137" fill="#7d8590" font-size="11.5">0.16%</text>
+    <text x="340" y="137" fill="#7d8590" font-size="11.5">0.15%</text>
     <circle cx="225" cy="159" r="4.5" fill="#012456"/>
     <text x="237" y="163" fill="#c9d1d9" font-size="12">PowerShell</text>
-    <text x="340" y="163" fill="#7d8590" font-size="11.5">0.04%</text>
+    <text x="340" y="163" fill="#7d8590" font-size="11.5">0.03%</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
