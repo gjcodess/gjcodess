@@ -22,29 +22,29 @@
     <text x="22" y="58" fill="#00FF99" font-size="13.5" font-weight="700">Most Used Languages</text>
     
     <g transform="translate(22, 74)" mask="url(#bar-mask2)">
-      <rect x="0.00" y="0" width="173.93" height="9" fill="#f1e05a"/><rect x="173.93" y="0" width="113.32" height="9" fill="#563d7c"/><rect x="287.25" y="0" width="63.42" height="9" fill="#3178c6"/><rect x="350.67" y="0" width="25.04" height="9" fill="#336790"/><rect x="375.71" y="0" width="3.57" height="9" fill="#e34c26"/><rect x="379.28" y="0" width="0.57" height="9" fill="#3572A5"/><rect x="379.85" y="0" width="0.11" height="9" fill="#012456"/>
+      <rect x="0.00" y="0" width="171.76" height="9" fill="#f1e05a"/><rect x="171.76" y="0" width="111.95" height="9" fill="#563d7c"/><rect x="283.71" y="0" width="67.34" height="9" fill="#3178c6"/><rect x="351.05" y="0" width="24.74" height="9" fill="#336790"/><rect x="375.79" y="0" width="3.53" height="9" fill="#e34c26"/><rect x="379.32" y="0" width="0.57" height="9" fill="#3572A5"/><rect x="379.89" y="0" width="0.11" height="9" fill="#012456"/>
     </g>
 
     <!-- Column 1 -->
     
     <circle cx="28" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="40" y="111" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="145" y="111" fill="#7d8590" font-size="11.5">45.77%</text>
+    <text x="145" y="111" fill="#7d8590" font-size="11.5">45.2%</text>
     <circle cx="28" cy="133" r="4.5" fill="#563d7c"/>
     <text x="40" y="137" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="145" y="137" fill="#7d8590" font-size="11.5">29.82%</text>
+    <text x="145" y="137" fill="#7d8590" font-size="11.5">29.46%</text>
     <circle cx="28" cy="159" r="4.5" fill="#3178c6"/>
     <text x="40" y="163" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="145" y="163" fill="#7d8590" font-size="11.5">16.69%</text>
+    <text x="145" y="163" fill="#7d8590" font-size="11.5">17.72%</text>
     <circle cx="28" cy="185" r="4.5" fill="#336790"/>
     <text x="40" y="189" fill="#c9d1d9" font-size="12">PLpgSQL</text>
-    <text x="145" y="189" fill="#7d8590" font-size="11.5">6.59%</text>
+    <text x="145" y="189" fill="#7d8590" font-size="11.5">6.51%</text>
 
     <!-- Column 2 -->
     
     <circle cx="225" cy="107" r="4.5" fill="#e34c26"/>
     <text x="237" y="111" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="340" y="111" fill="#7d8590" font-size="11.5">0.94%</text>
+    <text x="340" y="111" fill="#7d8590" font-size="11.5">0.93%</text>
     <circle cx="225" cy="133" r="4.5" fill="#3572A5"/>
     <text x="237" y="137" fill="#c9d1d9" font-size="12">Python</text>
     <text x="340" y="137" fill="#7d8590" font-size="11.5">0.15%</text>
