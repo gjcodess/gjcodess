@@ -41,7 +41,7 @@
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="115" fill="#c9d1d9" font-size="13">Total Commits:</text>
-    <text x="235" y="115" fill="#ffffff" font-weight="700" font-size="13">1,774</text>
+    <text x="235" y="115" fill="#ffffff" font-weight="700" font-size="13">1,799</text>
 
     <!-- Repository Icon -->
     <svg x="24" y="128" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
@@ -86,32 +86,32 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 74)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="149.30" height="9" fill="#f1e05a"/><rect x="149.30" y="0" width="124.78" height="9" fill="#563d7c"/><rect x="274.08" y="0" width="82.58" height="9" fill="#3178c6"/><rect x="356.66" y="0" width="21.29" height="9" fill="#336790"/><rect x="377.95" y="0" width="3.47" height="9" fill="#e34c26"/><rect x="381.42" y="0" width="2.96" height="9" fill="#b07219"/><rect x="384.38" y="0" width="0.50" height="9" fill="#3572A5"/><rect x="384.88" y="0" width="0.12" height="9" fill="#012456"/>
+      <rect x="0.00" y="0" width="145.03" height="9" fill="#f1e05a"/><rect x="145.03" y="0" width="123.97" height="9" fill="#563d7c"/><rect x="269.00" y="0" width="88.59" height="9" fill="#3178c6"/><rect x="357.59" y="0" width="20.60" height="9" fill="#336790"/><rect x="378.19" y="0" width="3.35" height="9" fill="#e34c26"/><rect x="381.54" y="0" width="2.89" height="9" fill="#b07219"/><rect x="384.43" y="0" width="0.50" height="9" fill="#3572A5"/><rect x="384.93" y="0" width="0.12" height="9" fill="#012456"/>
     </g>
 
     <!-- Language Grid Col 1 -->
     
     <circle cx="466" cy="107" r="4.5" fill="#f1e05a"/>
     <text x="478" y="111" fill="#c9d1d9" font-size="12.5">JavaScript</text>
-    <text x="590" y="111" fill="#7d8590" font-size="12">38.78%</text>
+    <text x="590" y="111" fill="#7d8590" font-size="12">37.67%</text>
     <circle cx="466" cy="133" r="4.5" fill="#563d7c"/>
     <text x="478" y="137" fill="#c9d1d9" font-size="12.5">CSS</text>
-    <text x="590" y="137" fill="#7d8590" font-size="12">32.41%</text>
+    <text x="590" y="137" fill="#7d8590" font-size="12">32.2%</text>
     <circle cx="466" cy="159" r="4.5" fill="#3178c6"/>
     <text x="478" y="163" fill="#c9d1d9" font-size="12.5">TypeScript</text>
-    <text x="590" y="163" fill="#7d8590" font-size="12">21.45%</text>
+    <text x="590" y="163" fill="#7d8590" font-size="12">23.01%</text>
     <circle cx="466" cy="185" r="4.5" fill="#336790"/>
     <text x="478" y="189" fill="#c9d1d9" font-size="12.5">PLpgSQL</text>
-    <text x="590" y="189" fill="#7d8590" font-size="12">5.53%</text>
+    <text x="590" y="189" fill="#7d8590" font-size="12">5.35%</text>
 
     <!-- Language Grid Col 2 -->
     
     <circle cx="666" cy="107" r="4.5" fill="#e34c26"/>
     <text x="678" y="111" fill="#c9d1d9" font-size="12.5">HTML</text>
-    <text x="785" y="111" fill="#7d8590" font-size="12">0.9%</text>
+    <text x="785" y="111" fill="#7d8590" font-size="12">0.87%</text>
     <circle cx="666" cy="133" r="4.5" fill="#b07219"/>
     <text x="678" y="137" fill="#c9d1d9" font-size="12.5">Java</text>
-    <text x="785" y="137" fill="#7d8590" font-size="12">0.77%</text>
+    <text x="785" y="137" fill="#7d8590" font-size="12">0.75%</text>
     <circle cx="666" cy="159" r="4.5" fill="#3572A5"/>
     <text x="678" y="163" fill="#c9d1d9" font-size="12.5">Python</text>
     <text x="785" y="163" fill="#7d8590" font-size="12">0.13%</text>
