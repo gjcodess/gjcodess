@@ -38,7 +38,7 @@ const DEFAULT_LANGUAGES = [
   { name: 'Shell', percent: 0.06, color: '#89e051' }
 ];
 
-function calculateRank({ totalCommits, totalRepos, totalStars, contributionsYear = 1164, currentStreak = 98 }) {
+function calculateRank({ totalCommits, totalRepos, totalStars, contributionsYear = 0, currentStreak = 0 }) {
   const COMMITS_WEIGHT = 1.5;
   const REPOS_WEIGHT = 4;
   const STARS_WEIGHT = 5;
@@ -107,6 +107,104 @@ async function fetchGraphQL(query, variables = {}) {
   }
 }
 
+async function fetchContributionActivity(username) {
+  let officialTotalStr = null;
+
+  try {
+    const res = await fetch(`https://github.com/users/${username}/contributions`, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'X-Requested-With': 'XMLHttpRequest'
+      },
+      signal: AbortSignal.timeout(8000)
+    });
+
+    if (res.ok) {
+      const html = await res.text();
+      const totalMatch = html.match(/([\d,]+)\s+contributions\s+in\s+the\s+last\s+year/i);
+      const totalStr = totalMatch ? totalMatch[1] : null;
+      officialTotalStr = totalStr;
+      const cellRegex = /<td[^>]*data-date="([^"]+)"[^>]*data-level="(\d+)"[^>]*><\/td>\s*<tool-tip[^>]*>([\s\S]*?)<\/tool-tip>/g;
+      const contributions = [];
+      let countsAreComplete = true;
+      let match;
+
+      while ((match = cellRegex.exec(html)) !== null) {
+        const tooltip = match[3]
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/&nbsp;|&#160;/gi, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+        const countMatch = tooltip.match(/^(\d[\d,]*)\s+contribution\b/i);
+        let count = 0;
+
+        if (countMatch) {
+          count = parseInt(countMatch[1].replace(/,/g, ''), 10);
+        } else if (!/^no contributions\b/i.test(tooltip) && parseInt(match[2], 10) > 0) {
+          countsAreComplete = false;
+          break;
+        }
+
+        contributions.push({ date: match[1], count });
+      }
+
+      if (contributions.length > 0 && countsAreComplete) {
+        return { totalStr, contributions };
+      }
+    }
+  } catch (err) {}
+
+  try {
+    const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}`, {
+      signal: AbortSignal.timeout(8000)
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const contributions = data.contributions || [];
+      const dailyTotal = contributions.reduce((sum, day) => sum + (Number(day.count) || 0), 0);
+      const officialTotal = officialTotalStr ? parseInt(officialTotalStr.replace(/,/g, ''), 10) : 0;
+      if (officialTotal > 0 && dailyTotal === 0) return null;
+      return { totalStr: officialTotalStr, contributions };
+    }
+  } catch (err) {}
+
+  return { totalStr: null, contributions: [] };
+}
+
+function summarizeContributionActivity(activity) {
+  const contributions = [...(activity?.contributions || [])]
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const totalFromDays = contributions.reduce((sum, day) => sum + (Number(day.count) || 0), 0);
+  const parsedTotal = activity?.totalStr ? parseInt(activity.totalStr.replace(/,/g, ''), 10) : 0;
+  const contributionsYear = parsedTotal || totalFromDays;
+  const today = new Date();
+  const todayStr = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate())).toISOString().slice(0, 10);
+  const yesterdayDate = new Date(`${todayStr}T00:00:00Z`);
+  yesterdayDate.setUTCDate(yesterdayDate.getUTCDate() - 1);
+  const yesterdayStr = yesterdayDate.toISOString().slice(0, 10);
+
+  let index = contributions.findIndex(day => day.date === todayStr);
+  if (index < 0 || contributions[index].count === 0) {
+    index = contributions.findIndex(day => day.date === yesterdayStr);
+  }
+
+  let currentStreak = 0;
+  while (index >= 0 && Number(contributions[index].count) > 0) {
+    currentStreak++;
+    index--;
+  }
+
+  return { contributionsYear, currentStreak };
+}
+
+async function getContributionMetrics(activityPromise) {
+  const activity = await activityPromise;
+  if (!activity?.contributions?.length) {
+    throw new Error('Contribution data could not be fetched reliably; existing stats SVGs were left unchanged.');
+  }
+  return summarizeContributionActivity(activity);
+}
+
 async function fetchLifetimeContributions(username) {
   const currentYear = new Date().getUTCFullYear();
   const startYear = 2022;
@@ -146,6 +244,7 @@ async function fetchGitHubStats(username) {
   let languages = DEFAULT_LANGUAGES;
 
   const lifetimePromise = fetchLifetimeContributions(username);
+  const activityPromise = fetchContributionActivity(username);
 
   if (GITHUB_TOKEN) {
     try {
@@ -255,11 +354,14 @@ async function fetchGitHubStats(username) {
           totalCommits = await lifetimePromise;
         }
 
+        const contributionMetrics = await getContributionMetrics(activityPromise);
+
         return {
           totalStars,
           totalCommits,
           totalRepos,
-          languages
+          languages,
+          ...contributionMetrics
         };
       }
     } catch (err) {}
@@ -320,11 +422,14 @@ async function fetchGitHubStats(username) {
     }
   } catch (err) {}
 
+  const contributionMetrics = await getContributionMetrics(activityPromise);
+
   return {
     totalStars,
     totalCommits,
     totalRepos,
-    languages
+    languages,
+    ...contributionMetrics
   };
 }
 
@@ -418,14 +523,14 @@ function generateUnifiedStatsSvg(statsData) {
       <path d="M1.5 1.75a.75.75 0 0 0-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 0 0 0-1.5H1.5V1.75Zm14.28 2.53a.75.75 0 0 0-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 0 0-1.06 0L3.22 8.72a.75.75 0 0 0 1.06 1.06L6.75 7.31l2.47 2.47a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
     </svg>
     <text x="48" y="167" fill="#c9d1d9" font-size="13">Contributions (yr):</text>
-    <text x="235" y="167" fill="#ffffff" font-weight="700" font-size="13">1,164</text>
+    <text x="235" y="167" fill="#ffffff" font-weight="700" font-size="13">${statsData.contributionsYear.toLocaleString()}</text>
 
     <!-- Current Streak Icon -->
     <svg x="24" y="180" width="16" height="16" viewBox="0 0 16 16" fill="#ff5f56">
       <path d="M9.504.43a1.5 1.5 0 0 1 .568 1.447l-.462 2.774h3.64a1.5 1.5 0 0 1 1.258 2.316l-6.5 9.75A1.5 1.5 0 0 1 5.44 15.19l.524-3.142H2.25a1.5 1.5 0 0 1-1.258-2.316l6.5-9.75a1.5 1.5 0 0 1 2.012-.554Z"/>
     </svg>
     <text x="48" y="193" fill="#c9d1d9" font-size="13">Current Streak:</text>
-    <text x="235" y="193" fill="#ffffff" font-weight="700" font-size="13">98 days</text>
+    <text x="235" y="193" fill="#ffffff" font-weight="700" font-size="13">${statsData.currentStreak} days</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -514,13 +619,13 @@ function generateStatsCardSvg(statsData) {
       <path d="M1.5 1.75a.75.75 0 0 0-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 0 0 0-1.5H1.5V1.75Zm14.28 2.53a.75.75 0 0 0-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 0 0-1.06 0L3.22 8.72a.75.75 0 0 0 1.06 1.06L6.75 7.31l2.47 2.47a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
     </svg>
     <text x="46" y="167" fill="#c9d1d9" font-size="12.5">Contributions (yr):</text>
-    <text x="230" y="167" fill="#ffffff" font-weight="700" font-size="12.5">1,164</text>
+    <text x="230" y="167" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.contributionsYear.toLocaleString()}</text>
 
     <svg x="22" y="180" width="16" height="16" viewBox="0 0 16 16" fill="#ff5f56">
       <path d="M9.504.43a1.5 1.5 0 0 1 .568 1.447l-.462 2.774h3.64a1.5 1.5 0 0 1 1.258 2.316l-6.5 9.75A1.5 1.5 0 0 1 5.44 15.19l.524-3.142H2.25a1.5 1.5 0 0 1-1.258-2.316l6.5-9.75a1.5 1.5 0 0 1 2.012-.554Z"/>
     </svg>
     <text x="46" y="193" fill="#c9d1d9" font-size="12.5">Current Streak:</text>
-    <text x="230" y="193" fill="#ffffff" font-weight="700" font-size="12.5">98 days</text>
+    <text x="230" y="193" fill="#ffffff" font-weight="700" font-size="12.5">${statsData.currentStreak} days</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>

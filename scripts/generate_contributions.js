@@ -39,6 +39,8 @@ const DEFAULT_LANGUAGES = [
 ];
 
 async function fetchContributions(username) {
+  let officialTotalStr = null;
+
   try {
     // 1. Fetch directly from GitHub official contributions endpoint (real-time, no caching delay)
     const res = await fetch(`https://github.com/users/${username}/contributions`, {
@@ -52,6 +54,7 @@ async function fetchContributions(username) {
       const html = await res.text();
       const matchTotal = html.match(/([\d,]+)\s+contributions\s+in\s+the\s+last\s+year/i);
       const totalStr = matchTotal ? matchTotal[1] : null;
+      officialTotalStr = totalStr;
 
       const cellRegex = /<td[^>]*data-date="([^"]+)"[^>]*data-level="(\d+)"[^>]*><\/td>\s*<tool-tip[^>]*>([\s\S]*?)<\/tool-tip>/g;
       let m;
@@ -59,10 +62,20 @@ async function fetchContributions(username) {
       while ((m = cellRegex.exec(html)) !== null) {
         const date = m[1];
         const level = parseInt(m[2], 10);
-        const tipText = m[3].trim();
+        const tipText = m[3]
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/&nbsp;|&#160;/gi, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
         let count = 0;
-        const countM = tipText.match(/^(\d+)\s+contribution/);
-        if (countM) count = parseInt(countM[1], 10);
+        const countM = tipText.match(/^(\d[\d,]*)\s+contribution\b/i);
+        if (countM) {
+          count = parseInt(countM[1].replace(/,/g, ''), 10);
+        } else if (!/^no contributions\b/i.test(tipText) && parseInt(m[2], 10) > 0) {
+          // Don't silently publish a zero graph if GitHub changes tooltip markup.
+          contributions.length = 0;
+          break;
+        }
         contributions.push({ date, level, count });
       }
 
@@ -83,9 +96,13 @@ async function fetchContributions(username) {
     const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}`);
     if (res.ok) {
       const data = await res.json();
+      const contributions = data.contributions || [];
+      const dailyTotal = contributions.reduce((sum, item) => sum + (Number(item.count) || 0), 0);
+      const officialTotal = officialTotalStr ? parseInt(officialTotalStr.replace(/,/g, ''), 10) : 0;
+      if (officialTotal > 0 && dailyTotal === 0) return null;
       return {
-        totalStr: null,
-        contributions: data.contributions || []
+        totalStr: officialTotalStr,
+        contributions
       };
     }
   } catch (e) {}
@@ -717,6 +734,9 @@ function generateAllInOneSvg(contribData, statsData, username = USERNAME) {
 async function main() {
   console.log(`[1/2] Fetching live contribution data for ${USERNAME} directly from GitHub...`);
   const contribData = await fetchContributions(USERNAME);
+  if (!contribData || !contribData.contributions || contribData.contributions.length === 0) {
+    throw new Error('Contribution data could not be fetched reliably; leaving the existing SVG unchanged.');
+  }
 
   console.log(`[2/2] Fetching live GitHub profile stats for ${USERNAME}...`);
   const statsData = await fetchGitHubStats(USERNAME);

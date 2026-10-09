@@ -43,46 +43,23 @@ const TECH_COLORS = {
 
 const workExperience = [
   {
-    title: "Application Developer (Contract)",
-    org: "Rameson Distribution Inc.",
-    badge: "JUN 2026 — PRESENT",
+    title: "Advanced App Engineering Associate",
+    org: "Accenture",
+    badge: "FULL-TIME",
     badgeColor: "#00FF99",
-    bullets: [
-      "Contracted Application Developer responsible for developing and maintaining a custom business management system.",
-      "Developed a centralized application supporting sales, invoicing, inventory, customer management, and business operations.",
-      "Implemented a cloud-based database using Supabase with multi-user access and Role-Based Access Control (RBAC).",
-      "Continuously enhance, maintain, and troubleshoot the system based on business requirements and operational needs.",
-      "Provide ongoing development and technical support under a monthly contract."
-    ],
-    tech: ["Electron", "React", "Supabase", "TailwindCSS"],
-    footer: "Contract Production System · Custom Business Suite"
+    bullets: [],
+    tech: [],
+    footer: "Current role"
   },
   {
-    title: "Junior IT Specialist & Web Developer (Internship)",
-    org: "Associated Labor Unions — Luzon",
-    badge: "FEB 2026 — APR 2026",
-    badgeColor: "#ffa657",
-    bullets: [
-      "Developed LaborConnect, a full-stack labor union management system featuring membership management, venue booking, ticketing, and workflow automation modules.",
-      "Resolved hardware, software, and network issues for employees, improving operational continuity and reducing technical downtime.",
-      "Collaborated with senior IT personnel on troubleshooting, system maintenance, and web application development initiatives."
-    ],
-    tech: ["React", "Node.js", "CSS", "MySQL", "n8n", "Vercel", "Railway", "IT Support"],
-    footer: "486-Hour Internship · LaborConnect Enterprise System"
-  },
-  {
-    title: "Technical Support & Designer (Freelance)",
-    org: "Self-Employed",
-    badge: "2019 — 2026",
+    title: "ERP System Developer",
+    org: "Rameson Dist. Inc.",
+    badge: "CONTRACT",
     badgeColor: "#22d3ee",
-    bullets: [
-      "Executed computer building commissions, complete Windows/Ubuntu operating system configurations, and routine hardware troubleshooting.",
-      "Designed compelling marketing materials, including digital assets and physical prints for local businesses and clothing brands.",
-      "Edited multimedia projects and short films, achieving the \"Best Video Edit\" award in 2024 for exceptional post-production quality."
-    ],
-    tech: ["Computer Assembly", "Troubleshooting", "Video Editing", "Graphic Design", "Figma"],
-    footer: "Awarded \"Best Video Edit\" (2024) · Hardware & UI/UX"
-  }
+    bullets: [],
+    tech: [],
+    footer: "Current role"
+  },
 ];
 
 const education = [
@@ -283,7 +260,7 @@ function generateExperienceSvg() {
 
   <!-- Footer Divider Line & Status -->
   <line x1="0" y1="${totalHeight - 34}" x2="869" y2="${totalHeight - 34}" stroke="#ffffff" stroke-opacity="0.3"/>
-  <text x="24" y="${totalHeight - 13}" font-size="12" fill="#00FF99">✦ <tspan fill="#7d8590">Career &amp; Academic Background: </tspan><tspan fill="#c9d1d9" font-weight="700">Full-Stack Development · Systems · Honors</tspan></text>
+  <text x="24" y="${totalHeight - 13}" font-size="12" fill="#00FF99">✦ <tspan fill="#7d8590">Career &amp; Academic Background: </tspan><tspan fill="#c9d1d9" font-weight="700">App Engineering · ERP Systems · Academic Honors</tspan></text>
   <text x="845" y="${totalHeight - 13}" font-size="12" fill="#7d8590" text-anchor="end">status: <tspan fill="#22d3ee" font-weight="700">verified credentials</tspan></text>
 </svg>`;
 }
