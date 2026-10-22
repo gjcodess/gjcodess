@@ -50,7 +50,7 @@
       <path d="M9.504.43a1.5 1.5 0 0 1 .568 1.447l-.462 2.774h3.64a1.5 1.5 0 0 1 1.258 2.316l-6.5 9.75A1.5 1.5 0 0 1 5.44 15.19l.524-3.142H2.25a1.5 1.5 0 0 1-1.258-2.316l6.5-9.75a1.5 1.5 0 0 1 2.012-.554Z"/>
     </svg>
     <text x="46" y="193" fill="#c9d1d9" font-size="12.5">Current Streak:</text>
-    <text x="230" y="193" fill="#ffffff" font-weight="700" font-size="12.5">155 days</text>
+    <text x="230" y="193" fill="#ffffff" font-weight="700" font-size="12.5">0 days</text>
 
     <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.25s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
