@@ -50,7 +50,7 @@
       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm.947-.75a3.996 3.996 0 0 0-6.894 0H0v1.5h4.553a3.996 3.996 0 0 0 6.894 0H16v-1.5h-4.553Z"/>
     </svg>
     <text x="48" y="108" fill="#c9d1d9" font-size="12.5">Total Commits:</text>
-    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">1,992</text>
+    <text x="235" y="108" fill="#ffffff" font-weight="700" font-size="12.5">2,001</text>
 
     <!-- 3. Repository Icon -->
     <svg x="24" y="119" width="16" height="16" viewBox="0 0 16 16" fill="#a855f7">
@@ -64,7 +64,7 @@
       <path d="M1.5 1.75a.75.75 0 0 0-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 0 0 0-1.5H1.5V1.75Zm14.28 2.53a.75.75 0 0 0-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 0 0-1.06 0L3.22 8.72a.75.75 0 0 0 1.06 1.06L6.75 7.31l2.47 2.47a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
     </svg>
     <text x="48" y="156" fill="#c9d1d9" font-size="12.5">Contributions (yr):</text>
-    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">2,078</text>
+    <text x="235" y="156" fill="#ffffff" font-weight="700" font-size="12.5">2,087</text>
 
     <!-- 5. Current Streak Icon -->
     <svg x="24" y="167" width="16" height="16" viewBox="0 0 16 16" fill="#ff5f56">
@@ -162,7 +162,7 @@
   <line x1="0" y1="390" x2="869" y2="390" stroke="#ffffff" stroke-opacity="0.3"/>
 
   <!-- Footer Metrics -->
-  <text x="22" y="412" font-size="12.5" fill="#39d353"><tspan font-weight="700">2,078</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
+  <text x="22" y="412" font-size="12.5" fill="#39d353"><tspan font-weight="700">2,087</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
   <text x="847" y="412" font-size="11.5" fill="#7d8590" text-anchor="end">2025-11-09 &#8594; 2026-11-11</text>
   
   <text x="22" y="430" font-size="12.5" fill="#7d8590">current streak <tspan fill="#22d3ee" font-weight="700">0 days</tspan><tspan fill="#7d8590">   &#183;   longest </tspan><tspan fill="#22d3ee" font-weight="700">170 days</tspan></text>
