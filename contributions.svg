@@ -95,30 +95,30 @@
     
     <!-- Progress Bar -->
     <g transform="translate(460, 68)" mask="url(#bar-mask)">
-      <rect x="0.00" y="0" width="107.57" height="9" fill="#e34c26"/><rect x="107.57" y="0" width="106.49" height="9" fill="#3178c6"/><rect x="214.06" y="0" width="82.66" height="9" fill="#f1e05a"/><rect x="296.72" y="0" width="73.38" height="9" fill="#563d7c"/><rect x="370.10" y="0" width="10.86" height="9" fill="#336790"/><rect x="380.96" y="0" width="3.43" height="9" fill="#b07219"/><rect x="384.39" y="0" width="0.27" height="9" fill="#3572A5"/><rect x="384.66" y="0" width="0.23" height="9" fill="#A97BFF"/>
+      <rect x="0.00" y="0" width="109.42" height="9" fill="#3178c6"/><rect x="109.42" y="0" width="106.45" height="9" fill="#e34c26"/><rect x="215.87" y="0" width="81.77" height="9" fill="#f1e05a"/><rect x="297.64" y="0" width="72.61" height="9" fill="#563d7c"/><rect x="370.25" y="0" width="10.74" height="9" fill="#336790"/><rect x="380.99" y="0" width="3.39" height="9" fill="#b07219"/><rect x="384.38" y="0" width="0.27" height="9" fill="#3572A5"/><rect x="384.65" y="0" width="0.23" height="9" fill="#A97BFF"/>
     </g>
 
     <!-- Language Grid -->
     
-    <circle cx="466" cy="99" r="4" fill="#e34c26"/>
-    <text x="478" y="103" fill="#c9d1d9" font-size="12">HTML</text>
-    <text x="590" y="103" fill="#7d8590" font-size="11.5">27.94%</text>
-    <circle cx="466" cy="123" r="4" fill="#3178c6"/>
-    <text x="478" y="127" fill="#c9d1d9" font-size="12">TypeScript</text>
-    <text x="590" y="127" fill="#7d8590" font-size="11.5">27.66%</text>
+    <circle cx="466" cy="99" r="4" fill="#3178c6"/>
+    <text x="478" y="103" fill="#c9d1d9" font-size="12">TypeScript</text>
+    <text x="590" y="103" fill="#7d8590" font-size="11.5">28.42%</text>
+    <circle cx="466" cy="123" r="4" fill="#e34c26"/>
+    <text x="478" y="127" fill="#c9d1d9" font-size="12">HTML</text>
+    <text x="590" y="127" fill="#7d8590" font-size="11.5">27.65%</text>
     <circle cx="466" cy="147" r="4" fill="#f1e05a"/>
     <text x="478" y="151" fill="#c9d1d9" font-size="12">JavaScript</text>
-    <text x="590" y="151" fill="#7d8590" font-size="11.5">21.47%</text>
+    <text x="590" y="151" fill="#7d8590" font-size="11.5">21.24%</text>
     <circle cx="466" cy="171" r="4" fill="#563d7c"/>
     <text x="478" y="175" fill="#c9d1d9" font-size="12">CSS</text>
-    <text x="590" y="175" fill="#7d8590" font-size="11.5">19.06%</text>
+    <text x="590" y="175" fill="#7d8590" font-size="11.5">18.86%</text>
     
     <circle cx="666" cy="99" r="4" fill="#336790"/>
     <text x="678" y="103" fill="#c9d1d9" font-size="12">PLpgSQL</text>
-    <text x="785" y="103" fill="#7d8590" font-size="11.5">2.82%</text>
+    <text x="785" y="103" fill="#7d8590" font-size="11.5">2.79%</text>
     <circle cx="666" cy="123" r="4" fill="#b07219"/>
     <text x="678" y="127" fill="#c9d1d9" font-size="12">Java</text>
-    <text x="785" y="127" fill="#7d8590" font-size="11.5">0.89%</text>
+    <text x="785" y="127" fill="#7d8590" font-size="11.5">0.88%</text>
     <circle cx="666" cy="147" r="4" fill="#3572A5"/>
     <text x="678" y="151" fill="#c9d1d9" font-size="12">Python</text>
     <text x="785" y="151" fill="#7d8590" font-size="11.5">0.07%</text>
